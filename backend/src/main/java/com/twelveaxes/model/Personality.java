@@ -1,0 +1,20 @@
+package com.twelveaxes.model;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import java.util.List;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public record Personality(
+        String id,
+        String name,
+        String role,
+        String category,
+        String lifespan,
+        String description,
+        String imagePath,
+        String imageSourceName,
+        String imageSourceUrl,
+        String imageNote,
+        List<String> religions
+) {
+}

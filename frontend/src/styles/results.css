@@ -1,0 +1,931 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   Pagina de resultados — secoes de afinidade e distancia.
+
+   Regra de cor: verde e vermelho nunca decoram, so medem. Verde e
+   afinidade, vermelho e distancia, ink e estrutura. Nenhuma secao tem
+   cor propria — isso evita virar arco-iris ao longo de uma pagina longa.
+
+   Tres pesos de card, do mais forte ao mais fraco:
+     1. destaque  — cards existentes (country-match-card, personality-...)
+     2. grade     — .category-card: borda fina, sem sombra
+     3. distancia — .distant-card: compacto, vermelho, sem retrato
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ── Indice lateral ──────────────────────────────────────────────────── */
+.results-nav {
+  position: sticky;
+  top: 24px;
+  align-self: start;
+  padding: 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xs);
+}
+
+.results-nav-title {
+  margin: 0 0 12px;
+  font-size: 0.82rem;
+  color: var(--text-soft);
+}
+
+.results-nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 2px;
+  counter-reset: none;
+}
+
+.results-nav a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  border-radius: var(--radius-md);
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  transition: background var(--dur-fast) var(--ease-out),
+              color var(--dur-fast) var(--ease-out);
+}
+
+.results-nav a:hover {
+  background: var(--ink-50);
+  color: var(--text-strong);
+}
+
+.results-nav a[data-active='true'] {
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  font-weight: 600;
+}
+
+.results-nav-index {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 20px;
+  height: 20px;
+  border-radius: var(--radius-pill);
+  border: 1px solid currentColor;
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Abas: pais atual / experiencia historica ────────────────────────── */
+.results-tabs {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  margin-bottom: 16px;
+  background: var(--ink-50);
+  border-radius: var(--radius-md);
+}
+
+.results-tabs button {
+  padding: 7px 14px;
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  transition: background var(--dur-fast) var(--ease-out),
+              color var(--dur-fast) var(--ease-out);
+}
+
+.results-tabs button:hover {
+  color: var(--text-strong);
+}
+
+.results-tabs button[aria-selected='true'] {
+  background: var(--surface);
+  color: var(--text-strong);
+  font-weight: 600;
+  box-shadow: var(--shadow-xs);
+}
+
+/* ── Blocos internos de secao ────────────────────────────────────────── */
+.category-block,
+.distant-block {
+  margin-top: 28px;
+}
+
+.category-block h3,
+.distant-block h3 {
+  margin: 0 0 14px;
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+/* ── Peso 2: cards de categoria ──────────────────────────────────────── */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 14px;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 20px 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
+
+/* Sem badge/legenda: centraliza o conteudo para nao ficar colado no topo
+   quando o card vizinho (com badge) e mais alto. */
+.category-card-compact {
+  justify-content: center;
+  min-height: 100%;
+}
+
+.category-badge {
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.category-card-visual {
+  width: 76px;
+  height: 76px;
+  margin-top: 4px;
+}
+
+.category-card-visual img,
+.category-card-initials {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--line);
+}
+
+.category-card-visual img {
+  object-fit: cover;
+}
+
+.category-card-initials {
+  display: grid;
+  place-items: center;
+  background: var(--ink-50);
+  color: var(--text-soft);
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+
+.category-card-flag {
+  width: 100%;
+  max-width: 96px;
+  aspect-ratio: 3 / 2;
+  margin-top: 4px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--ink-50);
+  border: 1px solid var(--line);
+}
+
+.category-card-flag img {
+  width: 100%;
+  height: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+  object-fit: contain;
+}
+
+.category-card-flag .category-card-initials {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  border: none;
+  font-size: 0.7rem;
+  padding: 4px;
+  text-align: center;
+}
+
+.category-card h4 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.category-card p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.84rem;
+}
+
+.category-score {
+  margin-top: 2px;
+  color: var(--accent-deep);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Resumo do resultado: fecho compacto antes de compartilhar ───────── */
+.summary-headline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.summary-headline-name {
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 1vw + 1rem, 1.7rem);
+  font-weight: 700;
+  color: var(--text-strong);
+}
+
+.summary-headline-score {
+  font-size: clamp(1.3rem, 1vw + 1rem, 1.7rem);
+  font-weight: 700;
+  color: var(--accent-deep);
+  font-variant-numeric: tabular-nums;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+@media (max-width: 700px) {
+  .summary-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+.summary-axes {
+  margin: 24px 0 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+/* ── O que te distingue: incomum x comum ─────────────────────────────── */
+/* A regua usa a escala real do eixo (0-100): a distancia entre o marcador do
+   usuario e o da mediana E o dado. Cor aqui tambem mede — o card do incomum
+   destaca em ink forte (distancia), o do comum fica neutro.               */
+.signature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.signature-card {
+  padding: 22px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+}
+
+.signature-card[data-variant='unusual'] {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+
+.signature-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--ink-50);
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.signature-card[data-variant='unusual'] .signature-label {
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+}
+
+.signature-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.24rem;
+}
+
+.signature-lead {
+  margin: 0 0 18px;
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Regua 0-100 com dois marcadores posicionados pela escala real do eixo. */
+.signature-track {
+  position: relative;
+  height: 8px;
+  margin-bottom: 10px;
+  border-radius: var(--radius-pill);
+  background: var(--ink-100);
+}
+
+.signature-median,
+.signature-you {
+  position: absolute;
+  top: 50%;
+  border-radius: var(--radius-pill);
+  transform: translate(-50%, -50%);
+}
+
+.signature-median {
+  left: var(--median);
+  width: 3px;
+  height: 16px;
+  background: var(--ink-400);
+}
+
+.signature-you {
+  left: var(--you);
+  width: 15px;
+  height: 15px;
+  background: var(--surface);
+  border: 3px solid var(--ink-500);
+  transition: left var(--dur-measure) var(--ease-settle);
+}
+
+.signature-card[data-variant='unusual'] .signature-you {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-accent);
+}
+
+.signature-legend {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.signature-legend-median {
+  color: var(--text-soft);
+}
+
+.signature-legend-you {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.signature-card[data-variant='unusual'] .signature-legend-you {
+  color: var(--accent-deep);
+}
+
+.signature-note {
+  margin: 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  color: var(--text-muted);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+/* Antes do reveal o marcador parte do centro e percorre ate a posicao real. */
+[data-reveal] .signature-you {
+  left: 50%;
+}
+
+[data-reveal][data-revealed] .signature-you {
+  left: var(--you);
+}
+
+/* ── Frase que te descreve ───────────────────────────────────────────── */
+/* A frase e a voz da ideologia, entao o bloco e uma citacao: tipografia
+   maior, sem card competindo com o destaque de cima.                      */
+.phrase-card {
+  margin: 0;
+  padding: 26px 28px;
+  background: var(--accent-soft);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+}
+
+.phrase-card p {
+  margin: 0 0 14px;
+  font-family: var(--font-display);
+  font-size: 1.32rem;
+  font-weight: 600;
+  line-height: 1.42;
+  color: var(--text-strong);
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.phrase-card footer {
+  color: var(--accent-deep);
+  font-size: 0.86rem;
+}
+
+@media (max-width: 560px) {
+  .phrase-card {
+    padding: 20px;
+  }
+
+  .phrase-card p {
+    font-size: 1.12rem;
+  }
+}
+
+/* ── Tensao interna ──────────────────────────────────────────────────── */
+/* Uma combinacao rara merece peso visual: fundo assentado e borda mais
+   marcada que os cards de cima. Quando nao ha tensao o card fica neutro,
+   porque ausencia de contradicao tambem e um resultado.                   */
+.tension-card {
+  margin-top: 16px;
+  padding: 22px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-lg);
+}
+
+.tension-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--ink-100);
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.tension-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.3rem;
+  line-height: 1.25;
+}
+
+.tension-rare {
+  margin: 0 0 6px;
+  color: var(--text);
+  font-size: 0.97rem;
+  font-weight: 600;
+}
+
+.tension-examples {
+  margin: 0 0 14px;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+
+.tension-note {
+  margin: 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+/* ── Outras ideologias: as tres lado a lado ──────────────────────────── */
+/* A coluna de conteudo e mais estreita que a pagina antiga (o indice ocupa
+   232px), entao o auto-fill de 280px quebrava para 2 colunas e deixava o
+   terceiro card sozinho. Aqui as tres ficam lado a lado como antes.      */
+.results-main .match-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 900px) {
+  .results-main .match-grid {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .results-main .match-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Cards por dimensao do perfil ────────────────────────────────────── */
+/* Uma nota de dimensao nao e comparavel com a geral (usa menos eixos), entao
+   o card diz quais eixos entraram na conta.                                */
+.dimension-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.dimension-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 20px 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
+
+.dimension-label {
+  padding: 3px 10px;
+  margin-bottom: 4px;
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.dimension-card-visual {
+  width: 76px;
+  height: 76px;
+}
+
+.dimension-card-visual img,
+.dimension-card-initials {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--line);
+}
+
+.dimension-card-visual img {
+  object-fit: cover;
+}
+
+.dimension-card-initials {
+  display: grid;
+  place-items: center;
+  background: var(--ink-50);
+  color: var(--text-soft);
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+
+.dimension-card h4 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.dimension-role {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.84rem;
+}
+
+.dimension-score {
+  color: var(--accent-deep);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 860px) {
+  .dimension-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.country-dimension-flag {
+  width: 112px;
+  height: 76px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--ink-50);
+}
+
+.country-dimension-flag img {
+  width: 100%;
+  height: 100%;
+  padding: 6px;
+  border: 0;
+  border-radius: 0;
+  object-fit: contain;
+}
+
+.country-dimension-flag .dimension-card-initials {
+  border: 0;
+  border-radius: 0;
+  font-size: 0.7rem;
+  padding: 4px;
+  text-align: center;
+}
+
+/* ── Peso 3: cards de distancia ──────────────────────────────────────── */
+.distant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 10px;
+}
+
+.distant-grid-single {
+  grid-template-columns: minmax(210px, 340px);
+}
+
+.distant-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 13px 16px;
+  background: var(--critical-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.distant-card-text {
+  min-width: 0;
+}
+
+.distant-card h4 {
+  margin: 0;
+  font-size: 0.97rem;
+  line-height: 1.3;
+}
+
+.distant-card p {
+  margin: 2px 0 0;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.distant-card-score {
+  flex: 0 0 auto;
+  color: var(--critical-deep);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Duas colunas: conteudo + indice ─────────────────────────────────── */
+.results-main {
+  display: grid;
+  gap: 28px;
+  min-width: 0;
+}
+
+@media (min-width: 1100px) {
+  .results-layout-with-nav {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 232px;
+    gap: 40px;
+    align-items: start;
+  }
+}
+
+/* Abaixo de 1100px o indice sai de cena: a pagina vira uma coluna so. */
+@media (max-width: 1099px) {
+  .results-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .category-card {
+    padding: 16px 10px;
+  }
+
+  .category-card-visual {
+    width: 62px;
+    height: 62px;
+  }
+
+  .category-card h4 {
+    font-size: 0.9rem;
+  }
+
+  .category-card p {
+    font-size: 0.78rem;
+  }
+
+  .distant-grid,
+  .distant-grid-single {
+    grid-template-columns: 1fr;
+  }
+
+  .results-tabs {
+    width: 100%;
+  }
+
+  .results-tabs button {
+    flex: 1;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   Movimento
+
+   Principio herdado dos tokens: o movimento mostra a medicao acontecendo,
+   nunca decora. Tudo aqui usa --ease-settle (curva de agulha de
+   instrumento) e as duracoes ja definidas em tokens.css.
+
+   Uma unica abertura orquestrada no hero; o resto da pagina se revela ao
+   ser alcancado. Nada se repete ao rolar de volta.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ── Hero: abertura em sequencia ─────────────────────────────────────── */
+.results-hero[data-orchestrate='true'] .results-eyebrow,
+.results-hero[data-orchestrate='true'] h1,
+.results-hero[data-orchestrate='true'] .results-hero-text p,
+.results-hero[data-orchestrate='true'] .results-meta-card {
+  animation: hero-enter var(--dur-reveal) var(--ease-settle) backwards;
+}
+
+.results-hero[data-orchestrate='true'] .results-eyebrow      { animation-delay: 60ms; }
+.results-hero[data-orchestrate='true'] h1                    { animation-delay: 160ms; }
+.results-hero[data-orchestrate='true'] .results-hero-text p  { animation-delay: 280ms; }
+.results-hero[data-orchestrate='true'] .results-meta-card    { animation-delay: 380ms; }
+
+@keyframes hero-enter {
+  from {
+    opacity: 0;
+    transform: translateY(var(--rise-reveal));
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* O numero do topo assenta junto com a contagem que sobe dentro dele. */
+.count-up {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Secoes: entrada em cascata ao alcancar a viewport ───────────────── */
+/* Rede de seguranca: se o JS nao revelar (falha, observer que nao rodou),
+   o conteudo aparece sozinho depois de 1.2s. Conteudo nunca pode ficar
+   preso em opacity: 0 por causa de animacao.                             */
+.results-main [data-reveal]:not([data-revealed]) {
+  animation: reveal-failsafe 1ms var(--ease-settle) 1200ms forwards;
+}
+
+@keyframes reveal-failsafe {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+/* Cards internos entram em sequencia, como ja acontece na home. */
+[data-reveal] .category-card,
+[data-reveal] .distant-card {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity var(--dur-reveal) var(--ease-settle),
+    transform var(--dur-reveal) var(--ease-settle);
+}
+
+[data-reveal][data-revealed] .category-card,
+[data-reveal][data-revealed] .distant-card {
+  opacity: 1;
+  transform: none;
+}
+
+[data-reveal][data-revealed] .category-card:nth-child(1),
+[data-reveal][data-revealed] .distant-card:nth-child(1) { transition-delay: 70ms; }
+[data-reveal][data-revealed] .category-card:nth-child(2),
+[data-reveal][data-revealed] .distant-card:nth-child(2) { transition-delay: 150ms; }
+[data-reveal][data-revealed] .category-card:nth-child(3),
+[data-reveal][data-revealed] .distant-card:nth-child(3) { transition-delay: 230ms; }
+
+/* ── Eixos: a agulha percorre do centro ate a posicao medida ─────────── */
+/* Antes do reveal a barra esta zerada no centro; ao entrar em cena ela
+   percorre ate o valor real, que e o que a barra significa.              */
+[data-reveal] .axis-track-fill {
+  left: 50%;
+  width: 0;
+}
+
+[data-reveal] .axis-track-thumb {
+  left: 50%;
+}
+
+[data-reveal][data-revealed] .axis-track-fill {
+  left: var(--axis-fill-left);
+  width: var(--axis-fill-width);
+  transition:
+    left var(--dur-measure) var(--ease-settle),
+    width var(--dur-measure) var(--ease-settle);
+}
+
+[data-reveal][data-revealed] .axis-track-thumb {
+  left: var(--axis-position);
+  transition: left var(--dur-measure) var(--ease-settle);
+}
+
+/* Cada eixo parte um pouco depois do anterior: a leitura desce a lista. */
+[data-reveal][data-revealed] .axis-row:nth-child(1) .axis-track-fill,
+[data-reveal][data-revealed] .axis-row:nth-child(1) .axis-track-thumb { transition-delay: 40ms; }
+[data-reveal][data-revealed] .axis-row:nth-child(2) .axis-track-fill,
+[data-reveal][data-revealed] .axis-row:nth-child(2) .axis-track-thumb { transition-delay: 80ms; }
+[data-reveal][data-revealed] .axis-row:nth-child(3) .axis-track-fill,
+[data-reveal][data-revealed] .axis-row:nth-child(3) .axis-track-thumb { transition-delay: 120ms; }
+[data-reveal][data-revealed] .axis-row:nth-child(4) .axis-track-fill,
+[data-reveal][data-revealed] .axis-row:nth-child(4) .axis-track-thumb { transition-delay: 160ms; }
+[data-reveal][data-revealed] .axis-row:nth-child(5) .axis-track-fill,
+[data-reveal][data-revealed] .axis-row:nth-child(5) .axis-track-thumb { transition-delay: 200ms; }
+[data-reveal][data-revealed] .axis-row:nth-child(6) .axis-track-fill,
+[data-reveal][data-revealed] .axis-row:nth-child(6) .axis-track-thumb { transition-delay: 240ms; }
+[data-reveal][data-revealed] .axis-row:nth-child(7) .axis-track-fill,
+[data-reveal][data-revealed] .axis-row:nth-child(7) .axis-track-thumb { transition-delay: 280ms; }
+[data-reveal][data-revealed] .axis-row:nth-child(8) .axis-track-fill,
+[data-reveal][data-revealed] .axis-row:nth-child(8) .axis-track-thumb { transition-delay: 320ms; }
+[data-reveal][data-revealed] .axis-row:nth-child(9) .axis-track-fill,
+[data-reveal][data-revealed] .axis-row:nth-child(9) .axis-track-thumb { transition-delay: 360ms; }
+[data-reveal][data-revealed] .axis-row:nth-child(10) .axis-track-fill,
+[data-reveal][data-revealed] .axis-row:nth-child(10) .axis-track-thumb { transition-delay: 400ms; }
+[data-reveal][data-revealed] .axis-row:nth-child(11) .axis-track-fill,
+[data-reveal][data-revealed] .axis-row:nth-child(11) .axis-track-thumb { transition-delay: 440ms; }
+[data-reveal][data-revealed] .axis-row:nth-child(12) .axis-track-fill,
+[data-reveal][data-revealed] .axis-row:nth-child(12) .axis-track-thumb { transition-delay: 480ms; }
+
+/* ── Troca de aba: o card novo entra, nao pisca ──────────────────────── */
+.results-tabs button {
+  position: relative;
+}
+
+.results-tabs button[aria-selected='true'] {
+  animation: tab-settle var(--dur-base) var(--ease-settle);
+}
+
+@keyframes tab-settle {
+  from { transform: scale(0.96); }
+  to   { transform: none; }
+}
+
+.country-match-card {
+  animation: card-swap var(--dur-base) var(--ease-settle);
+}
+
+@keyframes card-swap {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ── Resposta ao toque ───────────────────────────────────────────────── */
+.category-card,
+.distant-card {
+  transition:
+    transform var(--dur-base) var(--ease-settle),
+    box-shadow var(--dur-base) var(--ease-settle),
+    border-color var(--dur-base) var(--ease-settle);
+}
+
+.category-card:hover {
+  transform: translateY(var(--lift-hover));
+  border-color: var(--accent);
+  box-shadow: var(--shadow-md);
+}
+
+.distant-card:hover {
+  transform: translateY(calc(var(--lift-hover) / 2));
+  border-color: var(--critical);
+}
+
+.results-nav a[data-active='true'] .results-nav-index {
+  animation: nav-mark var(--dur-base) var(--ease-settle);
+}
+
+@keyframes nav-mark {
+  from { transform: scale(0.8); }
+  to   { transform: none; }
+}
+
+/* ── Movimento reduzido: tudo chega pronto ───────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .results-hero[data-orchestrate='true'] .results-eyebrow,
+  .results-hero[data-orchestrate='true'] h1,
+  .results-hero[data-orchestrate='true'] .results-hero-text p,
+  .results-hero[data-orchestrate='true'] .results-meta-card,
+  .country-match-card,
+  .results-tabs button[aria-selected='true'] {
+    animation: none;
+  }
+
+  [data-reveal] .axis-track-fill {
+    left: var(--axis-fill-left);
+    width: var(--axis-fill-width);
+  }
+
+  [data-reveal] .axis-track-thumb {
+    left: var(--axis-position);
+  }
+
+  .category-card:hover,
+  .distant-card:hover {
+    transform: none;
+  }
+}

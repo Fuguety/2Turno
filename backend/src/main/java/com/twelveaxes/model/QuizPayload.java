@@ -1,0 +1,15 @@
+package com.twelveaxes.model;
+
+import java.util.List;
+
+public record QuizPayload(
+        String title,
+        String description,
+        String variant,
+        int questionCount,
+        int questionsPerAxis,
+        List<Axis> axes,
+        List<Question> questions,
+        List<AnswerOption> answerOptions,
+        List<ArchetypeQuestion.View> archetypeQuestions
+) {}

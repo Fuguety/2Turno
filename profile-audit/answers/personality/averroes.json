@@ -1,0 +1,51 @@
+{
+  "estrutura": {
+    "personaBrief": "Juiz e jurista maliki a serviço do califado almóada, Averróis pensa a lei como una e comum à comunidade (sharia interpretada por sábios), não fragmentada por localidades; favorece ordem unitária e autoridade central.",
+    "answers": {"estrutura_06":"C","estrutura_01":"D","estrutura_05":"D","estrutura_16":"C","estrutura_04":"C","estrutura_13":"D","estrutura_20":"C","estrutura_15":"D","estrutura_18":"C","estrutura_17":"D","estrutura_19":"D","estrutura_12":"C","estrutura_09":"DT","estrutura_02":"CT","estrutura_08":"C","estrutura_07":"D","estrutura_11":"D","estrutura_14":"C","estrutura_03":"N","estrutura_10":"C"}
+  },
+  "representacao": {
+    "personaBrief": "Seguindo a República de Platão e Aristóteles, Averróis defende o governo dos sábios e da virtude e desconfia da massa, mas condena a tirania e exige governante justo; não é democrata moderno nem apologista do despotismo.",
+    "answers": {"representacao_01":"D","representacao_05":"C","representacao_20":"D","representacao_11":"N","representacao_04":"C","representacao_03":"C","representacao_08":"C","representacao_12":"D","representacao_17":"D","representacao_14":"CT","representacao_13":"DT","representacao_09":"D","representacao_02":"D","representacao_15":"N","representacao_19":"C","representacao_06":"C","representacao_16":"C","representacao_18":"N","representacao_10":"C","representacao_07":"D"}
+  },
+  "poder": {
+    "personaBrief": "Como cádi maliki, aplica a lei revelada com penas severas (hudud) e ordem pública forte, mas com a cautela jurídica de evitar condenação na dúvida; como médico, vê a saúde coletiva como dever; condutas viciosas não são liberdade privada.",
+    "answers": {"poder_03":"N","poder_15":"C","poder_13":"C","poder_02":"D","poder_12":"D","poder_17":"C","poder_20":"N","poder_18":"N","poder_14":"C","poder_16":"D","poder_11":"C","poder_06":"DT","poder_01":"C","poder_19":"D","poder_04":"D","poder_10":"D","poder_05":"N","poder_07":"C","poder_09":"D","poder_08":"DT"}
+  },
+  "imigracao": {
+    "personaBrief": "Vivendo na Andaluzia plural de muçulmanos, judeus e cristãos sob lei comum, Averróis aceita a convivência de comunidades com seus costumes, mas dentro de uma ordem moral e legal compartilhada, com valorização da língua e tradição da comunidade.",
+    "answers": {"imigracao_09":"C","imigracao_10":"N","imigracao_06":"C","imigracao_19":"D","imigracao_04":"C","imigracao_15":"C","imigracao_07":"C","imigracao_20":"D","imigracao_17":"C","imigracao_13":"C","imigracao_11":"C","imigracao_08":"C","imigracao_02":"C","imigracao_18":"D","imigracao_05":"N","imigracao_03":"N","imigracao_01":"C","imigracao_14":"C","imigracao_16":"C","imigracao_12":"C"}
+  },
+  "diplomacia": {
+    "personaBrief": "Jurista que tratou da guerra lícita (jihad) como defensiva e regulada e servidor de um Estado almóada militarizado, Averróis prefere paz e negociação, mas admite forças fortes e dissuasão como necessidade da comunidade.",
+    "answers": {"diplomacia_02":"C","diplomacia_08":"D","diplomacia_15":"N","diplomacia_19":"C","diplomacia_11":"C","diplomacia_05":"C","diplomacia_12":"D","diplomacia_10":"N","diplomacia_17":"D","diplomacia_03":"N","diplomacia_07":"N","diplomacia_06":"C","diplomacia_14":"C","diplomacia_20":"C","diplomacia_16":"C","diplomacia_01":"C","diplomacia_04":"D","diplomacia_13":"C","diplomacia_09":"C","diplomacia_18":"DT"}
+  },
+  "intervencao": {
+    "personaBrief": "Pensador da justiça política que serviu um império expansivo, vê a defesa dos interesses da comunidade e de seus súditos como legítima, mas não glorifica conquista injusta; aceita pressão e sanções, rejeita aventura militar e isolamento total.",
+    "answers": {"intervencao_01":"D","intervencao_14":"D","intervencao_20":"C","intervencao_19":"N","intervencao_08":"C","intervencao_13":"D","intervencao_12":"C","intervencao_04":"C","intervencao_18":"C","intervencao_11":"N","intervencao_05":"D","intervencao_02":"C","intervencao_10":"C","intervencao_09":"N","intervencao_16":"D","intervencao_06":"N","intervencao_03":"N","intervencao_07":"D","intervencao_17":"D","intervencao_15":"D"}
+  },
+  "economia": {
+    "personaBrief": "Na linha aristotélica e da lei islâmica, aceita a propriedade privada e o comércio, mas subordina a riqueza à justiça: zakat, herança regulada, dever do governante de amparar os pobres e vigiar o excesso; rejeita tanto o coletivismo revolucionário quanto o laissez-faire.",
+    "answers": {"economia_05":"D","economia_06":"DT","economia_07":"C","economia_13":"C","economia_03":"C","economia_14":"D","economia_19":"N","economia_16":"D","economia_17":"C","economia_12":"D","economia_04":"D","economia_11":"C","economia_18":"D","economia_15":"N","economia_20":"D","economia_01":"DT","economia_10":"D","economia_09":"C","economia_02":"C","economia_08":"C"}
+  },
+  "controle": {
+    "personaBrief": "A tradição do muhtasib (fiscal de mercado) e a República platônica sustentam direção do governante justo sobre preços, salários e setores vitais; Averróis vê o mercado como subordinado ao bem comum, sem defender planificação total.",
+    "answers": {"controle_05":"C","controle_20":"D","controle_19":"C","controle_14":"D","controle_07":"C","controle_04":"D","controle_02":"D","controle_17":"C","controle_16":"N","controle_10":"D","controle_06":"D","controle_08":"D","controle_13":"D","controle_01":"C","controle_11":"C","controle_03":"N","controle_15":"C","controle_12":"D","controle_18":"DT","controle_09":"C"}
+  },
+  "comercio": {
+    "personaBrief": "Andaluz de uma civilização mercantil que ligava o Mediterrâneo ao Oriente, valoriza o comércio e a troca de bens e saberes, com preço justo e cuidado com setores vitais; favorável à abertura, sem radicalismo global nem autarquia.",
+    "answers": {"comercio_13":"C","comercio_06":"C","comercio_12":"C","comercio_20":"C","comercio_15":"N","comercio_19":"N","comercio_04":"C","comercio_17":"C","comercio_07":"N","comercio_02":"D","comercio_03":"D","comercio_10":"C","comercio_16":"C","comercio_09":"C","comercio_05":"DT","comercio_11":"C","comercio_01":"D","comercio_18":"C","comercio_08":"D","comercio_14":"C"}
+  },
+  "religiao": {
+    "personaBrief": "Crente sincero e jurista maliki, Averróis quer a sharia como lei da comunidade e vê a religião como necessária à ordem e à virtude das massas, ainda que reserve à filosofia a interpretação das elites; nada de secularismo.",
+    "answers": {"religiao_02":"CT","religiao_11":"DT","religiao_19":"D","religiao_03":"DT","religiao_10":"C","religiao_13":"DT","religiao_12":"CT","religiao_15":"DT","religiao_18":"CT","religiao_05":"N","religiao_01":"DT","religiao_14":"C","religiao_06":"CT","religiao_16":"C","religiao_08":"C","religiao_07":"DT","religiao_09":"DT","religiao_17":"DT","religiao_20":"C","religiao_04":"C"}
+  },
+  "moral": {
+    "personaBrief": "Jurista do século XII, adota a moral familiar e sexual da lei islâmica (casamento, pudor, proibição de embriaguez e vícios), embora tenha sido incomumente favorável à capacidade política e militar das mulheres; tradicionalista em costumes.",
+    "answers": {"moral_07":"D","moral_04":"C","moral_15":"DT","moral_12":"C","moral_03":"DT","moral_01":"DT","moral_09":"D","moral_06":"CT","moral_19":"D","moral_02":"CT","moral_05":"N","moral_17":"DT","moral_13":"DT","moral_11":"D","moral_10":"C","moral_18":"D","moral_16":"CT","moral_14":"C","moral_08":"C","moral_20":"C"}
+  },
+  "tecnologia": {
+    "personaBrief": "Médico e cientista, autor dos Kulliyat, valoriza o conhecimento racional e empírico e a arte que aperfeiçoa a natureza, sem desprezar o equilíbrio natural; progressista em ciência, cauteloso em intervenções radicais.",
+    "answers": {"tecnologia_01":"C","tecnologia_13":"C","tecnologia_19":"C","tecnologia_12":"D","tecnologia_18":"D","tecnologia_10":"D","tecnologia_05":"C","tecnologia_04":"C","tecnologia_16":"D","tecnologia_07":"D","tecnologia_08":"D","tecnologia_03":"C","tecnologia_15":"D","tecnologia_20":"C","tecnologia_06":"C","tecnologia_09":"D","tecnologia_17":"C","tecnologia_02":"D","tecnologia_14":"C","tecnologia_11":"N"}
+  },
+  "archetype": { "sociedade": "B", "poder": "B", "economia": "C", "mundo": "C", "tecnologia": "C" }
+}

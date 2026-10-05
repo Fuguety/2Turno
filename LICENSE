@@ -1,0 +1,65 @@
+12 Axes
+Copyright (c) 2026 Enzo Xavier Santos. All rights reserved.
+
+This repository is published so its source can be read. It is not open source.
+Publishing it does not grant anyone a license, express or implied, except the
+limited permissions stated below.
+
+1. THE WORK
+
+"The Work" means everything in this repository, including:
+
+  (a) the source code of the frontend and backend applications;
+  (b) the quiz questions, their wording, order, and answer scales, in every
+      language in which they appear;
+  (c) the ideology, country, and personality profiles, including their names,
+      descriptions, categories, and editorial text;
+  (d) the twelve-axis model, the axis definitions, and the numeric vectors
+      assigned to each profile;
+  (e) the matching and scoring algorithms and their calibration data; and
+  (f) the visual design, images, and documentation.
+
+2. WHAT YOU MAY DO
+
+You may:
+
+  (a) read the source code on the platform where it is published;
+  (b) fork it there, as that platform's terms of service allow; and
+  (c) copy and modify the Work in a fork only to prepare a contribution to this
+      repository, such as an issue or pull request.
+
+3. WHAT YOU MAY NOT DO
+
+Without prior written permission from the copyright holder, you may not:
+
+  (a) copy, reproduce, republish, or redistribute the Work or any part of it,
+      in original or modified form, in any medium;
+  (b) create derivative works based on the Work, including translations of the
+      questions, profiles, or descriptions into other languages;
+  (c) use the Work, in whole or in part, for any commercial purpose, including
+      any deployment that shows advertising or otherwise generates revenue;
+  (d) access the public API of the Work from any client not operated by the
+      copyright holder, or circumvent any technical measure that restricts
+      that access; or
+  (e) remove, hide, or alter this notice or any attribution in the Work.
+
+4. CONTRIBUTIONS
+
+By submitting a contribution to this repository (code, text, data, images, or
+anything else), you confirm that you have the right to submit it, and you grant
+the copyright holder a perpetual, worldwide, royalty-free, irrevocable license
+to use, modify, publish, and relicense it as part of the Work. You receive no
+rights in the Work by contributing.
+
+5. PERMISSION REQUESTS
+
+To ask for written permission, write to enzo.xs@hotmail.com.
+
+6. NO WARRANTY
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER
+BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE
+WORK OR THE USE OR OTHER DEALINGS IN THE WORK.

@@ -1,0 +1,63 @@
+{
+  "estrutura": { "personaBrief": "O stalinismo concentrou todo o poder em Moscou: o federalismo soviético era nominal, as repúblicas executavam o plano central e nacionalismos locais eram reprimidos.", "answers": {
+    "estrutura_06": "CT", "estrutura_01": "DT", "estrutura_05": "D", "estrutura_16": "CT", "estrutura_04": "CT",
+    "estrutura_13": "DT", "estrutura_20": "CT", "estrutura_15": "D", "estrutura_18": "CT", "estrutura_17": "DT",
+    "estrutura_19": "D", "estrutura_12": "CT", "estrutura_09": "D", "estrutura_02": "CT", "estrutura_08": "CT",
+    "estrutura_07": "DT", "estrutura_11": "DT", "estrutura_14": "CT", "estrutura_03": "D", "estrutura_10": "CT" } },
+  "representacao": { "personaBrief": "Partido único sob culto ao líder, eleições de candidato único, oposição eliminada e nenhum tribunal independente.", "answers": {
+    "representacao_01": "DT", "representacao_05": "DT", "representacao_20": "CT", "representacao_11": "D", "representacao_04": "CT",
+    "representacao_03": "DT", "representacao_08": "CT", "representacao_12": "CT", "representacao_17": "D", "representacao_14": "C",
+    "representacao_13": "DT", "representacao_09": "D", "representacao_02": "CT", "representacao_15": "D", "representacao_19": "DT",
+    "representacao_06": "CT", "representacao_16": "C", "representacao_18": "CT", "representacao_10": "C", "representacao_07": "D" } },
+  "poder": { "personaBrief": "Repressão de massa, NKVD, vigilância total, expurgos e prisões extrajudiciais contra inimigos reais ou supostos.", "answers": {
+    "poder_03": "CT", "poder_15": "CT", "poder_13": "CT", "poder_02": "DT", "poder_12": "D",
+    "poder_17": "CT", "poder_20": "DT", "poder_18": "DT", "poder_14": "DT", "poder_16": "DT",
+    "poder_11": "CT", "poder_06": "DT", "poder_01": "CT", "poder_19": "CT", "poder_04": "DT",
+    "poder_10": "D", "poder_05": "CT", "poder_07": "CT", "poder_09": "CT", "poder_08": "DT" } },
+  "imigracao": { "personaBrief": "Russificação e o 'homem soviético' exigiam integração ao Estado e à língua russa, com deportações de povos suspeitos, sob verniz de 'nacional na forma, socialista no conteúdo'.", "answers": {
+    "imigracao_09": "N", "imigracao_10": "D", "imigracao_06": "D", "imigracao_19": "C", "imigracao_04": "D",
+    "imigracao_15": "C", "imigracao_07": "C", "imigracao_20": "DT", "imigracao_17": "C", "imigracao_13": "CT",
+    "imigracao_11": "C", "imigracao_08": "D", "imigracao_02": "D", "imigracao_18": "DT", "imigracao_05": "C",
+    "imigracao_03": "C", "imigracao_01": "CT", "imigracao_14": "D", "imigracao_16": "D", "imigracao_12": "D" } },
+  "diplomacia": { "personaBrief": "Industrialização forçada voltada à defesa, Exército Vermelho massivo, bomba atômica e espionagem extensa.", "answers": {
+    "diplomacia_02": "D", "diplomacia_08": "DT", "diplomacia_15": "C", "diplomacia_19": "CT", "diplomacia_11": "CT",
+    "diplomacia_05": "CT", "diplomacia_12": "D", "diplomacia_10": "D", "diplomacia_17": "C", "diplomacia_03": "C",
+    "diplomacia_07": "CT", "diplomacia_06": "C", "diplomacia_14": "DT", "diplomacia_20": "D", "diplomacia_16": "C",
+    "diplomacia_01": "CT", "diplomacia_04": "D", "diplomacia_13": "CT", "diplomacia_09": "CT", "diplomacia_18": "DT" } },
+  "intervencao": { "personaBrief": "O Estado soviético impôs regimes satélites no Leste Europeu, invadiu vizinhos e exerceu esfera de influência agressiva.", "answers": {
+    "intervencao_01": "DT", "intervencao_14": "CT", "intervencao_20": "CT", "intervencao_19": "DT", "intervencao_08": "CT",
+    "intervencao_13": "DT", "intervencao_12": "CT", "intervencao_04": "CT", "intervencao_18": "CT", "intervencao_11": "C",
+    "intervencao_05": "DT", "intervencao_02": "CT", "intervencao_10": "CT", "intervencao_09": "D", "intervencao_16": "CT",
+    "intervencao_06": "CT", "intervencao_03": "D", "intervencao_07": "DT", "intervencao_17": "D", "intervencao_15": "D" } },
+  "economia": { "personaBrief": "Coletivização agrária e estatização total dos meios de produção, abolindo a propriedade privada produtiva.", "answers": {
+    "economia_05": "C", "economia_06": "DT", "economia_07": "CT", "economia_13": "CT", "economia_03": "CT",
+    "economia_14": "D", "economia_19": "CT", "economia_16": "D", "economia_17": "CT", "economia_12": "DT",
+    "economia_04": "DT", "economia_11": "C", "economia_18": "DT", "economia_15": "CT", "economia_20": "DT",
+    "economia_01": "CT", "economia_10": "DT", "economia_09": "CT", "economia_02": "DT", "economia_08": "DT" } },
+  "controle": { "personaBrief": "Planejamento central rígido via planos quinquenais, com preços, salários, câmbio e crédito fixados pelo Estado.", "answers": {
+    "controle_05": "CT", "controle_20": "DT", "controle_19": "CT", "controle_14": "DT", "controle_07": "CT",
+    "controle_04": "DT", "controle_02": "DT", "controle_17": "CT", "controle_16": "DT", "controle_10": "DT",
+    "controle_06": "D", "controle_08": "C", "controle_13": "CT", "controle_01": "CT", "controle_11": "C",
+    "controle_03": "CT", "controle_15": "C", "controle_12": "DT", "controle_18": "DT", "controle_09": "CT" } },
+  "comercio": { "personaBrief": "Autarquia do 'socialismo num só país': monopólio estatal do comércio exterior e rejeição do mercado capitalista mundial.", "answers": {
+    "comercio_13": "CT", "comercio_06": "DT", "comercio_12": "DT", "comercio_20": "DT", "comercio_15": "CT",
+    "comercio_19": "CT", "comercio_04": "DT", "comercio_17": "CT", "comercio_07": "CT", "comercio_02": "DT",
+    "comercio_03": "CT", "comercio_10": "D", "comercio_16": "DT", "comercio_09": "CT", "comercio_05": "C",
+    "comercio_11": "CT", "comercio_01": "CT", "comercio_18": "DT", "comercio_08": "DT", "comercio_14": "DT" } },
+  "religiao": { "personaBrief": "Ateísmo de Estado militante, com perseguição ao clero e demolição de igrejas, apesar da trégua tática com a Igreja Ortodoxa na guerra.", "answers": {
+    "religiao_02": "DT", "religiao_11": "CT", "religiao_19": "CT", "religiao_03": "CT", "religiao_10": "DT",
+    "religiao_13": "CT", "religiao_12": "DT", "religiao_15": "CT", "religiao_18": "DT", "religiao_05": "C",
+    "religiao_01": "C", "religiao_14": "DT", "religiao_06": "DT", "religiao_16": "DT", "religiao_08": "DT",
+    "religiao_07": "CT", "religiao_09": "CT", "religiao_17": "CT", "religiao_20": "DT", "religiao_04": "DT" } },
+  "moral": { "personaBrief": "Após os anos 1930, Stálin recriminalizou a homossexualidade e o aborto e exaltou a família estável e a maternidade, num conservadorismo moral estatal, mantendo a mulher no trabalho.", "answers": {
+    "moral_07": "DT", "moral_04": "D", "moral_15": "DT", "moral_12": "DT", "moral_03": "DT",
+    "moral_01": "DT", "moral_09": "D", "moral_06": "CT", "moral_19": "DT", "moral_02": "C",
+    "moral_05": "D", "moral_17": "DT", "moral_13": "DT", "moral_11": "DT", "moral_10": "C",
+    "moral_18": "D", "moral_16": "CT", "moral_14": "C", "moral_08": "C", "moral_20": "DT" } },
+  "tecnologia": { "personaBrief": "Industrialização forçada, prometeísmo técnico e domínio da natureza a qualquer custo ambiental, com urbanização acelerada.", "answers": {
+    "tecnologia_01": "CT", "tecnologia_13": "C", "tecnologia_19": "CT", "tecnologia_12": "DT", "tecnologia_18": "D",
+    "tecnologia_10": "DT", "tecnologia_05": "C", "tecnologia_04": "D", "tecnologia_16": "DT", "tecnologia_07": "CT",
+    "tecnologia_08": "DT", "tecnologia_03": "C", "tecnologia_15": "C", "tecnologia_20": "D", "tecnologia_06": "DT",
+    "tecnologia_09": "C", "tecnologia_17": "C", "tecnologia_02": "DT", "tecnologia_14": "D", "tecnologia_11": "CT" } },
+  "archetype": { "sociedade": "E", "poder": "A", "economia": "A", "mundo": "A", "tecnologia": "D" }
+}

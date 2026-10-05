@@ -1,0 +1,111 @@
+{
+  "estrutura": {
+    "personaBrief": "O absolutismo esclarecido constrói um Estado unitário e uma burocracia centralizada que esmaga privilégios provinciais, estamentos locais e particularismos (José II contra os estados húngaros e belgas), com códigos legais e escolas uniformes para todo o reino.",
+    "answers": {
+      "estrutura_06": "CT", "estrutura_01": "DT", "estrutura_05": "DT", "estrutura_16": "CT", "estrutura_04": "CT",
+      "estrutura_13": "DT", "estrutura_20": "CT", "estrutura_15": "DT", "estrutura_18": "CT", "estrutura_17": "D",
+      "estrutura_19": "D", "estrutura_12": "C", "estrutura_09": "DT", "estrutura_02": "CT", "estrutura_08": "C",
+      "estrutura_07": "D", "estrutura_11": "D", "estrutura_14": "CT", "estrutura_03": "D", "estrutura_10": "C"
+    }
+  },
+  "representacao": {
+    "personaBrief": "\"Tudo para o povo, nada pelo povo\": o monarca soberano governa pela razão, auxiliado por especialistas escolhidos por mérito, sem eleições, parlamento ou consentimento popular.",
+    "answers": {
+      "representacao_01": "DT", "representacao_05": "D", "representacao_20": "CT", "representacao_11": "DT", "representacao_04": "CT",
+      "representacao_03": "D", "representacao_08": "CT", "representacao_12": "CT", "representacao_17": "DT", "representacao_14": "C",
+      "representacao_13": "DT", "representacao_09": "DT", "representacao_02": "CT", "representacao_15": "D", "representacao_19": "D",
+      "representacao_06": "CT", "representacao_16": "C", "representacao_18": "CT", "representacao_10": "CT", "representacao_07": "DT"
+    }
+  },
+  "poder": {
+    "personaBrief": "O Estado policial bem ordenado (Polizeistaat) vigia e disciplina súditos, com polícia secreta e censura à crítica ao trono, mas reforma o direito penal pela razão: abole a tortura, restringe a pena de morte e adota garantias processuais.",
+    "answers": {
+      "poder_03": "C", "poder_15": "D", "poder_13": "C", "poder_02": "D", "poder_12": "N",
+      "poder_17": "C", "poder_20": "D", "poder_18": "D", "poder_14": "C", "poder_16": "D",
+      "poder_11": "CT", "poder_06": "D", "poder_01": "C", "poder_19": "C", "poder_04": "D",
+      "poder_10": "D", "poder_05": "C", "poder_07": "CT", "poder_09": "C", "poder_08": "DT"
+    }
+  },
+  "imigracao": {
+    "personaBrief": "Populacionista e tolerante, o monarca esclarecido atrai colonos úteis de qualquer origem ou fé (huguenotes na Prússia, alemães do Volga na Rússia) e lhes concede preservar língua, religião e escolas, embora a administração possa impor uma língua oficial.",
+    "answers": {
+      "imigracao_09": "D", "imigracao_10": "C", "imigracao_06": "C", "imigracao_19": "D", "imigracao_04": "C",
+      "imigracao_15": "D", "imigracao_07": "D", "imigracao_20": "D", "imigracao_17": "DT", "imigracao_13": "N",
+      "imigracao_11": "D", "imigracao_08": "C", "imigracao_02": "C", "imigracao_18": "D", "imigracao_05": "D",
+      "imigracao_03": "DT", "imigracao_01": "D", "imigracao_14": "C", "imigracao_16": "C", "imigracao_12": "C"
+    }
+  },
+  "diplomacia": {
+    "personaBrief": "Exército forte, conscrição cantonal e política externa expansionista racional (Silésia, partilhas da Polônia, guerras preventivas de Frederico): a diplomacia é instrumento da raison d'État, sustentada pela força.",
+    "answers": {
+      "diplomacia_02": "D", "diplomacia_08": "DT", "diplomacia_15": "CT", "diplomacia_19": "CT", "diplomacia_11": "CT",
+      "diplomacia_05": "CT", "diplomacia_12": "D", "diplomacia_10": "DT", "diplomacia_17": "CT", "diplomacia_03": "CT",
+      "diplomacia_07": "C", "diplomacia_06": "D", "diplomacia_14": "DT", "diplomacia_20": "D", "diplomacia_16": "C",
+      "diplomacia_01": "CT", "diplomacia_04": "DT", "diplomacia_13": "CT", "diplomacia_09": "CT", "diplomacia_18": "DT"
+    }
+  },
+  "intervencao": {
+    "personaBrief": "A razão de Estado orienta a política externa: manipular eleições e governos vizinhos (Polônia), romper tratados quando o interesse dinástico-estatal exige e alternar alianças com pragmatismo.",
+    "answers": {
+      "intervencao_01": "DT", "intervencao_14": "CT", "intervencao_20": "CT", "intervencao_19": "D", "intervencao_08": "CT",
+      "intervencao_13": "DT", "intervencao_12": "CT", "intervencao_04": "CT", "intervencao_18": "CT", "intervencao_11": "N",
+      "intervencao_05": "DT", "intervencao_02": "CT", "intervencao_10": "CT", "intervencao_09": "DT", "intervencao_16": "CT",
+      "intervencao_06": "C", "intervencao_03": "D", "intervencao_07": "D", "intervencao_17": "D", "intervencao_15": "DT"
+    }
+  },
+  "economia": {
+    "personaBrief": "Cameralismo: manufaturas reais, monopólios estatais e bancos régios convivem com propriedade privada respeitada; o Estado fomenta, assiste os pobres e reforma a condição camponesa, mas rejeita revolução e coletivização.",
+    "answers": {
+      "economia_05": "D", "economia_06": "DT", "economia_07": "C", "economia_13": "C", "economia_03": "CT",
+      "economia_14": "C", "economia_19": "C", "economia_16": "C", "economia_17": "CT", "economia_12": "D",
+      "economia_04": "D", "economia_11": "C", "economia_18": "C", "economia_15": "C", "economia_20": "D",
+      "economia_01": "DT", "economia_10": "DT", "economia_09": "C", "economia_02": "D", "economia_08": "C"
+    }
+  },
+  "controle": {
+    "personaBrief": "Economia dirigida pelo Estado com mercado subordinado: mercantilismo, controle de preços de grãos, câmbio e saída de metais, subsídio a indústrias estratégicas e finanças sob comando do soberano.",
+    "answers": {
+      "controle_05": "C", "controle_20": "DT", "controle_19": "C", "controle_14": "D", "controle_07": "CT",
+      "controle_04": "D", "controle_02": "D", "controle_17": "CT", "controle_16": "DT", "controle_10": "D",
+      "controle_06": "D", "controle_08": "C", "controle_13": "D", "controle_01": "CT", "controle_11": "CT",
+      "controle_03": "CT", "controle_15": "C", "controle_12": "DT", "controle_18": "DT", "controle_09": "C"
+    }
+  },
+  "comercio": {
+    "personaBrief": "Mercantilista, protege manufaturas nacionais com tarifas e proibições de importação, busca autossuficiência e estoques de grãos, embora atraia artesãos e empresários estrangeiros para transferir técnica.",
+    "answers": {
+      "comercio_13": "CT", "comercio_06": "DT", "comercio_12": "C", "comercio_20": "D", "comercio_15": "CT",
+      "comercio_19": "CT", "comercio_04": "D", "comercio_17": "CT", "comercio_07": "CT", "comercio_02": "DT",
+      "comercio_03": "CT", "comercio_10": "D", "comercio_16": "D", "comercio_09": "C", "comercio_05": "C",
+      "comercio_11": "CT", "comercio_01": "CT", "comercio_18": "C", "comercio_08": "DT", "comercio_14": "N"
+    }
+  },
+  "religiao": {
+    "personaBrief": "Deísta ou anticlerical, o monarca esclarecido proclama tolerância (\"cada um que se salve à sua maneira\"), seculariza bens eclesiásticos, faz do casamento contrato civil e submete a Igreja ao Estado, sem abolir a religião oficial.",
+    "answers": {
+      "religiao_02": "D", "religiao_11": "D", "religiao_19": "C", "religiao_03": "C", "religiao_10": "N",
+      "religiao_13": "C", "religiao_12": "D", "religiao_15": "N", "religiao_18": "DT", "religiao_05": "CT",
+      "religiao_01": "C", "religiao_14": "D", "religiao_06": "N", "religiao_16": "D", "religiao_08": "D",
+      "religiao_07": "N", "religiao_09": "CT", "religiao_17": "D", "religiao_20": "D", "religiao_04": "D"
+    }
+  },
+  "moral": {
+    "personaBrief": "Reformista impaciente diante de privilégios e superstições, mas com moral social do século XVIII: família patriarcal e costumes convencionais, com o Estado (não os pais) definindo a educação moral pela escola pública obrigatória.",
+    "answers": {
+      "moral_07": "D", "moral_04": "D", "moral_15": "D", "moral_12": "D", "moral_03": "D",
+      "moral_01": "D", "moral_09": "D", "moral_06": "C", "moral_19": "C", "moral_02": "C",
+      "moral_05": "D", "moral_17": "D", "moral_13": "D", "moral_11": "D", "moral_10": "C",
+      "moral_18": "N", "moral_16": "C", "moral_14": "C", "moral_08": "C", "moral_20": "D"
+    }
+  },
+  "tecnologia": {
+    "personaBrief": "Academias, ciência, inoculação, drenagem de pântanos e colonização agrícola: o progresso técnico e racional a serviço do poder e da prosperidade do Estado, contra o primitivismo rousseauniano.",
+    "answers": {
+      "tecnologia_01": "CT", "tecnologia_13": "C", "tecnologia_19": "C", "tecnologia_12": "D", "tecnologia_18": "D",
+      "tecnologia_10": "D", "tecnologia_05": "C", "tecnologia_04": "D", "tecnologia_16": "D", "tecnologia_07": "C",
+      "tecnologia_08": "D", "tecnologia_03": "C", "tecnologia_15": "C", "tecnologia_20": "D", "tecnologia_06": "D",
+      "tecnologia_09": "C", "tecnologia_17": "C", "tecnologia_02": "DT", "tecnologia_14": "D", "tecnologia_11": "C"
+    }
+  },
+  "archetype": { "sociedade": "E", "poder": "A", "economia": "E", "mundo": "A", "tecnologia": "D" }
+}

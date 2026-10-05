@@ -1,0 +1,100 @@
+import type { Axis } from '../types/quiz';
+
+export const HOME_AXES: Axis[] = [
+  {
+    id: 'estrutura',
+    label: 'Estrutura',
+    leftPole: 'Federal',
+    rightPole: 'Unitário',
+    leftColor: '#2F6DC0',
+    rightColor: '#CF5A22'
+  },
+  {
+    id: 'representacao',
+    label: 'Representação',
+    leftPole: 'Democracia',
+    rightPole: 'Autocracia',
+    leftColor: '#12907F',
+    rightColor: '#B02556'
+  },
+  {
+    id: 'poder',
+    label: 'Poder',
+    leftPole: 'Segurança',
+    rightPole: 'Liberdade',
+    leftColor: '#3C5A80',
+    rightColor: '#AD7A06'
+  },
+  {
+    id: 'imigracao',
+    label: 'Imigração',
+    leftPole: 'Assimilação',
+    rightPole: 'Multicultura',
+    leftColor: '#CC3456',
+    rightColor: '#6A45C0'
+  },
+  {
+    id: 'diplomacia',
+    label: 'Diplomacia',
+    leftPole: 'Militarista',
+    rightPole: 'Pacifista',
+    leftColor: '#6A8425',
+    rightColor: '#2D86C8'
+  },
+  {
+    id: 'intervencao',
+    label: 'Intervenção',
+    leftPole: 'Não intervencionista',
+    rightPole: 'Nacionalista',
+    leftColor: '#3F8E5C',
+    rightColor: '#B94A16'
+  },
+  {
+    id: 'economia',
+    label: 'Economia',
+    leftPole: 'Público',
+    rightPole: 'Privado',
+    leftColor: '#D43A28',
+    rightColor: '#8E6516'
+  },
+  {
+    id: 'controle',
+    label: 'Controle',
+    leftPole: 'Planejamento',
+    rightPole: 'Livre mercado',
+    leftColor: '#8A3AA0',
+    rightColor: '#1A8A56'
+  },
+  {
+    id: 'comercio',
+    label: 'Comércio',
+    leftPole: 'Protecionismo',
+    rightPole: 'Globalismo',
+    leftColor: '#9C5E2A',
+    rightColor: '#0E86B0'
+  },
+  {
+    id: 'religiao',
+    label: 'Religião',
+    leftPole: 'Irreligioso',
+    rightPole: 'Religioso',
+    leftColor: '#C65E0E',
+    rightColor: '#3B50B5'
+  },
+  {
+    id: 'moral',
+    label: 'Moral',
+    leftPole: 'Progressista',
+    rightPole: 'Tradicionalista',
+    leftColor: '#D23E84',
+    rightColor: '#74502C'
+  },
+  {
+    id: 'tecnologia',
+    label: 'Tecnologia',
+    leftPole: 'Tecnologia',
+    rightPole: 'Biologia',
+    leftColor: '#5376B0',
+    rightColor: '#4E9020'
+  }
+];

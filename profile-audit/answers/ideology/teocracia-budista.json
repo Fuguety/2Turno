@@ -1,0 +1,111 @@
+{
+  "estrutura": {
+    "personaBrief": "O Ganden Phodrang tem o Dalai Lama em Lhasa como autoridade final e única lei moral budista, mas, na prática, a administração é feudal: mosteiros e propriedades aristocráticas cuidam de impostos, justiça e ensino nas localidades.",
+    "answers": {
+      "estrutura_06": "N", "estrutura_01": "C", "estrutura_05": "D", "estrutura_16": "C", "estrutura_04": "C",
+      "estrutura_13": "D", "estrutura_20": "C", "estrutura_15": "D", "estrutura_18": "C", "estrutura_17": "D",
+      "estrutura_19": "C", "estrutura_12": "N", "estrutura_09": "D", "estrutura_02": "C", "estrutura_08": "N",
+      "estrutura_07": "C", "estrutura_11": "C", "estrutura_14": "C", "estrutura_03": "C", "estrutura_10": "C"
+    }
+  },
+  "representacao": {
+    "personaBrief": "O poder vem da reencarnação dos lamas e da hierarquia monástica e aristocrática, sem eleições nem oposição legítima; a soberania é do clero, e não do consentimento popular.",
+    "answers": {
+      "representacao_01": "DT", "representacao_05": "D", "representacao_20": "CT", "representacao_11": "DT", "representacao_04": "CT",
+      "representacao_03": "D", "representacao_08": "CT", "representacao_12": "C", "representacao_17": "DT", "representacao_14": "C",
+      "representacao_13": "DT", "representacao_09": "DT", "representacao_02": "C", "representacao_15": "D", "representacao_19": "D",
+      "representacao_06": "CT", "representacao_16": "CT", "representacao_18": "C", "representacao_10": "CT", "representacao_07": "DT"
+    }
+  },
+  "poder": {
+    "personaBrief": "O controle social se faz pela disciplina monástica e pelos preceitos como lei (proibição de intoxicantes e de matar, partidos reformistas reprimidos), e não por um aparato policial totalitário; a ética da não-violência pesa contra a pena de morte.",
+    "answers": {
+      "poder_03": "D", "poder_15": "D", "poder_13": "C", "poder_02": "DT", "poder_12": "DT",
+      "poder_17": "C", "poder_20": "D", "poder_18": "D", "poder_14": "D", "poder_16": "D",
+      "poder_11": "C", "poder_06": "DT", "poder_01": "C", "poder_19": "C", "poder_04": "D",
+      "poder_10": "C", "poder_05": "D", "poder_07": "CT", "poder_09": "C", "poder_08": "DT"
+    }
+  },
+  "imigracao": {
+    "personaBrief": "O Tibete se fechou a estrangeiros para preservar a identidade tibetano-budista, então quem entra precisa se submeter à ordem e aos costumes locais.",
+    "answers": {
+      "imigracao_09": "CT", "imigracao_10": "D", "imigracao_06": "D", "imigracao_19": "C", "imigracao_04": "D",
+      "imigracao_15": "C", "imigracao_07": "CT", "imigracao_20": "DT", "imigracao_17": "CT", "imigracao_13": "C",
+      "imigracao_11": "CT", "imigracao_08": "D", "imigracao_02": "D", "imigracao_18": "DT", "imigracao_05": "C",
+      "imigracao_03": "CT", "imigracao_01": "C", "imigracao_14": "N", "imigracao_16": "D", "imigracao_12": "D"
+    }
+  },
+  "diplomacia": {
+    "personaBrief": "Com ética budista de não-violência, recusa da guerra de conquista e um exército pequeno só para defesa, o perfil desconfia da militarização e da tecnologia bélica estrangeira e prefere a diplomacia (o Tibete apelou à ONU em 1950).",
+    "answers": {
+      "diplomacia_02": "CT", "diplomacia_08": "C", "diplomacia_15": "DT", "diplomacia_19": "D", "diplomacia_11": "N",
+      "diplomacia_05": "DT", "diplomacia_12": "C", "diplomacia_10": "C", "diplomacia_17": "DT", "diplomacia_03": "D",
+      "diplomacia_07": "DT", "diplomacia_06": "C", "diplomacia_14": "D", "diplomacia_20": "C", "diplomacia_16": "C",
+      "diplomacia_01": "D", "diplomacia_04": "C", "diplomacia_13": "N", "diplomacia_09": "D", "diplomacia_18": "D"
+    }
+  },
+  "intervencao": {
+    "personaBrief": "A política externa é isolacionista e não expansionista: o Tibete se fecha ao mundo, evita alianças e não busca influência sobre vizinhos, mas guarda zelosamente a própria soberania.",
+    "answers": {
+      "intervencao_01": "CT", "intervencao_14": "DT", "intervencao_20": "N", "intervencao_19": "CT", "intervencao_08": "D",
+      "intervencao_13": "CT", "intervencao_12": "D", "intervencao_04": "D", "intervencao_18": "C", "intervencao_11": "C",
+      "intervencao_05": "C", "intervencao_02": "D", "intervencao_10": "DT", "intervencao_09": "N", "intervencao_16": "C",
+      "intervencao_06": "DT", "intervencao_03": "CT", "intervencao_07": "CT", "intervencao_17": "CT", "intervencao_15": "C"
+    }
+  },
+  "economia": {
+    "personaBrief": "A economia é monástico-feudal: mosteiros e nobreza detêm terras e servos, sem igualitarismo, sem coletivização e sem redistribuição, e o amparo aos pobres vem da doação e do mérito, não do Estado.",
+    "answers": {
+      "economia_05": "DT", "economia_06": "D", "economia_07": "D", "economia_13": "N", "economia_03": "N",
+      "economia_14": "N", "economia_19": "N", "economia_16": "C", "economia_17": "D", "economia_12": "DT",
+      "economia_04": "C", "economia_11": "D", "economia_18": "CT", "economia_15": "DT", "economia_20": "C",
+      "economia_01": "DT", "economia_10": "D", "economia_09": "C", "economia_02": "N", "economia_08": "CT"
+    }
+  },
+  "controle": {
+    "personaBrief": "Não há mercado livre nem planejamento central: a ordem econômica tradicional fica com senhores e mosteiros, o governo teocrático controla moeda e tributos, e rejeita tanto o planejamento comunista moderno quanto o liberalismo financeiro.",
+    "answers": {
+      "controle_05": "C", "controle_20": "D", "controle_19": "D", "controle_14": "C", "controle_07": "D",
+      "controle_04": "C", "controle_02": "N", "controle_17": "C", "controle_16": "D", "controle_10": "N",
+      "controle_06": "D", "controle_08": "C", "controle_13": "DT", "controle_01": "D", "controle_11": "DT",
+      "controle_03": "C", "controle_15": "D", "controle_12": "DT", "controle_18": "D", "controle_09": "D"
+    }
+  },
+  "comercio": {
+    "personaBrief": "O Tibete fechado e autossuficiente desconfia da integração econômica com o exterior e do capital estrangeiro e põe a soberania e a produção local de alimentos acima do comércio.",
+    "answers": {
+      "comercio_13": "C", "comercio_06": "D", "comercio_12": "DT", "comercio_20": "D", "comercio_15": "C",
+      "comercio_19": "CT", "comercio_04": "D", "comercio_17": "C", "comercio_07": "C", "comercio_02": "DT",
+      "comercio_03": "C", "comercio_10": "D", "comercio_16": "D", "comercio_09": "CT", "comercio_05": "C",
+      "comercio_11": "CT", "comercio_01": "C", "comercio_18": "DT", "comercio_08": "DT", "comercio_14": "D"
+    }
+  },
+  "religiao": {
+    "personaBrief": "O Estado é governado pela hierarquia monástica, tem o Dalai Lama como encarnação de Avalokiteshvara e os preceitos budistas como lei; religião e política são inseparáveis, e a fé é o centro da identidade nacional.",
+    "answers": {
+      "religiao_02": "CT", "religiao_11": "DT", "religiao_19": "D", "religiao_03": "DT", "religiao_10": "CT",
+      "religiao_13": "DT", "religiao_12": "C", "religiao_15": "D", "religiao_18": "CT", "religiao_05": "DT",
+      "religiao_01": "DT", "religiao_14": "C", "religiao_06": "CT", "religiao_16": "CT", "religiao_08": "CT",
+      "religiao_07": "DT", "religiao_09": "DT", "religiao_17": "DT", "religiao_20": "CT", "religiao_04": "CT"
+    }
+  },
+  "moral": {
+    "personaBrief": "A ordem tradicional e patriarcal se rege pelos preceitos morais budistas (não matar, evitar má conduta sexual e intoxicantes) e é antimoderna, com alguma compaixão budista pelos animais.",
+    "answers": {
+      "moral_07": "D", "moral_04": "CT", "moral_15": "DT", "moral_12": "C", "moral_03": "D",
+      "moral_01": "D", "moral_09": "DT", "moral_06": "C", "moral_19": "D", "moral_02": "C",
+      "moral_05": "D", "moral_17": "D", "moral_13": "DT", "moral_11": "D", "moral_10": "CT",
+      "moral_18": "C", "moral_16": "CT", "moral_14": "C", "moral_08": "CT", "moral_20": "C"
+    }
+  },
+  "tecnologia": {
+    "personaBrief": "A cultura é tradicional, rural e antimoderna, cautelosa com a tecnologia estrangeira (resistiu a ferrovias, telégrafo e modernização) e reverente à terra sagrada e à vida simples.",
+    "answers": {
+      "tecnologia_01": "DT", "tecnologia_13": "DT", "tecnologia_19": "D", "tecnologia_12": "C", "tecnologia_18": "CT",
+      "tecnologia_10": "C", "tecnologia_05": "D", "tecnologia_04": "CT", "tecnologia_16": "C", "tecnologia_07": "DT",
+      "tecnologia_08": "CT", "tecnologia_03": "DT", "tecnologia_15": "DT", "tecnologia_20": "CT", "tecnologia_06": "C",
+      "tecnologia_09": "DT", "tecnologia_17": "DT", "tecnologia_02": "CT", "tecnologia_14": "CT", "tecnologia_11": "DT"
+    }
+  },
+  "archetype": { "sociedade": "A", "poder": "A", "economia": "E", "mundo": "E", "tecnologia": "B" }
+}

@@ -1,0 +1,2498 @@
+[
+  {
+    "personalityId": "lenin",
+    "title": {
+      "pt": "O Estado e a Revolução",
+      "en": "The State and Revolution"
+    },
+    "year": 1917,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "stalin",
+    "title": {
+      "pt": "Fundamentos do Leninismo",
+      "en": "The Foundations of Leninism"
+    },
+    "year": 1924,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "mao-zedong",
+    "title": {
+      "pt": "O Livro Vermelho",
+      "en": "Quotations from Chairman Mao Tse-tung"
+    },
+    "year": 1964,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "trotsky",
+    "title": {
+      "pt": "A Revolução Traída",
+      "en": "The Revolution Betrayed"
+    },
+    "year": 1936,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "anton-pannekoek",
+    "title": {
+      "pt": "Conselhos Operários",
+      "en": "Workers' Councils"
+    },
+    "year": 1946,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "ferdinand-lassalle",
+    "title": {
+      "pt": "A Essência da Constituição",
+      "en": "On the Essence of Constitutions"
+    },
+    "year": 1862,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "garrett-hardin",
+    "title": {
+      "pt": "A Tragédia dos Comuns",
+      "en": "The Tragedy of the Commons"
+    },
+    "year": 1968,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "eduard-bernstein",
+    "title": {
+      "pt": "Socialismo Evolucionário",
+      "en": "Evolutionary Socialism"
+    },
+    "year": 1899,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "mussolini",
+    "title": {
+      "pt": "A Doutrina do Fascismo",
+      "en": "The Doctrine of Fascism"
+    },
+    "year": 1932,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "plinio-salgado",
+    "title": {
+      "pt": "Psicologia da Revolução",
+      "en": "Psychology of the Revolution"
+    },
+    "year": 1933,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "lee-kuan-yew",
+    "title": {
+      "pt": "Do Terceiro Mundo ao Primeiro",
+      "en": "From Third World to First"
+    },
+    "year": 2000,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "nick-land",
+    "title": {
+      "pt": "O Iluminismo Sombrio",
+      "en": "The Dark Enlightenment"
+    },
+    "year": 2012,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "irving-kristol",
+    "title": {
+      "pt": "Neoconservadorismo: Autobiografia de uma Ideia",
+      "en": "Neoconservatism: The Autobiography of an Idea"
+    },
+    "year": 1995,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "benjamin-disraeli",
+    "title": {
+      "pt": "Sybil, ou as Duas Nações",
+      "en": "Sybil, or The Two Nations"
+    },
+    "year": 1845,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "khomeini",
+    "title": {
+      "pt": "O Governo Islâmico",
+      "en": "Islamic Government"
+    },
+    "year": 1970,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "jabotinsky",
+    "title": {
+      "pt": "A Muralha de Ferro",
+      "en": "The Iron Wall"
+    },
+    "year": 1923,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "curtis-yarvin",
+    "title": {
+      "pt": "Uma Introdução Gentil a Unqualified Reservations",
+      "en": "A Gentle Introduction to Unqualified Reservations"
+    },
+    "year": 2009,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "frederico-ii-da-prussia",
+    "title": {
+      "pt": "O Anti-Maquiavel",
+      "en": "Anti-Machiavel"
+    },
+    "year": 1740,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "joseph-de-maistre",
+    "title": {
+      "pt": "Considerações sobre a França",
+      "en": "Considerations on France"
+    },
+    "year": 1797,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "aleksandr-dugin",
+    "title": {
+      "pt": "A Quarta Teoria Política",
+      "en": "The Fourth Political Theory"
+    },
+    "year": 2009,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "leon-kass",
+    "title": {
+      "pt": "Rumo a uma Ciência Mais Natural",
+      "en": "Toward a More Natural Science"
+    },
+    "year": 1985,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "william-f-buckley",
+    "title": {
+      "pt": "Deus e o Homem em Yale",
+      "en": "God and Man at Yale"
+    },
+    "year": 1951,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "cicero",
+    "title": {
+      "pt": "Da República",
+      "en": "On the Commonwealth"
+    },
+    "year": -51,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "montesquieu",
+    "title": {
+      "pt": "O Espírito das Leis",
+      "en": "The Spirit of the Laws"
+    },
+    "year": 1748,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "milton-friedman",
+    "title": {
+      "pt": "Capitalismo e Liberdade",
+      "en": "Capitalism and Freedom"
+    },
+    "year": 1962,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "ludwig-erhard",
+    "title": {
+      "pt": "Bem-Estar para Todos",
+      "en": "Prosperity Through Competition"
+    },
+    "year": 1957,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "gk-chesterton",
+    "title": {
+      "pt": "Ortodoxia",
+      "en": "Orthodoxy"
+    },
+    "year": 1908,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "henri-de-saint-simon",
+    "title": {
+      "pt": "O Novo Cristianismo",
+      "en": "New Christianity"
+    },
+    "year": 1825,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "michael-sandel",
+    "title": {
+      "pt": "Justiça: O que É Fazer a Coisa Certa",
+      "en": "Justice: What's the Right Thing to Do?"
+    },
+    "year": 2009,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "adrian-wooldridge",
+    "title": {
+      "pt": "A Aristocracia do Talento",
+      "en": "The Aristocracy of Talent"
+    },
+    "year": 2021,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "john-stuart-mill",
+    "title": {
+      "pt": "Sobre a Liberdade",
+      "en": "On Liberty"
+    },
+    "year": 1859,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "john-locke",
+    "title": {
+      "pt": "Segundo Tratado sobre o Governo",
+      "en": "Second Treatise of Government"
+    },
+    "year": 1689,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "robert-nozick",
+    "title": {
+      "pt": "Anarquia, Estado e Utopia",
+      "en": "Anarchy, State, and Utopia"
+    },
+    "year": 1974,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "al-gore",
+    "title": {
+      "pt": "Uma Verdade Inconveniente",
+      "en": "An Inconvenient Truth"
+    },
+    "year": 2006,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "beveridge",
+    "title": {
+      "pt": "Relatório Beveridge: Seguro Social e Serviços Afins",
+      "en": "Social Insurance and Allied Services"
+    },
+    "year": 1942,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "thomas-paine",
+    "title": {
+      "pt": "Senso Comum",
+      "en": "Common Sense"
+    },
+    "year": 1776,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "edmund-burke",
+    "title": {
+      "pt": "Reflexões sobre a Revolução na França",
+      "en": "Reflections on the Revolution in France"
+    },
+    "year": 1790,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "hayek",
+    "title": {
+      "pt": "O Caminho da Servidão",
+      "en": "The Road to Serfdom"
+    },
+    "year": 1944,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "gustave-de-molinari",
+    "title": {
+      "pt": "A Produção da Segurança",
+      "en": "The Production of Security"
+    },
+    "year": 1849,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "henry-george",
+    "title": {
+      "pt": "Progresso e Pobreza",
+      "en": "Progress and Poverty"
+    },
+    "year": 1879,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "charles-fourier",
+    "title": {
+      "pt": "A Teoria dos Quatro Movimentos",
+      "en": "The Theory of the Four Movements"
+    },
+    "year": 1808,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "nicolas-de-condorcet",
+    "title": {
+      "pt": "Esboço de um Quadro Histórico dos Progressos do Espírito Humano",
+      "en": "Sketch for a Historical Picture of the Progress of the Human Mind"
+    },
+    "year": 1795,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "john-rawls",
+    "title": {
+      "pt": "Uma Teoria da Justiça",
+      "en": "A Theory of Justice"
+    },
+    "year": 1971,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "aldo-leopold",
+    "title": {
+      "pt": "Um Almanaque de Sand County",
+      "en": "A Sand County Almanac"
+    },
+    "year": 1949,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "theodore-roosevelt",
+    "title": {
+      "pt": "O Novo Nacionalismo",
+      "en": "The New Nationalism"
+    },
+    "year": 1910,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "srnicek",
+    "title": {
+      "pt": "Inventar o Futuro",
+      "en": "Inventing the Future"
+    },
+    "year": 2015,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "ray-kurzweil",
+    "title": {
+      "pt": "A Singularidade Está Próxima",
+      "en": "The Singularity Is Near"
+    },
+    "year": 2005,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "ernest-renan",
+    "title": {
+      "pt": "O que É uma Nação?",
+      "en": "What Is a Nation?"
+    },
+    "year": 1882,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "bakunin",
+    "title": {
+      "pt": "Estatismo e Anarquia",
+      "en": "Statism and Anarchy"
+    },
+    "year": 1873,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "kropotkin",
+    "title": {
+      "pt": "A Conquista do Pão",
+      "en": "The Conquest of Bread"
+    },
+    "year": 1892,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "sorel",
+    "title": {
+      "pt": "Reflexões sobre a Violência",
+      "en": "Reflections on Violence"
+    },
+    "year": 1908,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "chomsky",
+    "title": {
+      "pt": "A Manipulação do Público",
+      "en": "Manufacturing Consent"
+    },
+    "year": 1988,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "gramsci",
+    "title": {
+      "pt": "Cadernos do Cárcere",
+      "en": "Prison Notebooks"
+    },
+    "year": 1948,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "oskar-lange",
+    "title": {
+      "pt": "Sobre a Teoria Econômica do Socialismo",
+      "en": "On the Economic Theory of Socialism"
+    },
+    "year": 1936,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "proudhon",
+    "title": {
+      "pt": "O que É a Propriedade?",
+      "en": "What Is Property?"
+    },
+    "year": 1840,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "ocalan",
+    "title": {
+      "pt": "Confederalismo Democrático",
+      "en": "Democratic Confederalism"
+    },
+    "year": 2011,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "benjamin-tucker",
+    "title": {
+      "pt": "Em Vez de um Livro",
+      "en": "Instead of a Book"
+    },
+    "year": 1893,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "bookchin",
+    "title": {
+      "pt": "A Ecologia da Liberdade",
+      "en": "The Ecology of Freedom"
+    },
+    "year": 1982,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "maritain",
+    "title": {
+      "pt": "O Homem e o Estado",
+      "en": "Man and the State"
+    },
+    "year": 1951,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "buber",
+    "title": {
+      "pt": "O Socialismo Utópico",
+      "en": "Paths in Utopia"
+    },
+    "year": 1946,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "karl-marx",
+    "title": {
+      "pt": "O Capital",
+      "en": "Capital"
+    },
+    "year": 1867,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "rosselli",
+    "title": {
+      "pt": "Socialismo Liberal",
+      "en": "Liberal Socialism"
+    },
+    "year": 1930,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "orwell",
+    "title": {
+      "pt": "1984",
+      "en": "Nineteen Eighty-Four"
+    },
+    "year": 1949,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "andre-gorz",
+    "title": {
+      "pt": "Adeus ao Proletariado",
+      "en": "Farewell to the Working Class"
+    },
+    "year": 1980,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "arne-naess",
+    "title": {
+      "pt": "Ecologia, Comunidade e Estilo de Vida",
+      "en": "Ecology, Community and Lifestyle"
+    },
+    "year": 1976,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "daniel-guerin",
+    "title": {
+      "pt": "O Anarquismo: Da Doutrina à Ação",
+      "en": "Anarchism: From Theory to Practice"
+    },
+    "year": 1965,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "tolstoy",
+    "title": {
+      "pt": "O Reino de Deus Está em Vós",
+      "en": "The Kingdom of God Is Within You"
+    },
+    "year": 1894,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "thoreau",
+    "title": {
+      "pt": "A Desobediência Civil",
+      "en": "Civil Disobedience"
+    },
+    "year": 1849,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "john-zerzan",
+    "title": {
+      "pt": "Futuro Primitivo",
+      "en": "Future Primitive"
+    },
+    "year": 1994,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "max-stirner",
+    "title": {
+      "pt": "O Único e a Sua Propriedade",
+      "en": "The Ego and Its Own"
+    },
+    "year": 1844,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "rothbard",
+    "title": {
+      "pt": "A Ética da Liberdade",
+      "en": "The Ethics of Liberty"
+    },
+    "year": 1982,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "bastiat",
+    "title": {
+      "pt": "A Lei",
+      "en": "The Law"
+    },
+    "year": 1850,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "mises",
+    "title": {
+      "pt": "Ação Humana",
+      "en": "Human Action"
+    },
+    "year": 1949,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "ron-paul",
+    "title": {
+      "pt": "O Fim do Fed",
+      "en": "End the Fed"
+    },
+    "year": 2009,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "hoppe",
+    "title": {
+      "pt": "Democracia: O Deus que Falhou",
+      "en": "Democracy: The God That Failed"
+    },
+    "year": 2001,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "adam-smith",
+    "title": {
+      "pt": "A Riqueza das Nações",
+      "en": "The Wealth of Nations"
+    },
+    "year": 1776,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "leonard-peikoff",
+    "title": {
+      "pt": "Objetivismo: A Filosofia de Ayn Rand",
+      "en": "Objectivism: The Philosophy of Ayn Rand"
+    },
+    "year": 1991,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "scruton",
+    "title": {
+      "pt": "Como Ser um Conservador",
+      "en": "How to Be a Conservative"
+    },
+    "year": 2014,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "friedrich-list",
+    "title": {
+      "pt": "Sistema Nacional de Economia Política",
+      "en": "The National System of Political Economy"
+    },
+    "year": 1841,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "konkin",
+    "title": {
+      "pt": "Novo Manifesto Libertário",
+      "en": "New Libertarian Manifesto"
+    },
+    "year": 1980,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "javier-milei",
+    "title": {
+      "pt": "O Fim da Inflação",
+      "en": "El fin de la inflación"
+    },
+    "year": 2022,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "goldwater",
+    "title": {
+      "pt": "A Consciência de um Conservador",
+      "en": "The Conscience of a Conservative"
+    },
+    "year": 1960,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "randolph-bourne",
+    "title": {
+      "pt": "A Guerra É a Saúde do Estado",
+      "en": "War Is the Health of the State"
+    },
+    "year": 1918,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "peter-maurin",
+    "title": {
+      "pt": "Ensaios Fáceis",
+      "en": "Easy Essays"
+    },
+    "year": 1936,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "lysander-spooner",
+    "title": {
+      "pt": "Nenhuma Traição: A Constituição sem Autoridade",
+      "en": "No Treason: The Constitution of No Authority"
+    },
+    "year": 1867,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "macron",
+    "title": {
+      "pt": "Revolução",
+      "en": "Revolution"
+    },
+    "year": 2016,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "comte",
+    "title": {
+      "pt": "Curso de Filosofia Positiva",
+      "en": "The Course in Positive Philosophy"
+    },
+    "year": 1830,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "leonardo-boff",
+    "title": {
+      "pt": "Igreja: Carisma e Poder",
+      "en": "Church: Charism and Power"
+    },
+    "year": 1981,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "kissinger",
+    "title": {
+      "pt": "Diplomacia",
+      "en": "Diplomacy"
+    },
+    "year": 1994,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "peter-thiel",
+    "title": {
+      "pt": "De Zero a Um",
+      "en": "Zero to One"
+    },
+    "year": 2014,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "marinetti",
+    "title": {
+      "pt": "Manifesto Futurista",
+      "en": "The Futurist Manifesto"
+    },
+    "year": 1909,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "donald-trump",
+    "title": {
+      "pt": "A Arte da Negociação",
+      "en": "The Art of the Deal"
+    },
+    "year": 1987,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "che-guevara",
+    "title": {
+      "pt": "A Guerra de Guerrilhas",
+      "en": "Guerrilla Warfare"
+    },
+    "year": 1960,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "ho-chi-minh",
+    "title": {
+      "pt": "Caminho Revolucionário",
+      "en": "The Revolutionary Path"
+    },
+    "year": 1927,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "mahatma-gandhi",
+    "title": {
+      "pt": "Hind Swaraj: Autogoverno da Índia",
+      "en": "Hind Swaraj or Indian Home Rule"
+    },
+    "year": 1909,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "br-ambedkar",
+    "title": {
+      "pt": "A Aniquilação das Castas",
+      "en": "Annihilation of Caste"
+    },
+    "year": 1936,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "frantz-fanon",
+    "title": {
+      "pt": "Os Condenados da Terra",
+      "en": "The Wretched of the Earth"
+    },
+    "year": 1961,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "nelson-mandela",
+    "title": {
+      "pt": "Longa Caminhada até a Liberdade",
+      "en": "Long Walk to Freedom"
+    },
+    "year": 1994,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "malcolm-x",
+    "title": {
+      "pt": "A Autobiografia de Malcolm X",
+      "en": "The Autobiography of Malcolm X"
+    },
+    "year": 1965,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "carl-schmitt",
+    "title": {
+      "pt": "O Conceito do Político",
+      "en": "The Concept of the Political"
+    },
+    "year": 1932,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "confucio",
+    "title": {
+      "pt": "Os Analectos",
+      "en": "The Analects"
+    },
+    "year": -475,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "sun-yat-sen",
+    "title": {
+      "pt": "Os Três Princípios do Povo",
+      "en": "The Three Principles of the People"
+    },
+    "year": 1924,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "theodor-herzl",
+    "title": {
+      "pt": "O Estado Judeu",
+      "en": "The Jewish State"
+    },
+    "year": 1896,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "simon-bolivar",
+    "title": {
+      "pt": "Carta da Jamaica",
+      "en": "The Jamaica Letter"
+    },
+    "year": 1815,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "julius-evola",
+    "title": {
+      "pt": "Revolta contra o Mundo Moderno",
+      "en": "Revolt Against the Modern World"
+    },
+    "year": 1934,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "slavoj-zizek",
+    "title": {
+      "pt": "Primeiro como Tragédia, Depois como Farsa",
+      "en": "First as Tragedy, Then as Farce"
+    },
+    "year": 2009,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "isaiah-berlin",
+    "title": {
+      "pt": "Quatro Ensaios sobre a Liberdade",
+      "en": "Four Essays on Liberty"
+    },
+    "year": 1969,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "jean-paul-sartre",
+    "title": {
+      "pt": "O Existencialismo É um Humanismo",
+      "en": "Existentialism Is a Humanism"
+    },
+    "year": 1946,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "fernando-henrique-cardoso",
+    "title": {
+      "pt": "Dependência e Desenvolvimento na América Latina",
+      "en": "Dependency and Development in Latin America"
+    },
+    "year": 1969,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "ciro-gomes",
+    "title": {
+      "pt": "Projeto Nacional: O Dever da Esperança",
+      "en": "Projeto Nacional: O Dever da Esperança"
+    },
+    "year": 2020,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "barack-obama",
+    "title": {
+      "pt": "A Audácia da Esperança",
+      "en": "The Audacity of Hope"
+    },
+    "year": 2006,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "fidel-castro",
+    "title": {
+      "pt": "A História Me Absolverá",
+      "en": "History Will Absolve Me"
+    },
+    "year": 1953,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "john-f-kennedy",
+    "title": {
+      "pt": "Perfis de Coragem",
+      "en": "Profiles in Courage"
+    },
+    "year": 1956,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "james-madison",
+    "title": {
+      "pt": "O Federalista",
+      "en": "The Federalist Papers"
+    },
+    "year": 1788,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "alexander-hamilton",
+    "title": {
+      "pt": "O Federalista",
+      "en": "The Federalist Papers"
+    },
+    "year": 1788,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "maximilien-robespierre",
+    "title": {
+      "pt": "Virtude e Terror",
+      "en": "Virtue and Terror"
+    },
+    "year": 1794,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "julio-cesar",
+    "title": {
+      "pt": "Comentários sobre a Guerra Gálica",
+      "en": "Commentaries on the Gallic War"
+    },
+    "year": -50,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "jordan-peterson",
+    "title": {
+      "pt": "12 Regras para a Vida",
+      "en": "12 Rules for Life"
+    },
+    "year": 2018,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "aristoteles",
+    "title": {
+      "pt": "Política",
+      "en": "Politics"
+    },
+    "year": -350,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "platao",
+    "title": {
+      "pt": "A República",
+      "en": "The Republic"
+    },
+    "year": -375,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "foucault",
+    "title": {
+      "pt": "Vigiar e Punir",
+      "en": "Discipline and Punish"
+    },
+    "year": 1975,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "tocqueville",
+    "title": {
+      "pt": "A Democracia na América",
+      "en": "Democracy in America"
+    },
+    "year": 1835,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "nietzsche",
+    "title": {
+      "pt": "Assim Falou Zaratustra",
+      "en": "Thus Spoke Zarathustra"
+    },
+    "year": 1883,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "rousseau",
+    "title": {
+      "pt": "O Contrato Social",
+      "en": "The Social Contract"
+    },
+    "year": 1762,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "hobbes",
+    "title": {
+      "pt": "Leviatã",
+      "en": "Leviathan"
+    },
+    "year": 1651,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "maquiavel",
+    "title": {
+      "pt": "O Príncipe",
+      "en": "The Prince"
+    },
+    "year": 1532,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "keynes",
+    "title": {
+      "pt": "Teoria Geral do Emprego, do Juro e da Moeda",
+      "en": "The General Theory of Employment, Interest and Money"
+    },
+    "year": 1936,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "peron",
+    "title": {
+      "pt": "A Comunidade Organizada",
+      "en": "The Organized Community"
+    },
+    "year": 1949,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "satoshi-nakamoto",
+    "title": {
+      "pt": "Bitcoin: Um Sistema de Dinheiro Eletrônico Peer-to-Peer",
+      "en": "Bitcoin: A Peer-to-Peer Electronic Cash System"
+    },
+    "year": 2008,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "george-soros",
+    "title": {
+      "pt": "A Alquimia das Finanças",
+      "en": "The Alchemy of Finance"
+    },
+    "year": 1987,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "bill-gates",
+    "title": {
+      "pt": "Como Evitar um Desastre Climático",
+      "en": "How to Avoid a Climate Disaster"
+    },
+    "year": 2021,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "dalai-lama",
+    "title": {
+      "pt": "Uma Ética para o Novo Milênio",
+      "en": "Ethics for the New Millennium"
+    },
+    "year": 1999,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "pentti-linkola",
+    "title": {
+      "pt": "A Vida Pode Prevalecer?",
+      "en": "Can Life Prevail?"
+    },
+    "year": 2004,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "thomas-jefferson",
+    "title": {
+      "pt": "Notas sobre o Estado da Virgínia",
+      "en": "Notes on the State of Virginia"
+    },
+    "year": 1785,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "h-l-mencken",
+    "title": {
+      "pt": "Notas sobre a Democracia",
+      "en": "Notes on Democracy"
+    },
+    "year": 1926,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "marcus-garvey",
+    "title": {
+      "pt": "Filosofia e Opiniões de Marcus Garvey",
+      "en": "The Philosophy and Opinions of Marcus Garvey"
+    },
+    "year": 1923,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "julius-nyerere",
+    "title": {
+      "pt": "Ujamaa: Ensaios sobre o Socialismo",
+      "en": "Ujamaa: Essays on Socialism"
+    },
+    "year": 1968,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "papa-pio-ix",
+    "title": {
+      "pt": "Syllabus dos Erros",
+      "en": "Syllabus of Errors"
+    },
+    "year": 1864,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "justiniano-i",
+    "title": {
+      "pt": "Institutas de Justiniano",
+      "en": "The Institutes of Justinian"
+    },
+    "year": 533,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "joao-calvino",
+    "title": {
+      "pt": "As Institutas da Religião Cristã",
+      "en": "Institutes of the Christian Religion"
+    },
+    "year": 1536,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "guillaume-faye",
+    "title": {
+      "pt": "Arqueofuturismo",
+      "en": "Archeofuturism"
+    },
+    "year": 1998,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "jose-bonifacio",
+    "title": {
+      "pt": "Representação à Assembleia Constituinte sobre a Escravatura",
+      "en": "Memoir on Slavery"
+    },
+    "year": 1825,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "winston-churchill",
+    "title": {
+      "pt": "A Segunda Guerra Mundial",
+      "en": "The Second World War"
+    },
+    "year": 1948,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "woodrow-wilson",
+    "title": {
+      "pt": "A Nova Liberdade",
+      "en": "The New Freedom"
+    },
+    "year": 1913,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "ted-kaczynski",
+    "title": {
+      "pt": "A Sociedade Industrial e Seu Futuro",
+      "en": "Industrial Society and Its Future"
+    },
+    "year": 1995,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "richard-nixon",
+    "title": {
+      "pt": "A Verdadeira Guerra",
+      "en": "The Real War"
+    },
+    "year": 1980,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "charles-de-gaulle",
+    "title": {
+      "pt": "O Fio da Espada",
+      "en": "The Edge of the Sword"
+    },
+    "year": 1932,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "rudolf-rocker",
+    "title": {
+      "pt": "Nacionalismo e Cultura",
+      "en": "Nationalism and Culture"
+    },
+    "year": 1937,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "errico-malatesta",
+    "title": {
+      "pt": "Anarquia",
+      "en": "Anarchy"
+    },
+    "year": 1891,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "sidney-webb",
+    "title": {
+      "pt": "História do Sindicalismo",
+      "en": "The History of Trade Unionism"
+    },
+    "year": 1894,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "papa-francisco",
+    "title": {
+      "pt": "Laudato Si'",
+      "en": "Laudato Si'"
+    },
+    "year": 2015,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "papa-leao-xiii",
+    "title": {
+      "pt": "Rerum Novarum",
+      "en": "Rerum Novarum"
+    },
+    "year": 1891,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "tomas-de-aquino",
+    "title": {
+      "pt": "Suma Teológica",
+      "en": "Summa Theologica"
+    },
+    "year": 1274,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "jd-vance",
+    "title": {
+      "pt": "Era uma Vez um Sonho",
+      "en": "Hillbilly Elegy"
+    },
+    "year": 2016,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "howard-scott",
+    "title": {
+      "pt": "Introdução à Tecnocracia",
+      "en": "Introduction to Technocracy"
+    },
+    "year": 1933,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "james-lovelock",
+    "title": {
+      "pt": "Gaia: Um Novo Olhar sobre a Vida na Terra",
+      "en": "Gaia: A New Look at Life on Earth"
+    },
+    "year": 1979,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "benjamin-constant",
+    "title": {
+      "pt": "Da Liberdade dos Antigos Comparada à dos Modernos",
+      "en": "The Liberty of Ancients Compared with that of Moderns"
+    },
+    "year": 1819,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "martin-luther-king-jr",
+    "title": {
+      "pt": "Por que Não Podemos Esperar",
+      "en": "Why We Can't Wait"
+    },
+    "year": 1964,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "martin-heidegger",
+    "title": {
+      "pt": "Ser e Tempo",
+      "en": "Being and Time"
+    },
+    "year": 1927,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "hegel",
+    "title": {
+      "pt": "Princípios da Filosofia do Direito",
+      "en": "Elements of the Philosophy of Right"
+    },
+    "year": 1820,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "marco-aurelio",
+    "title": {
+      "pt": "Meditações",
+      "en": "Meditations"
+    },
+    "year": 180,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "agostinho-de-hipona",
+    "title": {
+      "pt": "A Cidade de Deus",
+      "en": "The City of God"
+    },
+    "year": 426,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "immanuel-kant",
+    "title": {
+      "pt": "À Paz Perpétua",
+      "en": "Perpetual Peace"
+    },
+    "year": 1795,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "david-ricardo",
+    "title": {
+      "pt": "Princípios de Economia Política e Tributação",
+      "en": "On the Principles of Political Economy and Taxation"
+    },
+    "year": 1817,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "joseph-schumpeter",
+    "title": {
+      "pt": "Capitalismo, Socialismo e Democracia",
+      "en": "Capitalism, Socialism and Democracy"
+    },
+    "year": 1942,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "karl-polanyi",
+    "title": {
+      "pt": "A Grande Transformação",
+      "en": "The Great Transformation"
+    },
+    "year": 1944,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "friedrich-engels",
+    "title": {
+      "pt": "A Origem da Família, da Propriedade Privada e do Estado",
+      "en": "The Origin of the Family, Private Property and the State"
+    },
+    "year": 1884,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "carl-menger",
+    "title": {
+      "pt": "Princípios de Economia Política",
+      "en": "Principles of Economics"
+    },
+    "year": 1871,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "henry-ford",
+    "title": {
+      "pt": "Minha Vida e Minha Obra",
+      "en": "My Life and Work"
+    },
+    "year": 1922,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "olavo-de-carvalho",
+    "title": {
+      "pt": "O Mínimo que Você Precisa Saber para Não Ser um Idiota",
+      "en": "O Mínimo que Você Precisa Saber para Não Ser um Idiota"
+    },
+    "year": 2013,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "charlie-kirk",
+    "title": {
+      "pt": "A Doutrina MAGA",
+      "en": "The MAGA Doctrine"
+    },
+    "year": 2020,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "celso-furtado",
+    "title": {
+      "pt": "Formação Econômica do Brasil",
+      "en": "The Economic Growth of Brazil"
+    },
+    "year": 1959,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "martinho-lutero",
+    "title": {
+      "pt": "Da Liberdade Cristã",
+      "en": "On the Freedom of a Christian"
+    },
+    "year": 1520,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "roberto-campos",
+    "title": {
+      "pt": "A Lanterna na Popa",
+      "en": "A Lanterna na Popa"
+    },
+    "year": 1994,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "bresser-pereira",
+    "title": {
+      "pt": "Desenvolvimento e Crise no Brasil",
+      "en": "Development and Crisis in Brazil"
+    },
+    "year": 1968,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "domenico-losurdo",
+    "title": {
+      "pt": "Contra-História do Liberalismo",
+      "en": "Liberalism: A Counter-History"
+    },
+    "year": 2005,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "espinosa",
+    "title": {
+      "pt": "Tratado Teológico-Político",
+      "en": "Theological-Political Treatise"
+    },
+    "year": 1670,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "mikhail-gorbachev",
+    "title": {
+      "pt": "Perestroika",
+      "en": "Perestroika"
+    },
+    "year": 1987,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "max-weber",
+    "title": {
+      "pt": "A Ética Protestante e o Espírito do Capitalismo",
+      "en": "The Protestant Ethic and the Spirit of Capitalism"
+    },
+    "year": 1905,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "tony-blair",
+    "title": {
+      "pt": "A Terceira Via",
+      "en": "The Third Way"
+    },
+    "year": 1998,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "rui-barbosa",
+    "title": {
+      "pt": "Oração aos Moços",
+      "en": "Oração aos Moços"
+    },
+    "year": 1921,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "carlos-lacerda",
+    "title": {
+      "pt": "Depoimento",
+      "en": "Depoimento"
+    },
+    "year": 1977,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "alexandre-de-moraes",
+    "title": {
+      "pt": "Direito Constitucional",
+      "en": "Direito Constitucional"
+    },
+    "year": 1997,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "voltaire",
+    "title": {
+      "pt": "Tratado sobre a Tolerância",
+      "en": "Treatise on Tolerance"
+    },
+    "year": 1763,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "dostoievski",
+    "title": {
+      "pt": "Os Demônios",
+      "en": "Demons"
+    },
+    "year": 1872,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "paulo-freire",
+    "title": {
+      "pt": "Pedagogia do Oprimido",
+      "en": "Pedagogy of the Oppressed"
+    },
+    "year": 1968,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "john-c-calhoun",
+    "title": {
+      "pt": "Uma Disquisição sobre o Governo",
+      "en": "A Disquisition on Government"
+    },
+    "year": 1851,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "jefferson-davis",
+    "title": {
+      "pt": "Ascensão e Queda do Governo Confederado",
+      "en": "The Rise and Fall of the Confederate Government"
+    },
+    "year": 1881,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "thomas-muntzer",
+    "title": {
+      "pt": "Sermão aos Príncipes",
+      "en": "Sermon to the Princes"
+    },
+    "year": 1524,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "getulio-vargas",
+    "title": {
+      "pt": "A Nova Política do Brasil",
+      "en": "A Nova Política do Brasil"
+    },
+    "year": 1938,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "reza-pahlavi",
+    "title": {
+      "pt": "Winds of Change: The Future of Democracy in Iran",
+      "en": "Winds of Change: The Future of Democracy in Iran"
+    },
+    "year": 2002,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "mohammad-reza-pahlavi",
+    "title": {
+      "pt": "Answer to History",
+      "en": "Answer to History"
+    },
+    "year": 1980,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "gamal-abdel-nasser",
+    "title": {
+      "pt": "A Filosofia da Revolução",
+      "en": "The Philosophy of the Revolution"
+    },
+    "year": 1954,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "ernst-junger",
+    "title": {
+      "pt": "O Trabalhador: Domínio e Figura",
+      "en": "The Worker: Dominion and Form"
+    },
+    "year": 1932,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "oswald-spengler",
+    "title": {
+      "pt": "Prussianismo e Socialismo",
+      "en": "Prussianism and Socialism"
+    },
+    "year": 1919,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "muhammad-abduh",
+    "title": {
+      "pt": "Risalat al-Tawhid",
+      "en": "The Theology of Unity"
+    },
+    "year": 1897,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "sayyid-qutb",
+    "title": {
+      "pt": "Justiça Social no Islã",
+      "en": "Social Justice in Islam"
+    },
+    "year": 1949,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "averroes",
+    "title": {
+      "pt": "Discurso Decisivo",
+      "en": "The Decisive Treatise"
+    },
+    "year": 1179,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "david-ben-gurion",
+    "title": {
+      "pt": "Rebirth and Destiny of Israel",
+      "en": "Rebirth and Destiny of Israel"
+    },
+    "year": 1954,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "albert-camus",
+    "title": {
+      "pt": "O Homem Revoltado",
+      "en": "The Rebel"
+    },
+    "year": 1951,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "abraham-isaac-kook",
+    "title": {
+      "pt": "Orot",
+      "en": "Orot"
+    },
+    "year": 1920,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "auguste-blanqui",
+    "title": {
+      "pt": "Critique sociale",
+      "en": "Critique sociale"
+    },
+    "year": 1885,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "mark-carney",
+    "title": {
+      "pt": "Value(s)",
+      "en": "Value(s)"
+    },
+    "year": 2021,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "jimmy-carter",
+    "title": {
+      "pt": "Our Endangered Values",
+      "en": "Our Endangered Values"
+    },
+    "year": 2005,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "olaf-scholz",
+    "title": {
+      "pt": "Hoffnungsland",
+      "en": "Hoffnungsland"
+    },
+    "year": 2017,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "boris-johnson",
+    "title": {
+      "pt": "Unleashed",
+      "en": "Unleashed"
+    },
+    "year": 2024,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "pedro-sanchez",
+    "title": {
+      "pt": "Manual de resistência",
+      "en": "Manual de resistencia"
+    },
+    "year": 2019,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "edmilson-costa",
+    "title": {
+      "pt": "O que todo cidadão precisa saber sobre imperialismo",
+      "en": "O que todo cidadão precisa saber sobre imperialismo"
+    },
+    "year": 1986,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  }
+]

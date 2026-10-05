@@ -1,0 +1,45 @@
+# Java
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.npm-cache/
+.tools/
+
+# Local env
+.env
+.env.local
+frontend/.env
+frontend/.env.local
+*.log
+.claude/*.json
+.claude/*.lock
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Analytics
+analytics/
+
+# Python (ferramentas de auditoria)
+__pycache__/
+*.pyc
+
+# Superpowers (specs/plans gerados pelo plugin)
+docs/superpowers/
+.claude/skills/superpowers*/
+.codex-run
+
+# Local conversation logs
+claude-sessions/
+
+# Materiais de referência visual
+docs/
+
+# Artefatos de screenshots do Playwright MCP
+.playwright-mcp/

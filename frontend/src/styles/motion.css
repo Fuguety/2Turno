@@ -1,0 +1,271 @@
+/* ══════════════════════════════════════════════════════════════════════════
+   Movimento do tema editorial (home e resultado).
+
+   Camada separada do editorial.css: aqui só entram animações, transições e
+   respostas a hover/toque. As entradas usam `animation` com fill-mode
+   `backwards` (e não transition + delay) para que o atraso da cascata não
+   atrase também o hover depois que o card já entrou.
+
+   Tudo é desligado em @media (prefers-reduced-motion: reduce) no fim.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+.ed {
+  --m-ease: cubic-bezier(0.16, 0.84, 0.28, 1);
+  --m-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --m-lift: -4px;
+  --m-shadow: 0 16px 36px rgba(16, 16, 16, 0.09);
+  -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes e-m-rise {
+  from { opacity: 0; transform: translateY(22px); }
+}
+@keyframes e-m-float-in {
+  from { opacity: 0; transform: translateY(28px) scale(0.97); }
+}
+@keyframes e-m-grow-x {
+  from { transform: scaleX(0); }
+}
+@keyframes e-m-pop {
+  from { opacity: 0; transform: translate(-50%, -50%) scale(0.3); }
+}
+@keyframes e-m-pop-x {
+  from { opacity: 0; transform: translateX(-50%) scale(0.3); }
+}
+@keyframes e-m-draw {
+  from { stroke-dasharray: 0 1000; }
+}
+
+/* ── Hero da home: entrada em cascata no primeiro paint ─────────────────── */
+
+.e-hero .e-wrap > div:first-child > * {
+  animation: e-m-rise 0.75s var(--m-ease) backwards;
+}
+.e-hero .e-wrap > div:first-child > :nth-child(1) { animation-delay: 0.05s; }
+.e-hero .e-wrap > div:first-child > :nth-child(2) { animation-delay: 0.14s; }
+.e-hero .e-wrap > div:first-child > :nth-child(3) { animation-delay: 0.24s; }
+.e-hero .e-wrap > div:first-child > :nth-child(4) { animation-delay: 0.34s; }
+.e-hero .e-wrap > div:first-child > :nth-child(5) { animation-delay: 0.44s; }
+
+.e-hero-result {
+  animation: e-m-float-in 0.95s var(--m-ease) 0.3s backwards;
+}
+
+.e-hero-summary {
+  transition: transform 0.35s var(--m-ease), box-shadow 0.35s var(--m-ease);
+}
+.e-hero-summary:hover {
+  transform: translateY(-6px) rotate(-0.4deg);
+  box-shadow: 0 26px 60px rgba(16, 46, 36, 0.16);
+}
+
+/* ── Cascata dos cards quando a seção entra em cena ─────────────────────── */
+
+.e-disc-list > *,
+.e-steps > *,
+.e-axes-grid > *,
+.e-spec-grid > *,
+.e-ver-grid > *,
+.e-faq-list > *,
+.e-near-grid > *,
+.e-others > *,
+.e-dims > *,
+.e-fars > *,
+.e-axes-list > *,
+.e-read-grid > *,
+.e-oss-cards > * {
+  animation: e-m-rise 0.6s var(--m-ease) backwards;
+}
+
+[data-reveal]:not([data-revealed]) :is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list,
+  .e-near-grid, .e-others, .e-dims, .e-fars, .e-axes-list, .e-read-grid) > * {
+  animation: none;
+  opacity: 0;
+}
+
+:is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims,
+  .e-fars, .e-axes-list, .e-read-grid, .e-oss-cards) > :nth-child(1) { animation-delay: 0.08s; }
+:is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims,
+  .e-fars, .e-axes-list, .e-read-grid, .e-oss-cards) > :nth-child(2) { animation-delay: 0.14s; }
+:is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims,
+  .e-fars, .e-axes-list, .e-read-grid, .e-oss-cards) > :nth-child(3) { animation-delay: 0.2s; }
+:is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims,
+  .e-fars, .e-axes-list, .e-read-grid, .e-oss-cards) > :nth-child(4) { animation-delay: 0.26s; }
+:is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims,
+  .e-fars, .e-axes-list, .e-read-grid, .e-oss-cards) > :nth-child(5) { animation-delay: 0.32s; }
+:is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims,
+  .e-fars, .e-axes-list, .e-read-grid, .e-oss-cards) > :nth-child(6) { animation-delay: 0.38s; }
+:is(.e-disc-list, .e-steps, .e-axes-grid, .e-spec-grid, .e-ver-grid, .e-faq-list, .e-near-grid, .e-others, .e-dims,
+  .e-fars, .e-axes-list, .e-read-grid, .e-oss-cards) > :nth-child(n + 7) { animation-delay: 0.44s; }
+
+/* A seção "Código aberto" não usa data-reveal: entra quando a página rola até ela. */
+@supports (animation-timeline: view()) {
+  .e-oss .e-oss-cards > * {
+    animation-timeline: view();
+    animation-range: entry 0% entry 60%;
+    animation-delay: 0s;
+  }
+}
+
+/* ── Hover: cards levantam; toque: cards afundam ────────────────────────── */
+
+:is(.e-axis-card, .e-spec-card, .e-ocard, .e-near, .e-dim-row, .e-dcard, .e-far-row, .e-ver-grid > *, .e-card,
+  .e-match) {
+  transition: transform 0.28s var(--m-ease), box-shadow 0.28s var(--m-ease), border-color 0.28s var(--m-ease),
+    background-color 0.28s var(--m-ease);
+}
+
+@media (hover: hover) {
+  :is(.e-axis-card, .e-spec-card, .e-ocard, .e-near, .e-dim-row, .e-dcard, .e-ver-grid > *):hover {
+    transform: translateY(var(--m-lift));
+    box-shadow: var(--m-shadow);
+  }
+  .e-axis-card:hover,
+  .e-near:hover,
+  .e-dim-row:hover {
+    border-color: color-mix(in srgb, var(--cat, var(--tinta)) 40%, var(--borda));
+  }
+  .e-far-row:hover { transform: translateX(4px); }
+  .e-match:hover { box-shadow: var(--m-shadow); }
+
+  .e-near img,
+  .e-match .e-portrait,
+  .e-match .e-flagbig {
+    transition: transform 0.5s var(--m-ease);
+  }
+  .e-near:hover img { transform: scale(1.07); }
+  .e-match:hover .e-portrait,
+  .e-match:hover .e-flagbig { transform: scale(1.03); }
+
+  .e-disc-item .e-ico { transition: transform 0.35s var(--m-spring); }
+  .e-disc-item:hover .e-ico { transform: scale(1.15) rotate(-6deg); }
+
+  .e-step { transition: border-color 0.3s var(--m-ease); }
+  .e-step:hover { border-top-color: var(--destaque-sobre-escuro); }
+
+  .e-axes-list > li { transition: background-color 0.25s ease; border-radius: 12px; }
+  .e-axes-list > li:hover { background-color: color-mix(in srgb, var(--neutro) 55%, transparent); }
+}
+
+@media (hover: none) {
+  :is(.e-axis-card, .e-spec-card, .e-ocard, .e-near, .e-dim-row, .e-dcard, .e-far-row, .e-ver-grid > *, .e-match,
+    .e-read-card):active {
+    transform: scale(0.98);
+  }
+}
+
+/* ── Botões ─────────────────────────────────────────────────────────────── */
+
+.e-btn {
+  transition: transform 0.2s var(--m-ease), background 0.2s ease, box-shadow 0.25s var(--m-ease), color 0.2s ease;
+}
+.e-btn:hover { transform: translateY(-2px); }
+.e-btn-primary:hover { box-shadow: 0 10px 24px rgba(16, 46, 36, 0.25); }
+.e-btn:active,
+.e-read-btn:active,
+.e-oss-btn:active,
+.e-tabs button:active { transform: scale(0.96); }
+
+.e-arr { transition: transform 0.25s var(--m-spring); }
+.e-btn:hover .e-arr,
+a:hover > .e-arr { transform: translateX(4px); }
+
+.e-tabs button { transition: background 0.25s var(--m-ease), color 0.25s ease, transform 0.15s ease; }
+
+/* ── FAQ ────────────────────────────────────────────────────────────────── */
+
+.ed summary { transition: color 0.2s ease; }
+.ed summary:hover { color: var(--floresta); }
+.e-plus { transition: background 0.25s ease, transform 0.35s var(--m-spring); }
+.ed summary:hover .e-plus { background: var(--borda); }
+.ed details[open] .e-plus { transform: rotate(180deg); }
+.ed details[open] > p { animation: e-m-rise 0.35s var(--m-ease) backwards; }
+
+/* ── Índice lateral do resultado ────────────────────────────────────────── */
+
+.e-toc a { transition: background 0.25s ease, color 0.25s ease, padding-left 0.25s var(--m-ease); }
+@media (hover: hover) {
+  .e-toc a:hover { padding-left: 16px; }
+}
+
+/* ── Barras, marcadores e anéis se desenham ao entrar em cena ───────────── */
+
+.e-ahalf i,
+.e-spec-bar span,
+.e-track i,
+.e-ax-bar i {
+  animation: e-m-grow-x 0.9s var(--m-ease) 0.2s backwards;
+}
+.e-ahalf.e-l i { transform-origin: right center; }
+.e-track i { transform-origin: left center; }
+.e-track .e-l i { transform-origin: right center; }
+.e-ahalf.e-r i { transform-origin: left center; }
+.e-spec-bar span { transform-origin: left center; }
+.e-spec-bar span:nth-child(2) { animation-delay: 0.26s; }
+.e-spec-bar span:nth-child(3) { animation-delay: 0.32s; }
+.e-spec-bar span:nth-child(4) { animation-delay: 0.38s; }
+.e-spec-bar span:nth-child(5) { animation-delay: 0.44s; }
+.e-spec-bar span:nth-child(6) { animation-delay: 0.5s; }
+.e-spec-bar span:nth-child(7) { animation-delay: 0.56s; }
+.e-spec-bar span:nth-child(8) { animation-delay: 0.62s; }
+
+.e-adot,
+.e-close-pin { animation: e-m-pop 0.55s var(--m-spring) 0.7s backwards; }
+.e-myou,
+.e-mmed { animation: e-m-pop-x 0.55s var(--m-spring) 0.7s backwards; }
+.e-close-them { animation-delay: 0.85s; }
+
+.e-ring-arc { animation: e-m-draw 1.2s var(--m-ease) 0.15s backwards; }
+
+[data-reveal]:not([data-revealed]) :is(.e-ahalf i, .e-spec-bar span, .e-track i, .e-ax-bar i, .e-adot, .e-close-pin,
+  .e-myou, .e-mmed, .e-ring-arc) {
+  animation: none;
+}
+
+/* ── Rolagem: sombra no menu e barra de leitura do resultado ────────────── */
+
+@supports (animation-timeline: scroll()) {
+  @keyframes e-m-nav-shade {
+    to {
+      background: rgba(244, 241, 232, 0.97);
+      box-shadow: 0 10px 30px rgba(16, 16, 16, 0.07);
+    }
+  }
+  .e-nav {
+    animation: e-m-nav-shade linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 140px;
+  }
+
+  @keyframes e-m-progress {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+  }
+  .ed.e-res::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    z-index: 30;
+    background: var(--cat);
+    transform-origin: left center;
+    animation: e-m-progress linear both;
+    animation-timeline: scroll(root);
+    pointer-events: none;
+  }
+}
+
+/* ── Movimento reduzido: nada anima ─────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  .ed *,
+  .ed *::before,
+  .ed *::after,
+  .ed.e-res::before,
+  .e-nav {
+    animation: none !important;
+    transition: none !important;
+  }
+}

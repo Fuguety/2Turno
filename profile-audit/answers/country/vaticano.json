@@ -1,0 +1,124 @@
+{
+  "estrutura": {
+    "personaBrief": "O Vaticano é uma monarquia eletiva absoluta e unitária, sem federalismo, subdivisões autônomas ou qualquer tradição de descentralização territorial: o Papa concentra poder legislativo, executivo e judicial sobre um Estado minúsculo e centralizado.",
+    "answers": {
+      "estrutura_06": "C", "estrutura_01": "DT", "estrutura_05": "DT", "estrutura_16": "C",
+      "estrutura_04": "C", "estrutura_13": "DT", "estrutura_20": "C", "estrutura_15": "DT",
+      "estrutura_18": "C", "estrutura_17": "D", "estrutura_19": "D", "estrutura_12": "C",
+      "estrutura_09": "DT", "estrutura_02": "C", "estrutura_08": "C", "estrutura_07": "D",
+      "estrutura_11": "N", "estrutura_14": "C", "estrutura_03": "D", "estrutura_10": "C"
+    }
+  },
+  "representacao": {
+    "personaBrief": "Monarquia eletiva absoluta sem soberania popular: o Papa é escolhido por um colégio de cardeais vitalícios, não pelo povo, e governa com autoridade suprema e vitalícia sobre os três poderes, legitimada pela sucessão apostólica, não pelo voto.",
+    "answers": {
+      "representacao_01": "N", "representacao_05": "C", "representacao_20": "D",
+      "representacao_11": "DT", "representacao_04": "N", "representacao_03": "D",
+      "representacao_08": "CT", "representacao_12": "N", "representacao_17": "C",
+      "representacao_14": "C", "representacao_13": "DT", "representacao_09": "DT",
+      "representacao_02": "C", "representacao_15": "DT", "representacao_19": "N",
+      "representacao_06": "CT", "representacao_16": "CT", "representacao_18": "C",
+      "representacao_10": "CT", "representacao_07": "DT"
+    }
+  },
+  "poder": {
+    "personaBrief": "Estado teocrático com forte controle moral sobre a conduta privada segundo a doutrina católica, mas com ênfase histórica na dignidade da pessoa, no perdão e numa postura crítica à pena de morte e à violência estatal excessiva.",
+    "answers": {
+      "poder_03": "C", "poder_15": "DT", "poder_13": "N", "poder_02": "DT",
+      "poder_12": "DT", "poder_17": "C", "poder_20": "N", "poder_18": "N",
+      "poder_14": "C", "poder_16": "N", "poder_11": "N", "poder_06": "D",
+      "poder_01": "N", "poder_19": "D", "poder_04": "D", "poder_10": "CT",
+      "poder_05": "N", "poder_07": "N", "poder_09": "D", "poder_08": "DT"
+    }
+  },
+  "imigracao": {
+    "personaBrief": "A doutrina social da Igreja e o magistério papal (especialmente sob Francisco) defendem com veemência o acolhimento de migrantes e refugiados como imperativo moral e evangélico, ao mesmo tempo que valorizam a identidade cultural e religiosa de cada povo como dom a ser preservado, não apagado.",
+    "answers": {
+      "imigracao_09": "D", "imigracao_10": "C", "imigracao_06": "C", "imigracao_19": "DT",
+      "imigracao_04": "C", "imigracao_15": "N", "imigracao_07": "D", "imigracao_20": "D",
+      "imigracao_17": "DT", "imigracao_13": "C", "imigracao_11": "D", "imigracao_08": "N",
+      "imigracao_02": "C", "imigracao_18": "C", "imigracao_05": "D", "imigracao_03": "DT",
+      "imigracao_01": "D", "imigracao_14": "C", "imigracao_16": "C", "imigracao_12": "C"
+    }
+  },
+  "diplomacia": {
+    "personaBrief": "A Santa Sé é um ator diplomático global sem forças armadas ofensivas (apenas a Guarda Suíça cerimonial), historicamente comprometido com pacifismo ativo, mediação de conflitos e condenação explícita da corrida armamentista e das armas nucleares.",
+    "answers": {
+      "diplomacia_02": "CT", "diplomacia_08": "CT", "diplomacia_15": "DT", "diplomacia_19": "D",
+      "diplomacia_11": "DT", "diplomacia_05": "D", "diplomacia_07": "N", "diplomacia_12": "CT",
+      "diplomacia_10": "CT", "diplomacia_17": "DT", "diplomacia_03": "N", "diplomacia_06": "CT",
+      "diplomacia_14": "C", "diplomacia_20": "C", "diplomacia_16": "C", "diplomacia_01": "D",
+      "diplomacia_04": "C", "diplomacia_13": "D", "diplomacia_09": "N", "diplomacia_18": "N"
+    }
+  },
+  "intervencao": {
+    "personaBrief": "A Santa Sé defende soberania e autodeterminação dos povos, rejeita intervenção militar unilateral e prefere mediação multilateral e diálogo, exercendo influência apenas por via moral e diplomática, nunca por força ou interesse geopolítico próprio.",
+    "answers": {
+      "intervencao_01": "C", "intervencao_14": "DT", "intervencao_20": "D", "intervencao_19": "N",
+      "intervencao_08": "D", "intervencao_13": "D", "intervencao_12": "DT", "intervencao_04": "DT",
+      "intervencao_18": "N", "intervencao_11": "C", "intervencao_05": "D", "intervencao_02": "DT",
+      "intervencao_10": "DT", "intervencao_09": "C", "intervencao_16": "D", "intervencao_06": "DT",
+      "intervencao_03": "C", "intervencao_07": "D", "intervencao_17": "N", "intervencao_15": "C"
+    }
+  },
+  "economia": {
+    "personaBrief": "A doutrina social católica (de Rerum Novarum à Fratelli Tutti) defende a propriedade privada como legítima mas subordinada ao 'destino universal dos bens', critica duramente o capitalismo desregulado e a concentração de poder econômico, e vê papel ativo do Estado na proteção dos pobres.",
+    "answers": {
+      "economia_05": "D", "economia_06": "DT", "economia_07": "C", "economia_13": "CT",
+      "economia_03": "C", "economia_14": "D", "economia_19": "N", "economia_16": "DT",
+      "economia_17": "C", "economia_12": "DT", "economia_04": "D", "economia_11": "C",
+      "economia_18": "D", "economia_15": "C", "economia_20": "D", "economia_01": "D",
+      "economia_10": "D", "economia_09": "C", "economia_02": "D", "economia_08": "N"
+    }
+  },
+  "controle": {
+    "personaBrief": "A doutrina social da Igreja apoia regulação estatal e redistribuição em nome da justiça social e do bem comum, condenando o mercado desregulado como gerador de exclusão, embora sem propor planificação estatal totalizante.",
+    "answers": {
+      "controle_05": "CT", "controle_20": "D", "controle_19": "C", "controle_14": "D",
+      "controle_07": "C", "controle_04": "D", "controle_02": "D", "controle_17": "C",
+      "controle_16": "N", "controle_10": "C", "controle_06": "D", "controle_08": "D",
+      "controle_13": "DT", "controle_01": "C", "controle_15": "C", "controle_11": "N",
+      "controle_12": "N", "controle_18": "D", "controle_09": "C", "controle_03": "N"
+    }
+  },
+  "comercio": {
+    "personaBrief": "A Santa Sé promove solidariedade global e vê a globalização com ambivalência: reconhece que o comércio internacional reduziu pobreza, mas insiste que deve ser subordinado à justiça social e à dignidade humana, não a interesses puramente mercantis.",
+    "answers": {
+      "comercio_13": "D", "comercio_06": "C", "comercio_12": "C", "comercio_20": "C",
+      "comercio_15": "D", "comercio_19": "D", "comercio_04": "C", "comercio_17": "D",
+      "comercio_07": "D", "comercio_02": "D", "comercio_03": "C", "comercio_10": "C",
+      "comercio_16": "N", "comercio_09": "D", "comercio_05": "DT", "comercio_11": "C",
+      "comercio_01": "D", "comercio_18": "C", "comercio_08": "C", "comercio_14": "C"
+    }
+  },
+  "religiao": {
+    "personaBrief": "O Vaticano é a sede institucional do catolicismo mundial: sua própria razão de existir como Estado é religiosa, com o Papa como autoridade espiritual suprema, e não há qualquer distinção real entre religião e Estado.",
+    "answers": {
+      "religiao_02": "CT", "religiao_11": "DT", "religiao_19": "D", "religiao_03": "DT",
+      "religiao_10": "CT", "religiao_13": "DT", "religiao_12": "CT", "religiao_15": "DT",
+      "religiao_18": "CT", "religiao_05": "DT", "religiao_01": "DT", "religiao_14": "CT",
+      "religiao_06": "CT", "religiao_16": "CT", "religiao_08": "CT", "religiao_07": "DT",
+      "religiao_09": "DT", "religiao_17": "DT", "religiao_20": "CT", "religiao_04": "C"
+    }
+  },
+  "moral": {
+    "personaBrief": "A doutrina católica oficial mantém moral sexual e familiar fortemente tradicionalista: casamento como união homem-mulher, defesa da vida desde a concepção, papel distinto de homem e mulher na família, ainda que com discurso de acolhimento pastoral às pessoas.",
+    "answers": {
+      "moral_07": "D", "moral_04": "C", "moral_15": "DT", "moral_12": "CT",
+      "moral_03": "DT", "moral_01": "DT", "moral_09": "DT", "moral_06": "CT",
+      "moral_19": "DT", "moral_02": "CT", "moral_05": "N", "moral_17": "DT",
+      "moral_13": "DT", "moral_11": "D", "moral_10": "CT", "moral_18": "D",
+      "moral_16": "C", "moral_14": "C", "moral_08": "CT", "moral_20": "CT"
+    }
+  },
+  "tecnologia": {
+    "personaBrief": "O magistério papal recente (Laudato Si', Laudate Deum) adota postura fortemente ecológica, defendendo os limites da natureza e criticando o consumismo tecnológico desenfreado, ao mesmo tempo que rejeita intervenções tecnológicas que alterem a natureza humana ou embriões.",
+    "answers": {
+      "tecnologia_01": "D", "tecnologia_13": "D", "tecnologia_19": "D", "tecnologia_12": "C",
+      "tecnologia_18": "C", "tecnologia_10": "D", "tecnologia_05": "N", "tecnologia_04": "CT",
+      "tecnologia_16": "C", "tecnologia_07": "N", "tecnologia_08": "C", "tecnologia_03": "D",
+      "tecnologia_15": "DT", "tecnologia_20": "C", "tecnologia_06": "C", "tecnologia_09": "DT",
+      "tecnologia_17": "N", "tecnologia_02": "C", "tecnologia_14": "CT", "tecnologia_11": "N"
+    }
+  }
+}
