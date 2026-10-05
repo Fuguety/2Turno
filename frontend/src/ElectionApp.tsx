@@ -5,6 +5,9 @@ import { fetchElectionQuiz, submitElectionAnswers } from './services/electionApi
 import site from './site.json';
 import profiles from './data/electionProfiles.generated.json';
 import { CandidateCard, ComparisonAxis, ProfileCard, candidatePage, profileText } from './components/election/ProfileComponents';
+import { HomeEducation } from './components/election/HomeEducation';
+import educationTranslations from './i18n/electionEducation.json';
+import presentation from './utils/electionPresentation.cjs';
 import type { ElectionComparison, ElectionQuiz } from './types/election';
 import type { AnswerValue, QuizPayload, QuizVariant } from './types/quiz';
 import { selectAllQuestionsBalanced, selectAndBalanceQuestions } from './utils/quizSelection';
@@ -82,6 +85,11 @@ export default function ElectionApp()
     document.documentElement.lang = LANG === 'pt' ? 'pt-BR' : 'en';
   }, []);
 
+  useEffect(() =>
+  {
+    if (window.location.hash === '#teste') setChoosingFormat(true);
+  }, []);
+
   async function startQuiz()
   {
     setBusy(true);
@@ -138,6 +146,7 @@ export default function ElectionApp()
     <header className="election-header">
       <a className="election-brand" href={languagePrefix || '/'}>{site.name}</a>
       <nav aria-label={text.navigation}>
+        <a href={`${languagePrefix || '/'}#teste`} onClick={() => { setQuiz(null); setComparison(null); setChoosingFormat(true); }}>{educationTranslations[LANG].quizLink}</a>
         {site.candidates.map(candidate => <a key={candidate.id} href={candidatePage(candidate.id)}>{candidate.name}</a>)}
         <a href={`${languagePrefix}/election-methodology`}>{text.methodology}</a>
         <a href={LANG === 'pt' ? '/en' : '/'} lang={LANG === 'pt' ? 'en' : 'pt-BR'}>{LANG === 'pt' ? 'English' : 'Português'}</a>
@@ -151,7 +160,7 @@ export default function ElectionApp()
           <p className="election-kicker">{text.runoff}</p>
           <h1>{text.heading}</h1>
           <p>{text.introduction}</p>
-          <div className="home-options">
+          <div className="home-options" id="teste">
             <article className="questionnaire-card">
               <span className="questionnaire-symbol" aria-hidden="true">12</span>
               <h2>{profileText.questionnaire}</h2>
@@ -170,6 +179,7 @@ export default function ElectionApp()
             </fieldset>
             <button type="button" onClick={startQuiz} disabled={busy}>{profileText.begin}</button>
           </section>}
+          <HomeEducation />
         </>}
         {quiz && question && <section>
           <p>{questionIndex + 1} / {quiz.questions.length}</p>
@@ -201,8 +211,8 @@ export default function ElectionApp()
             <h2 id="comparison-title">{profileText.compare}</h2>
             <p>{profileText.exact}</p>
             {comparison.axes.map(entry => <ComparisonAxis key={entry.axis.id} axis={entry.axis} markers={[
-              { name: profileText.you, symbol: '★', score: entry.userScore },
-              ...profiles.candidates.map(candidate => ({ name: candidate.name, symbol: String(candidate.number), score: entry.candidateScores[candidate.id] }))
+              { name: profileText.you, symbol: '★', score: entry.userScore, color: presentation.classificationLabels(Object.fromEntries(comparison.axes.map(axis => [axis.axis.id, axis.userScore])), LANG).color },
+              ...profiles.candidates.map(candidate => ({ name: candidate.name, symbol: String(candidate.number), score: entry.candidateScores[candidate.id], color: presentation.classificationLabels(candidate.scores, LANG).color }))
             ]} />)}
           </section>
           <p>{text.disclaimer}</p>

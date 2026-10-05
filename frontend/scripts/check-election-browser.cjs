@@ -21,6 +21,7 @@ async function checkLayout(page)
 async function checkHome(page, language, width)
 {
     await page.setViewportSize({ width, height: 900 });
+    const exampleResponse = page.waitForResponse(response => response.url().includes('/brazil-2026/compare?') && response.status() === 200);
     await page.goto(website + (language === 'en' ? '/en' : '/'));
     await page.locator('.home-options').waitFor();
     assert.equal(await page.locator('.home-options > article').count(), 3);
@@ -30,13 +31,39 @@ async function checkHome(page, language, width)
     else assert.ok(boxes[0].y < boxes[1].y && boxes[1].y < boxes[2].y);
     for (const candidate of profiles.candidates)
     {
-        const card = page.locator('[data-candidate="' + candidate.id + '"]');
+        const card = page.locator('.home-options [data-candidate="' + candidate.id + '"]');
         const expected = presentation.classificationLabels(candidate.scores, language);
         assert.equal(await card.locator('.ideology-header').getAttribute('data-family'), expected.family);
         assert.equal(await card.locator('.ideology-header h2').innerText(), expected.subtypeLabel);
         assert.ok(await card.locator('img').evaluate(image => image.complete && image.naturalWidth > 0));
     }
-    const information = page.locator('.candidate-info-button').first();
+    assert.equal(await page.locator('.political-family-card').count(), 5);
+    assert.equal(await page.locator('.axis-explanation-card').count(), 12);
+    for (const axis of profiles.axes[language])
+    {
+        const card = page.locator('.axis-explanation-card[data-axis="' + axis.id + '"]');
+        assert.ok((await card.innerText()).includes(axis.label));
+        assert.ok((await card.innerText()).includes(axis.leftPole));
+        assert.ok((await card.innerText()).includes(axis.rightPole));
+    }
+    await page.locator('#exemplo .candidate-compatibility').first().waitFor();
+    const example = await (await exampleResponse).json();
+    assert.equal(example.scoringMethod, 'mean-absolute-distance-v1');
+    assert.equal(example.axes.length, 12);
+    for (const match of example.candidates)
+    {
+        const card = page.locator('#exemplo [data-candidate="' + match.id + '"]');
+        assert.equal(await card.locator('.candidate-compatibility strong').innerText(), match.compatibility.toFixed(1) + '%');
+        const family = await card.getAttribute('data-family');
+        const indicatorColor = await page.locator('.political-family-card[data-family="' + family + '"] .family-indicator').evaluate(indicator => window.getComputedStyle(indicator).backgroundColor);
+        const headerColor = await card.locator('.ideology-family').evaluate(label => window.getComputedStyle(label).color);
+        assert.equal(headerColor, indicatorColor);
+    }
+    assert.equal(await page.locator('#example-profile .profile-axis').count(), 4);
+    const spectrumBoxes = await page.locator('.political-family-card').evaluateAll(cards => cards.map(card => card.getBoundingClientRect().toJSON()));
+    if (width < 650) assert.ok(spectrumBoxes[1].y > spectrumBoxes[0].y);
+    else assert.ok(Math.abs(spectrumBoxes[1].y - spectrumBoxes[0].y) < 1);
+    const information = page.locator('.home-options .candidate-info-button').first();
     await information.click();
     const dialog = page.getByRole('dialog');
     await dialog.waitFor();
@@ -127,6 +154,25 @@ async function checkMissingPortrait(browser)
 
 
 
+async function checkUnavailableExample(browser)
+{
+    const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
+    const page = await context.newPage();
+    await page.route('**/brazil-2026/compare?*', route => route.abort());
+    await page.goto(website);
+    const retry = page.locator('#exemplo button');
+    await retry.waitFor();
+    assert.equal(await page.locator('#exemplo .candidate-compatibility').count(), 0);
+    assert.equal(await page.locator('#example-profile .profile-axis').count(), 4);
+    await page.unroute('**/brazil-2026/compare?*');
+    await retry.click();
+    await page.locator('#exemplo .candidate-compatibility').first().waitFor();
+    assert.equal(await page.locator('#exemplo .candidate-compatibility').count(), 2);
+    await context.close();
+}
+
+
+
 async function main()
 {
     mkdirSync(screenshotDirectory, { recursive: true });
@@ -135,7 +181,7 @@ async function main()
     {
         for (const language of ['pt', 'en'])
         {
-            for (const width of [1280, 390])
+            for (const width of [1280, 768, 390])
             {
                 const context = await browser.newContext();
                 const page = await context.newPage();
@@ -151,6 +197,8 @@ async function main()
         }
         await checkMissingPortrait(browser);
         process.stdout.write('Missing portrait fallbacks passed.\n');
+        await checkUnavailableExample(browser);
+        process.stdout.write('Unavailable example and retry passed.\n');
     }
     finally
     {

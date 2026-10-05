@@ -39,3 +39,10 @@ export async function submitElectionAnswers(answers: ElectionAnswerRequest): Pro
 {
   return validateElectionComparison(await request<ElectionComparison>(`/results?lang=${LANG}`, answers));
 }
+
+
+
+export async function compareElectionVector(scores: Record<string, number>): Promise<ElectionComparison>
+{
+  return validateElectionComparison(await request<ElectionComparison>(`/compare?lang=${LANG}`, { modelId: ELECTION_MODEL_ID, scores }));
+}

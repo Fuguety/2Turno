@@ -97,7 +97,9 @@ export function CandidateQuickInfo({ candidate }: { candidate: CandidateProfile 
 
 export function CandidateCard({ candidate, compatibility }: { candidate: CandidateProfile; compatibility?: number })
 {
-    return <article className="candidate-card" data-candidate={candidate.id}>
+    const classification = presentation.classificationLabels(candidate.scores, LANG);
+    return <article className="candidate-card" data-candidate={candidate.id} data-family={classification.family}
+        style={{ borderTop: `4px solid ${classification.color}` }}>
         <div className="profile-identity">
             <ProfilePortrait name={candidate.name} source={candidate.portrait} />
             <div><h2>{candidate.name}</h2><p className="profile-ballot">{candidate.party} · {candidate.number}</p></div>
@@ -112,10 +114,10 @@ export function CandidateCard({ candidate, compatibility }: { candidate: Candida
 
 
 
-export function ProfileCard({ axes, scores }: { axes: Axis[]; scores: Record<string, number> })
+export function ProfileCard({ axes, scores, identifier = 'seu-perfil', illustrative = false }: { axes: Axis[]; scores: Record<string, number>; identifier?: string; illustrative?: boolean })
 {
-    return <section className="user-profile" id="seu-perfil" aria-labelledby="your-profile-title">
-        <h1 id="your-profile-title">{profileText.yourProfile}</h1>
+    return <section className="user-profile" id={identifier} aria-labelledby={`${identifier}-title`}>
+        {illustrative ? <h3 id={`${identifier}-title`}>{profileText.yourProfile}</h3> : <h1 id={`${identifier}-title`}>{profileText.yourProfile}</h1>}
         <IdeologyHeader scores={scores} />
         <p className="profile-note">{profileText.note}</p>
         <h2>{profileText.axes}</h2>
@@ -125,7 +127,7 @@ export function ProfileCard({ axes, scores }: { axes: Axis[]; scores: Record<str
 
 
 
-export function ComparisonAxis({ axis, markers }: { axis: Axis; markers: { name: string; symbol: string; score?: number }[] })
+export function ComparisonAxis({ axis, markers }: { axis: Axis; markers: { name: string; symbol: string; score?: number; color?: string }[] })
 {
     return <div dangerouslySetInnerHTML={{ __html: presentation.comparisonAxisMarkup(axis, markers, LANG) }} />;
 }

@@ -3,8 +3,8 @@ const axisIdentifiers = ['coordenacao', 'protecao_social', 'tributacao', 'provis
 const familyLabels =
 {
     left: ['Esquerda', 'Left', '#923448', '#f8e9ee'],
-    'centre-left': ['Centro-esquerda', 'Centre-left', '#914521', '#fff0e5'],
-    centre: ['Centro', 'Centre', '#465f4c', '#eaf1e8'],
+    'centre-left': ['Centro-esquerda', 'Centre-left', '#376146', '#eaf1e8'],
+    centre: ['Centro', 'Centre', '#555b61', '#eef0f2'],
     'centre-right': ['Centro-direita', 'Centre-right', '#216172', '#e8f3f5'],
     right: ['Direita', 'Right', '#304e91', '#eaf0fc'],
     unavailable: ['Perfil incompleto', 'Incomplete profile', '#53615b', '#eef1ee']
@@ -152,7 +152,7 @@ function comparisonAxisMarkup(axis, markers, language = 'pt')
         return pair ? [{ ...marker, pair }] : [];
     });
     const accessible = escapeHtml(valid.map(marker => `${marker.name}: ${axis.leftPole} ${marker.pair.left}%, ${axis.rightPole} ${marker.pair.right}%`).join('; '));
-    const pins = valid.map((marker, index) => `<span class="comparison-marker marker-${index}" style="left:${marker.pair.position}%;top:${index * 32}px" aria-hidden="true"><b>${escapeHtml(marker.symbol)}</b></span>`).join('');
+    const pins = valid.map((marker, index) => `<span class="comparison-marker marker-${index}" style="left:${marker.pair.position}%;top:${index * 32}px${/^#[0-9a-f]{6}$/i.test(marker.color || '') ? `;background:${marker.color};box-shadow:0 0 0 1px ${marker.color}` : ''}" aria-hidden="true"><b>${escapeHtml(marker.symbol)}</b></span>`).join('');
     const values = markers.map(marker =>
     {
         const pair = percentagePair(marker.score);

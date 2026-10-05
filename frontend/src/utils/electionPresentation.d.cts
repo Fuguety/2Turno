@@ -20,7 +20,7 @@ declare const presentation:
     axisExplanation(axisIdentifier: string, score: number | undefined, language?: string): string;
     axisBarMarkup(axis: Axis, score: number | undefined, language?: string): string;
     axisProfileMarkup(axes: Axis[], scores: Record<string, number> | undefined, language?: string, explainUser?: boolean): string;
-    comparisonAxisMarkup(axis: Axis, markers: { name: string; symbol: string; score?: number }[], language?: string): string;
+    comparisonAxisMarkup(axis: Axis, markers: { name: string; symbol: string; score?: number; color?: string }[], language?: string): string;
     runningMateMarkup(runningMate: unknown, language?: string): string;
 };
 export default presentation;
