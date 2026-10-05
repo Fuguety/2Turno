@@ -16,19 +16,42 @@ interface InfoSheetProps {
 // Renderiza no <body> para escapar de transforms das seções com data-reveal.
 export function InfoSheet({ titleId, style, className, onClose, children }: InfoSheetProps) {
   const closeRef = useRef<HTMLButtonElement>(null);
+  const closeAction = useRef(onClose);
+  closeAction.current = onClose;
 
   useEffect(() => {
     const previous = document.activeElement as HTMLElement | null;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
     closeRef.current?.focus();
-    const onKey = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') onClose();
+    const onKey = (event: KeyboardEvent) =>
+    {
+      const dialog = closeRef.current?.closest('[role="dialog"]');
+      const dialogs = document.querySelectorAll('[role="dialog"]');
+      if (dialog !== dialogs[dialogs.length - 1]) return;
+      if (event.key === 'Escape') closeAction.current();
+      if (event.key !== 'Tab' || !dialog) return;
+      const controls = Array.from(dialog.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), input:not([disabled]), summary, [tabindex="0"]'));
+      const first = controls[0];
+      const last = controls[controls.length - 1];
+      if (event.shiftKey && document.activeElement === first)
+      {
+        event.preventDefault();
+        last?.focus();
+      }
+      else if (!event.shiftKey && document.activeElement === last)
+      {
+        event.preventDefault();
+        first?.focus();
+      }
     };
     document.addEventListener('keydown', onKey);
     return () => {
       document.removeEventListener('keydown', onKey);
+      document.body.style.overflow = previousOverflow;
       previous?.focus();
     };
-  }, [onClose]);
+  }, []);
 
   return createPortal(
     <div className="e-axis-sheet-backdrop" onClick={onClose}>

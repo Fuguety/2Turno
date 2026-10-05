@@ -1,0 +1,88 @@
+.ideology-header
+{
+    padding: clamp(22px, 4vw, 36px);
+    border-radius: 20px;
+    background: var(--ideology-background);
+    border-top: 5px solid var(--ideology-color);
+    color: #17242b;
+    margin: 22px 0;
+}
+.ideology-family { margin: 0 0 8px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--ideology-color); }
+.ideology-header h2 { color: var(--ideology-color); font-size: clamp(24px, 4vw, 38px); line-height: 1.2; margin: 0 0 14px; }
+.ideology-header[data-subtype="mixed-profile"] { border-top-style: dashed; }
+.ideology-header[data-subtype="balanced-centrism"] { border-top-style: double; }
+.profile-note { color: #4c5654; font-size: 14px; line-height: 1.6; }
+.ideology-header .profile-note { margin-bottom: 0; }
+.home-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin: 32px 0; align-items: stretch; }
+.candidate-card, .questionnaire-card, .user-profile, .running-mate { border: 1px solid #d6d8ce; border-radius: 22px; background: #fbf9f3; padding: 24px; min-width: 0; }
+.candidate-card, .questionnaire-card { display: flex; flex-direction: column; gap: 16px; }
+.candidate-card .ideology-header { padding: 16px; margin: 0; }
+.candidate-card .ideology-header h2 { font-size: 24px; }
+.candidate-card .ideology-header .profile-note { font-size: 12px; }
+.questionnaire-card { background: #e8eeea; border-color: #536759; }
+.questionnaire-card > .profile-link, .candidate-card > .profile-link { margin-top: auto; }
+.questionnaire-symbol { width: 64px; height: 64px; display: grid; place-items: center; border: 1px solid #536759; border-radius: 50%; font-weight: 800; font-size: 22px; }
+.profile-identity, .running-mate-identity { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.profile-identity > div { flex: 1; min-width: 90px; }
+.profile-identity h2, .profile-identity h3 { margin: 0; font-size: 22px; line-height: 1.25; }
+.profile-ballot { font-weight: 600; margin: 8px 0 0; }
+.profile-portrait, .portrait-fallback { width: 80px; height: 80px; flex-shrink: 0; border-radius: 50%; object-fit: cover; background: #e3e7df; }
+.portrait-fallback { display: inline-grid; place-items: center; font-size: 28px; font-weight: 700; color: #263e30; }
+.candidate-info-button { min-height: 44px; min-width: 44px; border-radius: 50% !important; border: 1px solid #536759 !important; background: #fff !important; color: #263e30 !important; font-size: 22px !important; padding: 4px !important; }
+.profile-link { display: inline-flex; justify-content: center; align-items: center; text-decoration: none; border-radius: 12px; padding: 12px 18px; color: #fff !important; background: #102e24; font-weight: 600; min-height: 44px; }
+.candidate-description { font-size: 14px; line-height: 1.65; }
+.candidate-compatibility { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0; }
+.candidate-compatibility strong { font-size: 25px; }
+.profile-identity p { margin-bottom: 0; }
+.axis-profile, .comparison-profile { display: grid; gap: 18px; margin: 24px 0; }
+.profile-axis, .comparison-axis { padding: 22px; border: 1px solid #d6d8ce; border-radius: 16px; background: #fff; min-width: 0; }
+.profile-axis h3, .comparison-axis h3 { font-size: 18px; margin: 0 0 18px; }
+.axis-pole-labels { display: flex; justify-content: space-between; gap: 18px; font-size: 14px; line-height: 1.5; }
+.axis-pole-labels > span { max-width: 48%; min-width: 0; overflow-wrap: anywhere; }
+.axis-pole-labels > span:last-child { text-align: right; }
+.axis-pole-labels b { display: block; font-size: 22px; }
+.axis-pole-labels .is-dominant { font-weight: 600; }
+.profile-axis-track { position: relative; height: 12px; margin: 24px 14px; border-radius: 8px; background: linear-gradient(90deg, #2f6dc0, #d2d5ce 50%, #cf5a22); }
+.profile-axis-centre, .comparison-centre { position: absolute; left: 50%; top: -8px; bottom: -8px; border-left: 2px dashed #5c6460; }
+.profile-axis-marker { position: absolute; top: -7px; width: 26px; height: 26px; transform: translateX(-50%); border: 4px solid #fff; border-radius: 50%; background: #152a20; box-shadow: 0 0 0 1px #152a20; }
+.axis-exact { font-size: 13px; margin-top: 18px; }
+.axis-exact summary { cursor: pointer; }
+.axis-explanation { font-size: 15px; color: #414d47; line-height: 1.7; margin-bottom: 0; }
+.comparison-track { position: relative; height: 96px; margin: 24px 16px; background-image: linear-gradient(90deg, #2f6dc0, #d2d5ce 50%, #cf5a22), linear-gradient(90deg, #2f6dc0, #d2d5ce 50%, #cf5a22), linear-gradient(90deg, #2f6dc0, #d2d5ce 50%, #cf5a22); background-size: 100% 8px; background-repeat: no-repeat; background-position: 0 10px, 0 42px, 0 74px; }
+.comparison-marker { position: absolute; transform: translateX(-50%); width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; border: 3px solid #fff; box-shadow: 0 0 0 1px #1b3930; font-size: 11px; color: #fff; background: #1b3930; }
+.comparison-marker.marker-1 { background: #573d74; box-shadow: 0 0 0 1px #573d74; }
+.comparison-marker.marker-2 { background: #225e75; box-shadow: 0 0 0 1px #225e75; }
+.comparison-values { display: flex; flex-wrap: wrap; gap: 12px 22px; padding: 0; list-style: none; font-size: 13px; }
+.comparison-values li { line-height: 1.6; }
+.format-options { display: flex; flex-wrap: wrap; gap: 16px; border: 0; padding: 0; margin: 20px 0; }
+.format-options label { display: flex; align-items: center; gap: 10px; border: 1px solid #c5cabe; border-radius: 14px; padding: 16px; }
+.candidate-quick-info p { line-height: 1.6; }
+.user-profile > h1 { margin-top: 0; }
+.candidate-overview { margin: 32px 0; }
+.candidate-page-header { border-radius: 24px; padding: 28px; margin: 24px 0; background: var(--ideology-background); color: #17242b; }
+.candidate-page-header .ideology-header { padding: 18px 0 0; margin: 18px 0 0; border-radius: 0; }
+.candidate-page-header .portrait { width: 144px; height: 144px; }
+.running-mate { margin: 32px 0; }
+.profile-link:focus-visible, .candidate-info-button:focus-visible, .axis-exact summary:focus-visible, .format-options input:focus-visible { outline: 3px solid #a83039; outline-offset: 4px; }
+@media (max-width: 880px)
+{
+    .home-options { grid-template-columns: 1fr; }
+    .profile-axis, .comparison-axis { padding: 18px 14px; }
+    .candidate-page-header { padding: 20px; }
+    .axis-pole-labels { font-size: 12px; gap: 10px; }
+    .candidate-page-header .portrait { width: 100px; height: 100px; }
+    .user-profile { padding: 20px 14px; }
+}
+
+.portrait-fallback[hidden] { display: none; }
+.ideology-header { display: block; }
+@media (max-width: 880px)
+{
+    .table table, .table tbody, .table tr, .table th, .table td { display: block; width: auto; }
+    .table thead { display: none; }
+    .table tr { background: #fff; border: 1px solid #d6d8ce; border-radius: 16px; margin: 18px 0; padding: 8px; }
+    .table th, .table td { border-bottom: 0; padding: 12px; }
+    .table td::before { display: block; content: attr(data-label); font-weight: 700; margin-bottom: 8px; }
+    .table th { font-size: 18px; }
+    .table th small { font-size: 13px; }
+}

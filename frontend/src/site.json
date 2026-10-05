@@ -1,0 +1,27 @@
+{
+  "name": "2 Turno",
+  "website": "https://12axes.vercel.app",
+  "runoffDate": "2026-10-25",
+  "candidates": [
+    {
+      "id": "lula-da-silva",
+      "name": "Lula",
+      "party": "PT",
+      "number": 13,
+      "portrait": "/fotos/lula-da-silva.jpg",
+      "portraitSource": "/personalities/portraits/lula-da-silva.jpg",
+      "planSourceId": "tse-pt",
+      "planUrl": "https://planodegoverno2026.com.br/planos/lula-e48f1c29.pdf"
+    },
+    {
+      "id": "flavio-bolsonaro",
+      "name": "Flávio Bolsonaro",
+      "party": "PL",
+      "number": 22,
+      "portrait": "/fotos/flavio-bolsonaro.jpg",
+      "portraitSource": "/personalities/portraits/flavio-bolsonaro.jpg",
+      "planSourceId": "tse-pl",
+      "planUrl": "https://planodegoverno2026.com.br/planos/flavio-bolsonaro-0a34723b.pdf"
+    }
+  ]
+}

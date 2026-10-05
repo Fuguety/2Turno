@@ -29,20 +29,16 @@ public class ScoringService {
         return score(request, QuizDataService.LANG_PT);
     }
 
-    public List<AxisResult> score(ResultRequest request, String lang) {
+
+
+    public List<AxisResult> score(ResultRequest request, String lang)
+    {
         Map<String, Question> questionById = dataService.getQuestions().stream()
                 .collect(Collectors.toMap(Question::id, Function.identity()));
 
         validateAnswers(request.answers(), questionById);
 
-        Map<String, WeightedScore> scores = new HashMap<>();
-        for (SubmittedAnswer submittedAnswer : request.answers()) {
-            Question question = questionById.get(submittedAnswer.questionId());
-            double towardAgreement = submittedAnswer.answer().scoreTowardAgreement();
-            double leftScore = question.agreePole() == Pole.LEFT ? towardAgreement : 1.0 - towardAgreement;
-            scores.computeIfAbsent(question.axisId(), ignored -> new WeightedScore())
-                    .add(leftScore, question.weight());
-        }
+        Map<String, WeightedScore> scores = accumulateAnswers(request.answers(), questionById);
         addArchetypeAnswers(request.archetype(), scores);
 
         String normalizedLang = QuizDataService.normalizeLang(lang);
@@ -50,6 +46,42 @@ public class ScoringService {
                 .map(axis -> toAxisResult(axis, scores.get(axis.id()), normalizedLang))
                 .toList();
     }
+
+
+
+    /** Scores a versioned question bank using the same answer scale as the general quiz. */
+    public List<AxisResult> scoreAnswers(
+            List<SubmittedAnswer> answers, List<Question> questions, List<Axis> axes, String language)
+    {
+        Map<String, Question> questionsByIdentifier = questions.stream()
+                .collect(Collectors.toMap(Question::id, Function.identity()));
+        validateAnswers(answers, questionsByIdentifier);
+        Map<String, WeightedScore> scores = accumulateAnswers(answers, questionsByIdentifier);
+        String normalizedLanguage = QuizDataService.normalizeLang(language);
+        return axes.stream()
+                .map(axis -> toAxisResult(axis,
+                        scores.getOrDefault(axis.id(), new WeightedScore()), normalizedLanguage))
+                .toList();
+    }
+
+
+
+    private Map<String, WeightedScore> accumulateAnswers(
+            List<SubmittedAnswer> answers, Map<String, Question> questionsByIdentifier)
+    {
+        Map<String, WeightedScore> scores = new HashMap<>();
+        for (SubmittedAnswer submittedAnswer : answers)
+        {
+            Question question = questionsByIdentifier.get(submittedAnswer.questionId());
+            double agreementScore = submittedAnswer.answer().scoreTowardAgreement();
+            double leftScore = question.agreePole() == Pole.LEFT ? agreementScore : 1.0 - agreementScore;
+            scores.computeIfAbsent(question.axisId(), ignored -> new WeightedScore())
+                    .add(leftScore, question.weight());
+        }
+        return scores;
+    }
+
+
 
     // Reconstrói o resultado a partir de um vetor de leftPercent (um valor por
     // eixo, na ordem de axes.json) — usado pelas URLs de resultado compartilhado.

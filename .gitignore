@@ -35,11 +35,14 @@ docs/superpowers/
 .claude/skills/superpowers*/
 .codex-run
 
-# Local conversation logs
-claude-sessions/
-
 # Materiais de referência visual
 docs/
 
 # Artefatos de screenshots do Playwright MCP
 .playwright-mcp/
+
+# PDFs e texto extraído dos planos de governo (baixar de planodegoverno2026.com.br)
+colinha-eleitoral/planos-de-governo/
+
+# Local assistant session logs
+/claude-sessions/

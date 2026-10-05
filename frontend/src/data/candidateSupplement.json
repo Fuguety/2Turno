@@ -1,0 +1,12 @@
+{
+  "lula-da-silva": {
+    "status": "confirmed", "name": "Geraldo Alckmin", "party": "PSB",
+    "description": { "pt": "Médico e ex-governador de São Paulo, integra a chapa de reeleição de Lula.", "en": "A physician and former governor of São Paulo, he is Lula’s running mate for reelection." },
+    "sourceUrl": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica"
+  },
+  "flavio-bolsonaro": {
+    "status": "confirmed", "name": "Alfredo Gaspar", "party": "PL",
+    "description": { "pt": "Deputado federal, integra a chapa presidencial de Flávio Bolsonaro registrada no TSE.", "en": "A federal deputy, he is on Flávio Bolsonaro’s presidential ticket registered with the TSE." },
+    "sourceUrl": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica"
+  }
+}

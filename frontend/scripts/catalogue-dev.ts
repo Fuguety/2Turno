@@ -3,6 +3,7 @@ import { readFile } from 'node:fs/promises';
 import { join, resolve, sep } from 'node:path';
 import { promisify } from 'node:util';
 import type { Plugin } from 'vite';
+import site from '../src/site.json';
 
 const run = promisify(execFile);
 
@@ -15,7 +16,7 @@ export function catalogueDevPlugin(): Plugin {
       const root = server.config.root;
       const scripts = join(root, 'scripts');
       const data = resolve(root, '../backend/src/main/resources/data');
-      const output = join(root, 'node_modules/.cache/catalogue-pages');
+      const output = join(root, 'node_modules/.cache/brazil-pages');
       let generation: Promise<unknown> | undefined;
 
       server.watcher.add([scripts, data]);
@@ -29,12 +30,20 @@ export function catalogueDevPlugin(): Plugin {
       server.middlewares.use(async (req, res, next) => {
         if (req.method !== 'GET' && req.method !== 'HEAD') return next();
         const path = (req.url ?? '/').split('?')[0].replace(/\/+$/, '');
-        const catalogue = /^\/(?:en\/)?(?:ideologies|personalities|countries)(?:\/[a-z0-9-]+)?(?:\.html)?$/.test(path);
-        const stylesheet = /^\/(?:ideologies|personalities|countries|profile)\.css$/.test(path);
+        const catalogue = /^\/(?:en\/)?(?:ideologies|personalities|countries|candidatos|election-methodology)(?:\/[a-z0-9-]+)?(?:\.html)?$/.test(path);
+        const stylesheet = path === '/election-profile.css';
         if (!catalogue && !stylesheet) return next();
 
         try {
-          generation ??= run(process.execPath, [join(scripts, 'generate-pages.mjs'), '--catalogue-only']);
+          const identifier = path.match(/^\/(?:en\/)?candidatos\/([a-z0-9-]+)(?:\.html)?$/)?.[1];
+          if (/^\/(?:en\/)?(?:ideologies|countries|personalities)/.test(path)
+            || /^\/(?:en\/)?candidatos(?:\.html)?$/.test(path)
+            || (identifier && !site.candidates.some(candidate => candidate.id === identifier))) {
+            res.statusCode = 404;
+            res.end('Page unavailable in 2 Turno');
+            return;
+          }
+          generation ??= run(process.execPath, [join(scripts, 'generate-brazil-pages.cjs'), '--catalogue-only']);
           await generation;
           const file = stylesheet || path.endsWith('.html') ? path : `${path}.html`;
           const content = await readFile(join(output, file));

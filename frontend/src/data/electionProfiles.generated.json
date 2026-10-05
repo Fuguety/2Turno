@@ -1,0 +1,272 @@
+{
+  "axes": {
+    "pt": [
+      {
+        "id": "coordenacao",
+        "label": "Coordenação econômica",
+        "leftPole": "Política industrial ativa",
+        "rightPole": "Coordenação pelo mercado",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "protecao_social",
+        "label": "Proteção social e orçamento",
+        "leftPole": "Ampliação da proteção social",
+        "rightPole": "Contenção de gastos sociais",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "tributacao",
+        "label": "Tributação",
+        "leftPole": "Maior progressividade",
+        "rightPole": "Redução geral de impostos",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "provisao_publica",
+        "label": "Serviços e empresas públicas",
+        "leftPole": "Provisão e controle públicos",
+        "rightPole": "Provisão privada e concessões",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "trabalho",
+        "label": "Relações de trabalho",
+        "leftPole": "Proteção definida em lei",
+        "rightPole": "Flexibilidade negociada",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "direitos_sociais",
+        "label": "Direitos e costumes",
+        "leftPole": "Ampliação de direitos sociais",
+        "rightPole": "Preservação de normas tradicionais",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "laicidade",
+        "label": "Religião e Estado",
+        "leftPole": "Decisões públicas laicas",
+        "rightPole": "Referências religiosas na política",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "armas",
+        "label": "Armas de fogo",
+        "leftPole": "Acesso civil restrito",
+        "rightPole": "Acesso civil ampliado",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "justica_penal",
+        "label": "Justiça penal",
+        "leftPole": "Reintegração e garantias processuais",
+        "rightPole": "Penas e encarceramento ampliados",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "ambiente",
+        "label": "Meio ambiente",
+        "leftPole": "Prioridade à proteção ambiental",
+        "rightPole": "Flexibilidade para uso de recursos",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "diplomacia_eleitoral",
+        "label": "Política externa",
+        "leftPole": "Cooperação multilateral",
+        "rightPole": "Autonomia e acordos bilaterais",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "contrapesos",
+        "label": "Equilíbrio entre Poderes",
+        "leftPole": "Controle judicial mais amplo",
+        "rightPole": "Maior margem dos Poderes eleitos",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      }
+    ],
+    "en": [
+      {
+        "id": "coordenacao",
+        "label": "Economic coordination",
+        "leftPole": "Active industrial policy",
+        "rightPole": "Market coordination",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "protecao_social",
+        "label": "Welfare and budgets",
+        "leftPole": "Expanded social protection",
+        "rightPole": "Restraint in social spending",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "tributacao",
+        "label": "Taxation",
+        "leftPole": "Greater progressivity",
+        "rightPole": "Broad tax cuts",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "provisao_publica",
+        "label": "Public services and enterprises",
+        "leftPole": "Public provision and ownership",
+        "rightPole": "Private provision and concessions",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "trabalho",
+        "label": "Labour relations",
+        "leftPole": "Statutory protections",
+        "rightPole": "Negotiated flexibility",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "direitos_sociais",
+        "label": "Social rights and traditions",
+        "leftPole": "Expanded social rights",
+        "rightPole": "Traditional social norms",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "laicidade",
+        "label": "Religion and the state",
+        "leftPole": "Secular public decisions",
+        "rightPole": "Religious references in politics",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "armas",
+        "label": "Firearms",
+        "leftPole": "Restricted civilian access",
+        "rightPole": "Expanded civilian access",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "justica_penal",
+        "label": "Criminal justice",
+        "leftPole": "Reintegration and procedural safeguards",
+        "rightPole": "Expanded sentences and incarceration",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "ambiente",
+        "label": "Environment",
+        "leftPole": "Priority for environmental protection",
+        "rightPole": "Flexibility in resource use",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "diplomacia_eleitoral",
+        "label": "Foreign policy",
+        "leftPole": "Multilateral cooperation",
+        "rightPole": "Autonomy and bilateral agreements",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      },
+      {
+        "id": "contrapesos",
+        "label": "Checks and balances",
+        "leftPole": "Broader judicial oversight",
+        "rightPole": "Greater discretion for elected branches",
+        "leftColor": "#2F6DC0",
+        "rightColor": "#CF5A22"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "id": "lula-da-silva",
+      "name": "Lula",
+      "party": "PT",
+      "number": 13,
+      "portrait": "/fotos/lula-da-silva.jpg",
+      "description": {
+        "pt": "Estadista brasileiro, Lula ascendeu do sindicalismo à presidência do Brasil, liderando a esquerda com programas sociais, políticas de combate à pobreza e um projeto de desenvolvimento com forte presença do Estado.",
+        "en": "A Brazilian statesman, Lula rose from union activism to Brazil's presidency, leading the left with social programs, anti-poverty policies, and a development project with a strong state presence."
+      },
+      "scores": {
+        "coordenacao": 75,
+        "protecao_social": 66.7,
+        "tributacao": 79.2,
+        "provisao_publica": 62.5,
+        "trabalho": 79.2,
+        "direitos_sociais": 70.8,
+        "laicidade": 58.3,
+        "armas": 83.3,
+        "justica_penal": 75,
+        "ambiente": 58.3,
+        "diplomacia_eleitoral": 87.5,
+        "contrapesos": 58.3
+      },
+      "runningMate": {
+        "status": "confirmed",
+        "name": "Geraldo Alckmin",
+        "party": "PSB",
+        "description": {
+          "pt": "Médico e ex-governador de São Paulo, integra a chapa de reeleição de Lula.",
+          "en": "A physician and former governor of São Paulo, he is Lula’s running mate for reelection."
+        },
+        "sourceUrl": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica"
+      }
+    },
+    {
+      "id": "flavio-bolsonaro",
+      "name": "Flávio Bolsonaro",
+      "party": "PL",
+      "number": 22,
+      "portrait": "/fotos/flavio-bolsonaro.jpg",
+      "description": {
+        "pt": "Senador pelo Rio de Janeiro e filho mais velho de Jair Bolsonaro, é o candidato do PL à Presidência em 2026; fez da segurança pública sua bandeira no Senado e defende privatizações seletivas e corte de gastos públicos.",
+        "en": "A senator from Rio de Janeiro and the eldest son of Jair Bolsonaro, he is the Liberal Party's candidate for the presidency in 2026; he made public security his main banner in the Senate and backs selective privatizations and spending cuts."
+      },
+      "scores": {
+        "coordenacao": 29.2,
+        "protecao_social": 45.8,
+        "tributacao": 29.2,
+        "provisao_publica": 16.7,
+        "trabalho": 20.8,
+        "direitos_sociais": 33.3,
+        "laicidade": 50,
+        "armas": 16.7,
+        "justica_penal": 12.5,
+        "ambiente": 20.8,
+        "diplomacia_eleitoral": 50,
+        "contrapesos": 33.3
+      },
+      "runningMate": {
+        "status": "confirmed",
+        "name": "Alfredo Gaspar",
+        "party": "PL",
+        "description": {
+          "pt": "Deputado federal, integra a chapa presidencial de Flávio Bolsonaro registrada no TSE.",
+          "en": "A federal deputy, he is on Flávio Bolsonaro’s presidential ticket registered with the TSE."
+        },
+        "sourceUrl": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica"
+      }
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "title": "2 Turno — Lula vs. Flávio Bolsonaro",
+  "description": "Compare your positions with the proposals of Lula and Flávio Bolsonaro. Similarity of answers is not a voting recommendation.",
+  "axes": [
+    {
+      "id": "coordenacao",
+      "label": "Economic coordination",
+      "leftPole": "Active industrial policy",
+      "rightPole": "Market coordination",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "protecao_social",
+      "label": "Welfare and budgets",
+      "leftPole": "Expanded social protection",
+      "rightPole": "Restraint in social spending",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "tributacao",
+      "label": "Taxation",
+      "leftPole": "Greater progressivity",
+      "rightPole": "Broad tax cuts",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "provisao_publica",
+      "label": "Public services and enterprises",
+      "leftPole": "Public provision and ownership",
+      "rightPole": "Private provision and concessions",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "trabalho",
+      "label": "Labour relations",
+      "leftPole": "Statutory protections",
+      "rightPole": "Negotiated flexibility",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "direitos_sociais",
+      "label": "Social rights and traditions",
+      "leftPole": "Expanded social rights",
+      "rightPole": "Traditional social norms",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "laicidade",
+      "label": "Religion and the state",
+      "leftPole": "Secular public decisions",
+      "rightPole": "Religious references in politics",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "armas",
+      "label": "Firearms",
+      "leftPole": "Restricted civilian access",
+      "rightPole": "Expanded civilian access",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "justica_penal",
+      "label": "Criminal justice",
+      "leftPole": "Reintegration and procedural safeguards",
+      "rightPole": "Expanded sentences and incarceration",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "ambiente",
+      "label": "Environment",
+      "leftPole": "Priority for environmental protection",
+      "rightPole": "Flexibility in resource use",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "diplomacia_eleitoral",
+      "label": "Foreign policy",
+      "leftPole": "Multilateral cooperation",
+      "rightPole": "Autonomy and bilateral agreements",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "contrapesos",
+      "label": "Checks and balances",
+      "leftPole": "Broader judicial oversight",
+      "rightPole": "Greater discretion for elected branches",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    }
+  ],
+  "questions": [
+    {
+      "id": "br2026_coordenacao_1",
+      "text": "The government should offer low-interest credit to develop industrial sectors it identifies as strategic."
+    },
+    {
+      "id": "br2026_coordenacao_2",
+      "text": "Businesses should mainly decide which economic sectors grow, without government-set priorities."
+    },
+    {
+      "id": "br2026_coordenacao_3",
+      "text": "Government procurement should favour domestic products to develop Brazilian industry, even at higher cost."
+    },
+    {
+      "id": "br2026_coordenacao_4",
+      "text": "Fuel prices should follow international markets without government measures to smooth fluctuations."
+    },
+    {
+      "id": "br2026_coordenacao_5",
+      "text": "The government should set production and innovation goals to guide investment in strategic sectors."
+    },
+    {
+      "id": "br2026_coordenacao_6",
+      "text": "Requirements for starting and running businesses should be reduced while retaining product safety rules."
+    },
+    {
+      "id": "br2026_protecao_social_1",
+      "text": "Benefits for low-income families should grow faster than inflation when public revenue permits."
+    },
+    {
+      "id": "br2026_protecao_social_2",
+      "text": "Spending on social benefits should grow more slowly than public revenue to reduce public debt."
+    },
+    {
+      "id": "br2026_protecao_social_3",
+      "text": "Income-transfer benefits should continue for as long as a family remains in poverty."
+    },
+    {
+      "id": "br2026_protecao_social_4",
+      "text": "When a family finds employment, income-transfer benefits should end gradually over a transition period."
+    },
+    {
+      "id": "br2026_protecao_social_5",
+      "text": "The government should extend social benefits to eligible families that are currently outside the programmes."
+    },
+    {
+      "id": "br2026_protecao_social_6",
+      "text": "If the budget is short of funds, social benefit rules should be reviewed to restrain spending."
+    },
+    {
+      "id": "br2026_tributacao_1",
+      "text": "Income-tax cuts for lower earners should be funded by higher taxes on very high incomes."
+    },
+    {
+      "id": "br2026_tributacao_2",
+      "text": "Tax policy should prioritise reducing the overall tax burden rather than redistributing it between income groups."
+    },
+    {
+      "id": "br2026_tributacao_3",
+      "text": "Profits and dividends received by very high earners should contribute to a minimum income tax."
+    },
+    {
+      "id": "br2026_tributacao_4",
+      "text": "The government should prioritise consumption-tax cuts even without raising taxes on high incomes."
+    },
+    {
+      "id": "br2026_tributacao_5",
+      "text": "The government should close tax breaks used mainly by high earners, even if this increases their tax bill."
+    },
+    {
+      "id": "br2026_tributacao_6",
+      "text": "Cutting business taxes should take priority over increasing taxation of the highest incomes."
+    },
+    {
+      "id": "br2026_provisao_publica_1",
+      "text": "To expand healthcare access, the government should prioritise expanding the public SUS network."
+    },
+    {
+      "id": "br2026_provisao_publica_2",
+      "text": "To shorten SUS waiting lists, the government should prioritise purchasing available capacity in private hospitals."
+    },
+    {
+      "id": "br2026_provisao_publica_3",
+      "text": "State-owned enterprises in strategic sectors should remain under public control."
+    },
+    {
+      "id": "br2026_provisao_publica_4",
+      "text": "Where public school places are unavailable, the government should fund places in private schools or childcare centres."
+    },
+    {
+      "id": "br2026_provisao_publica_5",
+      "text": "Expansion of higher education should prioritise new places at public universities and institutes."
+    },
+    {
+      "id": "br2026_provisao_publica_6",
+      "text": "Infrastructure expansion should prioritise concessions operated by private companies."
+    },
+    {
+      "id": "br2026_trabalho_1",
+      "text": "The law should shorten the working week and guarantee two rest days without reducing wages."
+    },
+    {
+      "id": "br2026_trabalho_2",
+      "text": "Workers and employers should have more freedom to negotiate working hours while respecting basic constitutional rights."
+    },
+    {
+      "id": "br2026_trabalho_3",
+      "text": "A national rule should give the minimum wage real increases beyond inflation."
+    },
+    {
+      "id": "br2026_trabalho_4",
+      "text": "New contract types should make it easier to hire young workers and people over 50, even with rules that differ from the standard labour code."
+    },
+    {
+      "id": "br2026_trabalho_5",
+      "text": "The government should inspect independent-contractor arrangements to prevent them replacing jobs that should have labour-code protections."
+    },
+    {
+      "id": "br2026_trabalho_6",
+      "text": "Platform work should retain flexible contracts, with social protection without requiring every platform to use standard employment contracts."
+    },
+    {
+      "id": "br2026_direitos_sociais_1",
+      "text": "The government should maintain specific policies against discrimination toward LGBT people."
+    },
+    {
+      "id": "br2026_direitos_sociais_2",
+      "text": "Abortion law should remain limited to the circumstances that are already legally permitted."
+    },
+    {
+      "id": "br2026_direitos_sociais_3",
+      "text": "Racial quotas in education should be retained to reduce inequalities."
+    },
+    {
+      "id": "br2026_direitos_sociais_4",
+      "text": "Eligibility for female sporting categories should be determined by sex at birth."
+    },
+    {
+      "id": "br2026_direitos_sociais_5",
+      "text": "Public policy should recognise different family structures, including same-sex couples."
+    },
+    {
+      "id": "br2026_direitos_sociais_6",
+      "text": "Sexuality education in schools should require prior parental permission."
+    },
+    {
+      "id": "br2026_laicidade_1",
+      "text": "Laws should be justified by public reasons without relying on a religious doctrine."
+    },
+    {
+      "id": "br2026_laicidade_2",
+      "text": "Religious references should play an explicit role in setting government priorities."
+    },
+    {
+      "id": "br2026_laicidade_3",
+      "text": "The government should treat all religions and people without religion equally."
+    },
+    {
+      "id": "br2026_laicidade_4",
+      "text": "Commitment to religious values should be a relevant criterion when appointing public officials."
+    },
+    {
+      "id": "br2026_laicidade_5",
+      "text": "Public services should serve people without requiring participation in religious practices."
+    },
+    {
+      "id": "br2026_laicidade_6",
+      "text": "Public schools should be able to offer instruction in a particular religion when families request it."
+    },
+    {
+      "id": "br2026_armas_1",
+      "text": "Civilian firearm purchases should require proof of need as well as background and competency checks."
+    },
+    {
+      "id": "br2026_armas_2",
+      "text": "Firearm-carrying rights should extend to professional groups exposed to risk, such as lawyers."
+    },
+    {
+      "id": "br2026_armas_3",
+      "text": "There should be low limits on how many firearms and how much ammunition each civilian can buy."
+    },
+    {
+      "id": "br2026_armas_4",
+      "text": "Rules for collectors, sport shooters and hunters should make legally registered firearms easier to purchase and transport."
+    },
+    {
+      "id": "br2026_armas_5",
+      "text": "A federal civilian authority should centralise oversight of civilian firearms."
+    },
+    {
+      "id": "br2026_armas_6",
+      "text": "Adults who pass background and competency checks should have broader access to firearms for personal defence."
+    },
+    {
+      "id": "br2026_justica_penal_1",
+      "text": "Prisons should expand education and work opportunities to support reintegration."
+    },
+    {
+      "id": "br2026_justica_penal_2",
+      "text": "The age of adult criminal responsibility should fall from 18 to 16."
+    },
+    {
+      "id": "br2026_justica_penal_3",
+      "text": "For offenders convicted of heinous crimes such as rape, progression to less restrictive custody should remain possible under the law."
+    },
+    {
+      "id": "br2026_justica_penal_4",
+      "text": "Prison policy should prioritise building capacity to expand incarceration."
+    },
+    {
+      "id": "br2026_justica_penal_5",
+      "text": "Non-custodial sentences should be expanded for non-violent offences."
+    },
+    {
+      "id": "br2026_justica_penal_6",
+      "text": "Police forces should have greater discretion in using force, with fewer detailed federal rules."
+    },
+    {
+      "id": "br2026_ambiente_1",
+      "text": "High-impact projects should undergo full environmental studies even if licensing takes longer."
+    },
+    {
+      "id": "br2026_ambiente_2",
+      "text": "Environmental licensing should have shorter deadlines to accelerate productive projects."
+    },
+    {
+      "id": "br2026_ambiente_3",
+      "text": "Emissions-reduction targets should guide investment and land-use decisions."
+    },
+    {
+      "id": "br2026_ambiente_4",
+      "text": "Brazil should expand oil and gas exploration in new areas subject to environmental requirements."
+    },
+    {
+      "id": "br2026_ambiente_5",
+      "text": "The government should seek net-zero deforestation, including compensation for legally permitted clearing."
+    },
+    {
+      "id": "br2026_ambiente_6",
+      "text": "Income generation from natural resources should take priority where extraction can meet environmental law."
+    },
+    {
+      "id": "br2026_diplomacia_eleitoral_1",
+      "text": "Brazil should pursue solutions to international conflicts through institutions such as the UN."
+    },
+    {
+      "id": "br2026_diplomacia_eleitoral_2",
+      "text": "Foreign policy should prioritise direct agreements between countries over commitments to large blocs."
+    },
+    {
+      "id": "br2026_diplomacia_eleitoral_3",
+      "text": "Brazil should deepen political and economic integration with South American countries."
+    },
+    {
+      "id": "br2026_diplomacia_eleitoral_4",
+      "text": "Brazil should have greater freedom to negotiate trade agreements outside Mercosur's common rules."
+    },
+    {
+      "id": "br2026_diplomacia_eleitoral_5",
+      "text": "Brazil should participate in international coalitions addressing hunger and climate change."
+    },
+    {
+      "id": "br2026_diplomacia_eleitoral_6",
+      "text": "Brazil should avoid international commitments that limit its discretion over domestic policy."
+    },
+    {
+      "id": "br2026_contrapesos_1",
+      "text": "Courts should be able to suspend unconstitutional actions by elected branches even when those actions have popular support."
+    },
+    {
+      "id": "br2026_contrapesos_2",
+      "text": "The Supreme Court should have fewer powers and focus on constitutional cases."
+    },
+    {
+      "id": "br2026_contrapesos_3",
+      "text": "A Supreme Court justice should be able to suspend a measure urgently if the full court reviews it promptly."
+    },
+    {
+      "id": "br2026_contrapesos_4",
+      "text": "In public-policy disputes, courts should leave greater discretion to Congress and the executive."
+    },
+    {
+      "id": "br2026_contrapesos_5",
+      "text": "Oversight bodies should be able to investigate government decisions without prior permission from elected officials."
+    },
+    {
+      "id": "br2026_contrapesos_6",
+      "text": "Fewer organisations should be authorised to challenge laws directly before the Supreme Court."
+    }
+  ]
+}

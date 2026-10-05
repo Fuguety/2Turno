@@ -11,9 +11,8 @@ const STORAGE_KEY = '12axes-lang';
 // independente do aparelho ou da preferência salva.
 function langForcedByPath(pathname: string): Lang | null {
   const path = (pathname.replace(/\.html$/, '').replace(/\/+$/, '') || '/');
-  if (path === '/en') return 'en';
-  if (path === '/br') return 'pt';
-  return null;
+  if (path === '/en' || path.startsWith('/en/')) return 'en';
+  return 'pt';
 }
 
 export function resolveLang(): Lang {

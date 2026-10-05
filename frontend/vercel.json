@@ -4,7 +4,17 @@
   "framework": "vite",
   "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [{ "source": "/((?!assets/).*)", "destination": "/" }],
+  "redirects": [
+    { "source": "/personalities/:id(lula-da-silva|flavio-bolsonaro)", "destination": "/candidatos/:id", "permanent": true },
+    { "source": "/en/personalities/:id(lula-da-silva|flavio-bolsonaro)", "destination": "/en/candidatos/:id", "permanent": true },
+    { "source": "/personalities/:path*", "destination": "/", "permanent": true },
+    { "source": "/en/personalities/:path*", "destination": "/en", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/results", "destination": "/" },
+    { "source": "/en/results", "destination": "/en" },
+    { "source": "/240questions", "destination": "/" }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",

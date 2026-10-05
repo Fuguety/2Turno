@@ -1,8 +1,8 @@
 <div align="center">
 
-# 12 Axes
+# 2 Turno
 
-A political quiz that places you on twelve independent axes and compares your answers with +230 ideologies, +170 countries and regimes, and +390 political figures.
+A quiz for Brazil's 2026 presidential runoff (25 October 2026): answer questions on twelve topics and see whether you are closer to Lula (PT · 13) or Flávio Bolsonaro (PL · 22), with each position sourced to their government programmes. Built on the 12 Axes project, whose international catalogue remains in the repository.
 
 **[12axes.vercel.app](https://12axes.vercel.app)** · Portuguese and English · no sign-up
 
@@ -11,6 +11,14 @@ A political quiz that places you on twelve independent axes and compares your an
 </div>
 
 ## Overview
+
+The website build publishes only **2 Turno**: the election quiz, one page per candidate with
+their position on each axis and links to the cited pages of their programme, and a methodology
+page, in Portuguese and English. Candidate coding, sources and uncertainty are documented in
+[MODEL-BRAZIL-2026.md](colinha-eleitoral/MODEL-BRAZIL-2026.md) and
+[PLANOS-2026.md](colinha-eleitoral/PLANOS-2026.md). International source data and the original
+general model remain available internally. The general-project overview below describes the
+reusable 12 Axes architecture.
 
 Most political tests reduce you to a single point on a left-right line, or to a two-axis grid. 12 Axes measures twelve dimensions separately, so someone who wants a free market and a strong state, or open borders and a religious society, sees that combination instead of an average that hides it.
 

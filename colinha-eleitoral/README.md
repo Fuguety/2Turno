@@ -6,6 +6,16 @@ da urna), inspirada no [colinha.ai](https://colinha.ai).
 
 ## Ideia
 
+O modelo presidencial Lula–Flávio Bolsonaro está implementado como um banco eleitoral versionado,
+com 12 dimensões próprias e endpoints em `/api/elections/brazil-2026`. Consulte
+[MODEL-BRAZIL-2026.md](MODEL-BRAZIL-2026.md) para os escores, perguntas, fontes, incertezas e contrato
+de integração, e [VALIDATION-BRAZIL-2026.md](VALIDATION-BRAZIL-2026.md) para a validação.
+Esse comparador usa distância média absoluta com pesos iguais por eixo; os resultados do quiz
+geral e o algoritmo de catálogo descritos no planejamento abaixo não podem ser reutilizados
+diretamente para essas novas dimensões.
+O build padrão agora publica a experiência eleitoral brasileira com 86 perfis do Brasil,
+sem páginas ou retratos internacionais. Veja [BRAZIL-ONLY.md](BRAZIL-ONLY.md) para o filtro e os testes.
+
 1. A pessoa faz o quiz normalmente.
 2. Na página de resultados, uma seção "Seus candidatos em 2026" lista os candidatos de cada cargo no
    estado dela, ordenados por proximidade (mesmo algoritmo de `ProfileMatchScorer`).

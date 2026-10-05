@@ -1,0 +1,1280 @@
+{
+  "modelId": "brazil-presidential-2026-v2",
+  "asOf": "2026-10-05",
+  "title": "2 Turno — Lula x Flávio Bolsonaro",
+  "description": "Compare suas posições com as propostas de Lula e Flávio Bolsonaro. Proximidade de respostas não é recomendação de voto.",
+  "axes": [
+    {
+      "id": "coordenacao",
+      "label": "Coordenação econômica",
+      "leftPole": "Política industrial ativa",
+      "rightPole": "Coordenação pelo mercado",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "protecao_social",
+      "label": "Proteção social e orçamento",
+      "leftPole": "Ampliação da proteção social",
+      "rightPole": "Contenção de gastos sociais",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "tributacao",
+      "label": "Tributação",
+      "leftPole": "Maior progressividade",
+      "rightPole": "Redução geral de impostos",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "provisao_publica",
+      "label": "Serviços e empresas públicas",
+      "leftPole": "Provisão e controle públicos",
+      "rightPole": "Provisão privada e concessões",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "trabalho",
+      "label": "Relações de trabalho",
+      "leftPole": "Proteção definida em lei",
+      "rightPole": "Flexibilidade negociada",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "direitos_sociais",
+      "label": "Direitos e costumes",
+      "leftPole": "Ampliação de direitos sociais",
+      "rightPole": "Preservação de normas tradicionais",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "laicidade",
+      "label": "Religião e Estado",
+      "leftPole": "Decisões públicas laicas",
+      "rightPole": "Referências religiosas na política",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "armas",
+      "label": "Armas de fogo",
+      "leftPole": "Acesso civil restrito",
+      "rightPole": "Acesso civil ampliado",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "justica_penal",
+      "label": "Justiça penal",
+      "leftPole": "Reintegração e garantias processuais",
+      "rightPole": "Penas e encarceramento ampliados",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "ambiente",
+      "label": "Meio ambiente",
+      "leftPole": "Prioridade à proteção ambiental",
+      "rightPole": "Flexibilidade para uso de recursos",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "diplomacia_eleitoral",
+      "label": "Política externa",
+      "leftPole": "Cooperação multilateral",
+      "rightPole": "Autonomia e acordos bilaterais",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    },
+    {
+      "id": "contrapesos",
+      "label": "Equilíbrio entre Poderes",
+      "leftPole": "Controle judicial mais amplo",
+      "rightPole": "Maior margem dos Poderes eleitos",
+      "leftColor": "#2F6DC0",
+      "rightColor": "#CF5A22"
+    }
+  ],
+  "questions": [
+    {
+      "id": "br2026_coordenacao_1",
+      "axisId": "coordenacao",
+      "text": "O governo deve oferecer crédito com juros reduzidos para desenvolver setores industriais escolhidos como estratégicos.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "credito-industrial",
+      "core": true
+    },
+    {
+      "id": "br2026_coordenacao_2",
+      "axisId": "coordenacao",
+      "text": "A escolha dos setores econômicos que devem crescer deve ficar principalmente com as empresas, sem prioridades definidas pelo governo.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "escolha-setores",
+      "core": true
+    },
+    {
+      "id": "br2026_coordenacao_3",
+      "axisId": "coordenacao",
+      "text": "Compras do governo devem dar preferência a produtos nacionais para desenvolver a indústria brasileira, mesmo com custo maior.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "compras-nacionais",
+      "core": true
+    },
+    {
+      "id": "br2026_coordenacao_4",
+      "axisId": "coordenacao",
+      "text": "Os preços dos combustíveis devem acompanhar o mercado internacional, sem medidas do governo para suavizar as variações.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "precos-combustiveis",
+      "core": true
+    },
+    {
+      "id": "br2026_coordenacao_5",
+      "axisId": "coordenacao",
+      "text": "O governo deve definir metas de produção e inovação para orientar investimentos em setores estratégicos.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "missao-industrial",
+      "core": true
+    },
+    {
+      "id": "br2026_coordenacao_6",
+      "axisId": "coordenacao",
+      "text": "As exigências para abrir e manter empresas devem ser reduzidas, mantendo as regras de segurança dos produtos.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "regulacao-negocios",
+      "core": true
+    },
+    {
+      "id": "br2026_protecao_social_1",
+      "axisId": "protecao_social",
+      "text": "Benefícios para famílias de baixa renda devem crescer acima da inflação quando a arrecadação permitir.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "expansao-beneficios",
+      "core": true
+    },
+    {
+      "id": "br2026_protecao_social_2",
+      "axisId": "protecao_social",
+      "text": "O crescimento dos gastos com benefícios sociais deve ficar abaixo do crescimento da arrecadação para reduzir a dívida pública.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "limite-orcamento-social",
+      "core": true
+    },
+    {
+      "id": "br2026_protecao_social_3",
+      "axisId": "protecao_social",
+      "text": "Programas de transferência de renda devem ser mantidos enquanto a família permanecer em situação de pobreza.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "manutencao-beneficios",
+      "core": true
+    },
+    {
+      "id": "br2026_protecao_social_4",
+      "axisId": "protecao_social",
+      "text": "Ao conseguir emprego, a família deve sair gradualmente dos programas de transferência de renda, com prazo de transição.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "transicao-emprego",
+      "core": true
+    },
+    {
+      "id": "br2026_protecao_social_5",
+      "axisId": "protecao_social",
+      "text": "O governo deve ampliar a cobertura dos benefícios sociais para alcançar famílias elegíveis que ainda estão fora dos programas.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "cobertura-social",
+      "core": true
+    },
+    {
+      "id": "br2026_protecao_social_6",
+      "axisId": "protecao_social",
+      "text": "Se houver falta de dinheiro no orçamento, as regras dos benefícios sociais devem ser revistas para conter despesas.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "ajuste-beneficios",
+      "core": true
+    },
+    {
+      "id": "br2026_tributacao_1",
+      "axisId": "tributacao",
+      "text": "A redução do imposto de renda de quem ganha menos deve ser compensada com maior cobrança sobre rendas muito altas.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "compensacao-altas-rendas",
+      "core": true
+    },
+    {
+      "id": "br2026_tributacao_2",
+      "axisId": "tributacao",
+      "text": "A prioridade tributária deve ser reduzir a carga total de impostos, em vez de redistribuir a cobrança entre grupos de renda.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "carga-total",
+      "core": true
+    },
+    {
+      "id": "br2026_tributacao_3",
+      "axisId": "tributacao",
+      "text": "Lucros e dividendos recebidos por pessoas de renda muito alta devem contribuir para um imposto de renda mínimo.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "dividendos",
+      "core": true
+    },
+    {
+      "id": "br2026_tributacao_4",
+      "axisId": "tributacao",
+      "text": "O governo deve priorizar cortes nos impostos sobre consumo, mesmo sem aumentar a cobrança sobre altas rendas.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "imposto-consumo",
+      "core": true
+    },
+    {
+      "id": "br2026_tributacao_5",
+      "axisId": "tributacao",
+      "text": "O governo deve fechar benefícios tributários usados principalmente por pessoas de alta renda, ainda que isso aumente a cobrança sobre elas.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "brechas-fiscais",
+      "core": true
+    },
+    {
+      "id": "br2026_tributacao_6",
+      "axisId": "tributacao",
+      "text": "Reduzir impostos pagos por empresas deve ser prioridade em relação a ampliar a tributação das rendas mais altas.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "imposto-producao",
+      "core": true
+    },
+    {
+      "id": "br2026_provisao_publica_1",
+      "axisId": "provisao_publica",
+      "text": "Para ampliar o atendimento de saúde, o governo deve priorizar a expansão da rede pública do SUS.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "hospitais-publicos",
+      "core": true
+    },
+    {
+      "id": "br2026_provisao_publica_2",
+      "axisId": "provisao_publica",
+      "text": "Para diminuir filas do SUS, o governo deve priorizar a contratação de vagas disponíveis em hospitais privados.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "compra-atendimento",
+      "core": true
+    },
+    {
+      "id": "br2026_provisao_publica_3",
+      "axisId": "provisao_publica",
+      "text": "Empresas estatais de setores estratégicos devem continuar sob controle público.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "controle-estatais",
+      "core": true
+    },
+    {
+      "id": "br2026_provisao_publica_4",
+      "axisId": "provisao_publica",
+      "text": "Onde faltam vagas na rede pública, o governo deve financiar vagas em escolas ou creches privadas.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "vagas-educacao",
+      "core": true
+    },
+    {
+      "id": "br2026_provisao_publica_5",
+      "axisId": "provisao_publica",
+      "text": "A expansão do ensino superior deve priorizar novas vagas em universidades e institutos públicos.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "universidades-publicas",
+      "core": true
+    },
+    {
+      "id": "br2026_provisao_publica_6",
+      "axisId": "provisao_publica",
+      "text": "A expansão da infraestrutura deve priorizar concessões operadas por empresas privadas.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "concessoes-infraestrutura",
+      "core": true
+    },
+    {
+      "id": "br2026_trabalho_1",
+      "axisId": "trabalho",
+      "text": "A lei deve reduzir a jornada semanal e garantir dois dias de descanso, sem reduzir salários.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "jornada-legal",
+      "core": true
+    },
+    {
+      "id": "br2026_trabalho_2",
+      "axisId": "trabalho",
+      "text": "Trabalhadores e empresas devem ter mais liberdade para negociar a jornada, respeitando os direitos básicos da Constituição.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "negociacao-jornada",
+      "core": true
+    },
+    {
+      "id": "br2026_trabalho_3",
+      "axisId": "trabalho",
+      "text": "O salário mínimo deve ter aumentos reais definidos por uma regra nacional, além da reposição da inflação.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "salario-minimo",
+      "core": true
+    },
+    {
+      "id": "br2026_trabalho_4",
+      "axisId": "trabalho",
+      "text": "Novas formas de contrato devem facilitar a contratação de jovens e pessoas acima de 50 anos, mesmo com regras diferentes das da CLT.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "contratos-especiais",
+      "core": true
+    },
+    {
+      "id": "br2026_trabalho_5",
+      "axisId": "trabalho",
+      "text": "O governo deve fiscalizar contratos de pessoa jurídica para impedir que substituam empregos que deveriam ter proteção da CLT.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "pejotizacao",
+      "core": true
+    },
+    {
+      "id": "br2026_trabalho_6",
+      "axisId": "trabalho",
+      "text": "O trabalho por aplicativos deve manter contratos flexíveis, com proteção social sem obrigar todas as plataformas a contratar pela CLT.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "autonomia-aplicativos",
+      "core": true
+    },
+    {
+      "id": "br2026_direitos_sociais_1",
+      "axisId": "direitos_sociais",
+      "text": "O governo deve manter políticas específicas para combater a discriminação contra pessoas LGBT.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "politicas-lgbt",
+      "core": true
+    },
+    {
+      "id": "br2026_direitos_sociais_2",
+      "axisId": "direitos_sociais",
+      "text": "A legislação sobre aborto deve continuar limitada às situações que já são permitidas por lei.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "aborto-legislacao",
+      "core": true
+    },
+    {
+      "id": "br2026_direitos_sociais_3",
+      "axisId": "direitos_sociais",
+      "text": "As cotas raciais no acesso à educação devem ser mantidas como medida de redução de desigualdades.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "cotas-raciais",
+      "core": true
+    },
+    {
+      "id": "br2026_direitos_sociais_4",
+      "axisId": "direitos_sociais",
+      "text": "A participação em categorias femininas do esporte deve ser definida pelo sexo de nascimento.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "participacao-esporte",
+      "core": true
+    },
+    {
+      "id": "br2026_direitos_sociais_5",
+      "axisId": "direitos_sociais",
+      "text": "As políticas públicas devem reconhecer diferentes formas de família, incluindo casais do mesmo sexo.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "reconhecimento-familias",
+      "core": true
+    },
+    {
+      "id": "br2026_direitos_sociais_6",
+      "axisId": "direitos_sociais",
+      "text": "Os conteúdos sobre sexualidade nas escolas devem depender de autorização prévia dos responsáveis.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "educacao-sexual",
+      "core": true
+    },
+    {
+      "id": "br2026_laicidade_1",
+      "axisId": "laicidade",
+      "text": "As leis devem ser justificadas por razões públicas, sem depender da doutrina de uma religião.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "fundamento-leis",
+      "core": true
+    },
+    {
+      "id": "br2026_laicidade_2",
+      "axisId": "laicidade",
+      "text": "Referências religiosas devem ter papel explícito na orientação das prioridades do governo.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "referencia-religiosa",
+      "core": true
+    },
+    {
+      "id": "br2026_laicidade_3",
+      "axisId": "laicidade",
+      "text": "O governo deve tratar todas as religiões e as pessoas sem religião de forma igual.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "igualdade-crencas",
+      "core": true
+    },
+    {
+      "id": "br2026_laicidade_4",
+      "axisId": "laicidade",
+      "text": "O compromisso com valores religiosos deve ser um critério relevante na escolha de autoridades públicas.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "nomeacoes-religiosas",
+      "core": true
+    },
+    {
+      "id": "br2026_laicidade_5",
+      "axisId": "laicidade",
+      "text": "Serviços públicos devem atender as pessoas sem exigir adesão a práticas religiosas.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "atendimento-laico",
+      "core": true
+    },
+    {
+      "id": "br2026_laicidade_6",
+      "axisId": "laicidade",
+      "text": "Escolas públicas devem poder oferecer ensino de uma religião específica quando houver demanda das famílias.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "ensino-confessional",
+      "core": true
+    },
+    {
+      "id": "br2026_armas_1",
+      "axisId": "armas",
+      "text": "A compra de armas por civis deve exigir comprovação de necessidade, além de antecedentes e capacidade técnica.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "necessidade-posse",
+      "core": true
+    },
+    {
+      "id": "br2026_armas_2",
+      "axisId": "armas",
+      "text": "O direito de portar arma deve ser ampliado para categorias profissionais sujeitas a risco, como advogados.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "porte-profissoes",
+      "core": true
+    },
+    {
+      "id": "br2026_armas_3",
+      "axisId": "armas",
+      "text": "Deve haver limites baixos para a quantidade de armas e munições que cada civil pode comprar.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "limites-arsenal",
+      "core": true
+    },
+    {
+      "id": "br2026_armas_4",
+      "axisId": "armas",
+      "text": "As regras para colecionadores, atiradores e caçadores devem facilitar a compra e o transporte de armas legalizadas.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "tiro-desportivo",
+      "core": true
+    },
+    {
+      "id": "br2026_armas_5",
+      "axisId": "armas",
+      "text": "Uma autoridade federal civil deve concentrar a fiscalização das armas de uso civil.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "fiscalizacao-civil",
+      "core": true
+    },
+    {
+      "id": "br2026_armas_6",
+      "axisId": "armas",
+      "text": "Adultos sem antecedentes e aprovados em testes devem ter acesso mais amplo a armas para defesa pessoal.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "defesa-pessoal",
+      "core": true
+    },
+    {
+      "id": "br2026_justica_penal_1",
+      "axisId": "justica_penal",
+      "text": "O sistema prisional deve ampliar estudo e trabalho para favorecer a reintegração de quem cumpre pena.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "estudo-prisional",
+      "core": true
+    },
+    {
+      "id": "br2026_justica_penal_2",
+      "axisId": "justica_penal",
+      "text": "A idade para responder criminalmente como adulto deve cair de 18 para 16 anos.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "maioridade-penal",
+      "core": true
+    },
+    {
+      "id": "br2026_justica_penal_3",
+      "axisId": "justica_penal",
+      "text": "Para condenados por crimes hediondos, como estupro, a passagem para regimes menos restritivos deve continuar possível conforme a lei.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "progressao-pena",
+      "core": true
+    },
+    {
+      "id": "br2026_justica_penal_4",
+      "axisId": "justica_penal",
+      "text": "A prioridade da política prisional deve ser construir mais vagas para ampliar o encarceramento.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "vagas-prisionais",
+      "core": true
+    },
+    {
+      "id": "br2026_justica_penal_5",
+      "axisId": "justica_penal",
+      "text": "Para crimes sem violência, penas alternativas à prisão devem ser ampliadas.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "penas-alternativas",
+      "core": true
+    },
+    {
+      "id": "br2026_justica_penal_6",
+      "axisId": "justica_penal",
+      "text": "As forças policiais devem ter mais margem para decidir sobre o uso da força, com menos regras federais detalhadas.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "controle-forca",
+      "core": true
+    },
+    {
+      "id": "br2026_ambiente_1",
+      "axisId": "ambiente",
+      "text": "Obras com grande impacto devem passar por estudos ambientais completos, mesmo que a licença demore mais.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "licenciamento-estudos",
+      "core": true
+    },
+    {
+      "id": "br2026_ambiente_2",
+      "axisId": "ambiente",
+      "text": "O licenciamento ambiental deve ter prazos mais curtos para acelerar projetos produtivos.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "prazo-licencas",
+      "core": true
+    },
+    {
+      "id": "br2026_ambiente_3",
+      "axisId": "ambiente",
+      "text": "Metas de redução de emissões devem orientar decisões sobre investimentos e uso do solo.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "metas-clima",
+      "core": true
+    },
+    {
+      "id": "br2026_ambiente_4",
+      "axisId": "ambiente",
+      "text": "O Brasil deve ampliar a exploração de petróleo e gás em novas áreas, cumpridas as exigências ambientais.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "petroleo-novas-areas",
+      "core": true
+    },
+    {
+      "id": "br2026_ambiente_5",
+      "axisId": "ambiente",
+      "text": "O governo deve buscar desmatamento líquido zero, incluindo a compensação de cortes que hoje são legais.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "limite-desmatamento",
+      "core": true
+    },
+    {
+      "id": "br2026_ambiente_6",
+      "axisId": "ambiente",
+      "text": "A geração de renda com recursos naturais deve ter prioridade onde a exploração puder cumprir a legislação ambiental.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "uso-recursos",
+      "core": true
+    },
+    {
+      "id": "br2026_diplomacia_eleitoral_1",
+      "axisId": "diplomacia_eleitoral",
+      "text": "O Brasil deve buscar soluções para conflitos internacionais por meio de instituições como a ONU.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "instituicoes-multilaterais",
+      "core": true
+    },
+    {
+      "id": "br2026_diplomacia_eleitoral_2",
+      "axisId": "diplomacia_eleitoral",
+      "text": "A política externa deve priorizar acordos diretos entre países em vez de compromissos com grandes blocos.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "acordos-bilaterais",
+      "core": true
+    },
+    {
+      "id": "br2026_diplomacia_eleitoral_3",
+      "axisId": "diplomacia_eleitoral",
+      "text": "O Brasil deve aprofundar a integração política e econômica com os países da América do Sul.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "integracao-regional",
+      "core": true
+    },
+    {
+      "id": "br2026_diplomacia_eleitoral_4",
+      "axisId": "diplomacia_eleitoral",
+      "text": "O Brasil deve ter mais liberdade para negociar acordos comerciais fora das regras comuns do Mercosul.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "liberdade-acordos",
+      "core": true
+    },
+    {
+      "id": "br2026_diplomacia_eleitoral_5",
+      "axisId": "diplomacia_eleitoral",
+      "text": "O Brasil deve participar de coalizões internacionais para enfrentar fome e mudanças climáticas.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "coalizoes-globais",
+      "core": true
+    },
+    {
+      "id": "br2026_diplomacia_eleitoral_6",
+      "axisId": "diplomacia_eleitoral",
+      "text": "O Brasil deve evitar compromissos internacionais que limitem sua margem de decisão sobre políticas internas.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "compromissos-externos",
+      "core": true
+    },
+    {
+      "id": "br2026_contrapesos_1",
+      "axisId": "contrapesos",
+      "text": "Tribunais devem poder suspender atos dos Poderes eleitos que violem a Constituição, mesmo quando tenham apoio popular.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "revisao-constitucional",
+      "core": true
+    },
+    {
+      "id": "br2026_contrapesos_2",
+      "axisId": "contrapesos",
+      "text": "O STF deve ter menos competências e concentrar sua atuação no julgamento de questões constitucionais.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "competencia-stf",
+      "core": true
+    },
+    {
+      "id": "br2026_contrapesos_3",
+      "axisId": "contrapesos",
+      "text": "Um ministro do STF deve poder suspender uma medida em caso urgente, desde que a decisão seja revista rapidamente pelo colegiado.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "liminar-urgente",
+      "core": true
+    },
+    {
+      "id": "br2026_contrapesos_4",
+      "axisId": "contrapesos",
+      "text": "Em disputas sobre políticas públicas, o Judiciário deve deixar maior espaço de decisão para o Congresso e o Executivo.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "autocontencao-judicial",
+      "core": true
+    },
+    {
+      "id": "br2026_contrapesos_5",
+      "axisId": "contrapesos",
+      "text": "Órgãos de controle devem poder investigar decisões do governo sem autorização prévia de autoridades eleitas.",
+      "agreePole": "LEFT",
+      "weight": 1,
+      "topic": "fiscalizacao-independente",
+      "core": true
+    },
+    {
+      "id": "br2026_contrapesos_6",
+      "axisId": "contrapesos",
+      "text": "O número de organizações autorizadas a contestar leis diretamente no STF deve ser reduzido.",
+      "agreePole": "RIGHT",
+      "weight": 1,
+      "topic": "acesso-contestacao",
+      "core": true
+    }
+  ],
+  "candidates": [
+    {
+      "id": "lula-da-silva",
+      "name": "Luiz Inácio Lula da Silva (Lula)",
+      "party": "PT",
+      "number": 13,
+      "answers": {
+        "br2026_coordenacao_1": "AGREE",
+        "br2026_coordenacao_2": "DISAGREE",
+        "br2026_coordenacao_3": "STRONGLY_AGREE",
+        "br2026_coordenacao_4": "STRONGLY_DISAGREE",
+        "br2026_coordenacao_5": "AGREE",
+        "br2026_coordenacao_6": "AGREE",
+        "br2026_protecao_social_1": "AGREE",
+        "br2026_protecao_social_2": "DISAGREE",
+        "br2026_protecao_social_3": "AGREE",
+        "br2026_protecao_social_4": "AGREE",
+        "br2026_protecao_social_5": "AGREE",
+        "br2026_protecao_social_6": "DISAGREE",
+        "br2026_tributacao_1": "STRONGLY_AGREE",
+        "br2026_tributacao_2": "DISAGREE",
+        "br2026_tributacao_3": "STRONGLY_AGREE",
+        "br2026_tributacao_4": "NEUTRAL",
+        "br2026_tributacao_5": "AGREE",
+        "br2026_tributacao_6": "DISAGREE",
+        "br2026_provisao_publica_1": "AGREE",
+        "br2026_provisao_publica_2": "AGREE",
+        "br2026_provisao_publica_3": "STRONGLY_AGREE",
+        "br2026_provisao_publica_4": "DISAGREE",
+        "br2026_provisao_publica_5": "AGREE",
+        "br2026_provisao_publica_6": "AGREE",
+        "br2026_trabalho_1": "STRONGLY_AGREE",
+        "br2026_trabalho_2": "DISAGREE",
+        "br2026_trabalho_3": "STRONGLY_AGREE",
+        "br2026_trabalho_4": "DISAGREE",
+        "br2026_trabalho_5": "STRONGLY_AGREE",
+        "br2026_trabalho_6": "AGREE",
+        "br2026_direitos_sociais_1": "STRONGLY_AGREE",
+        "br2026_direitos_sociais_2": "NEUTRAL",
+        "br2026_direitos_sociais_3": "STRONGLY_AGREE",
+        "br2026_direitos_sociais_4": "NEUTRAL",
+        "br2026_direitos_sociais_5": "AGREE",
+        "br2026_direitos_sociais_6": "NEUTRAL",
+        "br2026_laicidade_1": "AGREE",
+        "br2026_laicidade_2": "NEUTRAL",
+        "br2026_laicidade_3": "AGREE",
+        "br2026_laicidade_4": "NEUTRAL",
+        "br2026_laicidade_5": "NEUTRAL",
+        "br2026_laicidade_6": "NEUTRAL",
+        "br2026_armas_1": "STRONGLY_AGREE",
+        "br2026_armas_2": "DISAGREE",
+        "br2026_armas_3": "AGREE",
+        "br2026_armas_4": "DISAGREE",
+        "br2026_armas_5": "STRONGLY_AGREE",
+        "br2026_armas_6": "DISAGREE",
+        "br2026_justica_penal_1": "AGREE",
+        "br2026_justica_penal_2": "DISAGREE",
+        "br2026_justica_penal_3": "AGREE",
+        "br2026_justica_penal_4": "NEUTRAL",
+        "br2026_justica_penal_5": "AGREE",
+        "br2026_justica_penal_6": "STRONGLY_DISAGREE",
+        "br2026_ambiente_1": "AGREE",
+        "br2026_ambiente_2": "NEUTRAL",
+        "br2026_ambiente_3": "AGREE",
+        "br2026_ambiente_4": "AGREE",
+        "br2026_ambiente_5": "STRONGLY_AGREE",
+        "br2026_ambiente_6": "AGREE",
+        "br2026_diplomacia_eleitoral_1": "AGREE",
+        "br2026_diplomacia_eleitoral_2": "DISAGREE",
+        "br2026_diplomacia_eleitoral_3": "STRONGLY_AGREE",
+        "br2026_diplomacia_eleitoral_4": "STRONGLY_DISAGREE",
+        "br2026_diplomacia_eleitoral_5": "STRONGLY_AGREE",
+        "br2026_diplomacia_eleitoral_6": "DISAGREE",
+        "br2026_contrapesos_1": "AGREE",
+        "br2026_contrapesos_2": "NEUTRAL",
+        "br2026_contrapesos_3": "NEUTRAL",
+        "br2026_contrapesos_4": "NEUTRAL",
+        "br2026_contrapesos_5": "AGREE",
+        "br2026_contrapesos_6": "NEUTRAL"
+      },
+      "uncertainQuestionIds": [
+        "br2026_direitos_sociais_2",
+        "br2026_direitos_sociais_4",
+        "br2026_direitos_sociais_6",
+        "br2026_laicidade_2",
+        "br2026_laicidade_4",
+        "br2026_laicidade_5",
+        "br2026_laicidade_6",
+        "br2026_ambiente_2",
+        "br2026_contrapesos_2",
+        "br2026_contrapesos_3",
+        "br2026_contrapesos_4",
+        "br2026_contrapesos_6"
+      ],
+      "evidence": {
+        "coordenacao": {
+          "confidence": "medium",
+          "summary": "Política industrial com conteúdo local; simplifica negócios; suaviza preços de combustíveis.",
+          "summaryEnglish": "Industrial policy with local content; simpler business rules; smooths fuel prices.",
+          "sourceIds": [
+            "tse-pt"
+          ],
+          "locator": "pp. 47–58, 63–69"
+        },
+        "protecao_social": {
+          "confidence": "medium",
+          "summary": "Expansão social com responsabilidade fiscal; transição mantida.",
+          "summaryEnglish": "Social expansion with fiscal responsibility; transition retained.",
+          "sourceIds": [
+            "tse-pt"
+          ],
+          "locator": "pp. 18–26, 47–49"
+        },
+        "tributacao": {
+          "confidence": "high",
+          "summary": "Compensação tributária por altas rendas.",
+          "summaryEnglish": "High-income funding of tax relief.",
+          "sourceIds": [
+            "ir-2025"
+          ],
+          "locator": "Lei 15.270/2025, arts. 2–3"
+        },
+        "provisao_publica": {
+          "confidence": "medium",
+          "summary": "Rede pública com contratação privada e concessões.",
+          "summaryEnglish": "Public networks alongside private purchasing and concessions.",
+          "sourceIds": [
+            "tse-pt"
+          ],
+          "locator": "pp. 30–40, 52–53, 66"
+        },
+        "trabalho": {
+          "confidence": "high",
+          "summary": "Proteção legal; autonomia para motoristas de aplicativos.",
+          "summaryEnglish": "Statutory protection; autonomy for platform drivers.",
+          "sourceIds": [
+            "tse-pt",
+            "apps-2024"
+          ],
+          "locator": "pp. 73–77; PLP 12/2024, art. 3"
+        },
+        "direitos_sociais": {
+          "confidence": "medium",
+          "summary": "Cotas raciais e políticas LGBTQIAP+; aborto e educação sexual não definidos.",
+          "summaryEnglish": "Racial quotas and LGBTQIAP+ policies; abortion and sex education unspecified.",
+          "sourceIds": [
+            "tse-pt"
+          ],
+          "locator": "pp. 18–26, 75"
+        },
+        "laicidade": {
+          "confidence": "low",
+          "summary": "Laicidade declarada; várias medidas específicas não definidas.",
+          "summaryEnglish": "Declared secularism; several specific measures unspecified.",
+          "sourceIds": [
+            "pt-laicidade"
+          ],
+          "locator": "26/12/2025; política inter-religiosa"
+        },
+        "armas": {
+          "confidence": "high",
+          "summary": "Restrições civis e fiscalização pela Polícia Federal.",
+          "summaryEnglish": "Civilian restrictions and Federal Police oversight.",
+          "sourceIds": [
+            "armas-decreto",
+            "armas-pf"
+          ],
+          "locator": "Decreto 11.615/2023; transferência em julho de 2025"
+        },
+        "justica_penal": {
+          "confidence": "medium",
+          "summary": "Pena Justa e fiscalização; amplia capacidade prisional.",
+          "summaryEnglish": "Pena Justa and oversight; also expands prison capacity.",
+          "sourceIds": [
+            "tse-pt",
+            "pena-justa",
+            "forca-decreto"
+          ],
+          "locator": "pp. 26–30; plano 2025–2027; Decreto 12.341/2024"
+        },
+        "ambiente": {
+          "confidence": "medium",
+          "summary": "Proteção ambiental com expansão de petróleo e gás.",
+          "summaryEnglish": "Environmental protection alongside oil and gas expansion.",
+          "sourceIds": [
+            "tse-pt"
+          ],
+          "locator": "pp. 63–73"
+        },
+        "diplomacia_eleitoral": {
+          "confidence": "high",
+          "summary": "Mercosul e América do Sul como prioridade; multilateralismo, fome e clima.",
+          "summaryEnglish": "Mercosur and South America as priorities; multilateralism, hunger and climate.",
+          "sourceIds": [
+            "tse-pt"
+          ],
+          "locator": "pp. 77–82"
+        },
+        "contrapesos": {
+          "confidence": "low",
+          "summary": "Autonomia institucional; detalhes processuais não definidos.",
+          "summaryEnglish": "Institutional autonomy; procedural details unspecified.",
+          "sourceIds": [
+            "tse-pt"
+          ],
+          "locator": "pp. 15–18"
+        }
+      }
+    },
+    {
+      "id": "flavio-bolsonaro",
+      "name": "Flávio Bolsonaro",
+      "party": "PL",
+      "number": 22,
+      "answers": {
+        "br2026_coordenacao_1": "DISAGREE",
+        "br2026_coordenacao_2": "AGREE",
+        "br2026_coordenacao_3": "NEUTRAL",
+        "br2026_coordenacao_4": "NEUTRAL",
+        "br2026_coordenacao_5": "DISAGREE",
+        "br2026_coordenacao_6": "STRONGLY_AGREE",
+        "br2026_protecao_social_1": "NEUTRAL",
+        "br2026_protecao_social_2": "AGREE",
+        "br2026_protecao_social_3": "AGREE",
+        "br2026_protecao_social_4": "AGREE",
+        "br2026_protecao_social_5": "AGREE",
+        "br2026_protecao_social_6": "AGREE",
+        "br2026_tributacao_1": "NEUTRAL",
+        "br2026_tributacao_2": "STRONGLY_AGREE",
+        "br2026_tributacao_3": "NEUTRAL",
+        "br2026_tributacao_4": "STRONGLY_AGREE",
+        "br2026_tributacao_5": "NEUTRAL",
+        "br2026_tributacao_6": "AGREE",
+        "br2026_provisao_publica_1": "NEUTRAL",
+        "br2026_provisao_publica_2": "STRONGLY_AGREE",
+        "br2026_provisao_publica_3": "DISAGREE",
+        "br2026_provisao_publica_4": "STRONGLY_AGREE",
+        "br2026_provisao_publica_5": "DISAGREE",
+        "br2026_provisao_publica_6": "STRONGLY_AGREE",
+        "br2026_trabalho_1": "DISAGREE",
+        "br2026_trabalho_2": "STRONGLY_AGREE",
+        "br2026_trabalho_3": "NEUTRAL",
+        "br2026_trabalho_4": "STRONGLY_AGREE",
+        "br2026_trabalho_5": "NEUTRAL",
+        "br2026_trabalho_6": "STRONGLY_AGREE",
+        "br2026_direitos_sociais_1": "NEUTRAL",
+        "br2026_direitos_sociais_2": "AGREE",
+        "br2026_direitos_sociais_3": "NEUTRAL",
+        "br2026_direitos_sociais_4": "STRONGLY_AGREE",
+        "br2026_direitos_sociais_5": "NEUTRAL",
+        "br2026_direitos_sociais_6": "AGREE",
+        "br2026_laicidade_1": "NEUTRAL",
+        "br2026_laicidade_2": "AGREE",
+        "br2026_laicidade_3": "AGREE",
+        "br2026_laicidade_4": "NEUTRAL",
+        "br2026_laicidade_5": "NEUTRAL",
+        "br2026_laicidade_6": "NEUTRAL",
+        "br2026_armas_1": "DISAGREE",
+        "br2026_armas_2": "STRONGLY_AGREE",
+        "br2026_armas_3": "DISAGREE",
+        "br2026_armas_4": "STRONGLY_AGREE",
+        "br2026_armas_5": "NEUTRAL",
+        "br2026_armas_6": "STRONGLY_AGREE",
+        "br2026_justica_penal_1": "NEUTRAL",
+        "br2026_justica_penal_2": "STRONGLY_AGREE",
+        "br2026_justica_penal_3": "STRONGLY_DISAGREE",
+        "br2026_justica_penal_4": "STRONGLY_AGREE",
+        "br2026_justica_penal_5": "DISAGREE",
+        "br2026_justica_penal_6": "STRONGLY_AGREE",
+        "br2026_ambiente_1": "DISAGREE",
+        "br2026_ambiente_2": "STRONGLY_AGREE",
+        "br2026_ambiente_3": "AGREE",
+        "br2026_ambiente_4": "STRONGLY_AGREE",
+        "br2026_ambiente_5": "DISAGREE",
+        "br2026_ambiente_6": "STRONGLY_AGREE",
+        "br2026_diplomacia_eleitoral_1": "NEUTRAL",
+        "br2026_diplomacia_eleitoral_2": "AGREE",
+        "br2026_diplomacia_eleitoral_3": "NEUTRAL",
+        "br2026_diplomacia_eleitoral_4": "NEUTRAL",
+        "br2026_diplomacia_eleitoral_5": "NEUTRAL",
+        "br2026_diplomacia_eleitoral_6": "DISAGREE",
+        "br2026_contrapesos_1": "AGREE",
+        "br2026_contrapesos_2": "STRONGLY_AGREE",
+        "br2026_contrapesos_3": "DISAGREE",
+        "br2026_contrapesos_4": "STRONGLY_AGREE",
+        "br2026_contrapesos_5": "AGREE",
+        "br2026_contrapesos_6": "AGREE"
+      },
+      "uncertainQuestionIds": [
+        "br2026_coordenacao_3",
+        "br2026_coordenacao_4",
+        "br2026_protecao_social_1",
+        "br2026_tributacao_1",
+        "br2026_tributacao_3",
+        "br2026_tributacao_5",
+        "br2026_provisao_publica_1",
+        "br2026_trabalho_3",
+        "br2026_trabalho_5",
+        "br2026_direitos_sociais_1",
+        "br2026_direitos_sociais_3",
+        "br2026_direitos_sociais_5",
+        "br2026_laicidade_1",
+        "br2026_laicidade_4",
+        "br2026_laicidade_5",
+        "br2026_laicidade_6",
+        "br2026_armas_5",
+        "br2026_justica_penal_1",
+        "br2026_diplomacia_eleitoral_1",
+        "br2026_diplomacia_eleitoral_3",
+        "br2026_diplomacia_eleitoral_4",
+        "br2026_diplomacia_eleitoral_5"
+      ],
+      "evidence": {
+        "coordenacao": {
+          "confidence": "medium",
+          "summary": "Simplificação e Estado regulador; limita crédito subsidiado do Tesouro.",
+          "summaryEnglish": "Simplification and a regulatory state; limits Treasury-subsidised credit.",
+          "sourceIds": [
+            "tse-pl"
+          ],
+          "locator": "pp. 27–28, 55–56, 62–64, 69–71"
+        },
+        "protecao_social": {
+          "confidence": "medium",
+          "summary": "Mantém benefícios; prioriza transição e ajuste fiscal.",
+          "summaryEnglish": "Retains benefits; prioritises transition and fiscal adjustment.",
+          "sourceIds": [
+            "tse-pl"
+          ],
+          "locator": "pp. 42–43, 70–73"
+        },
+        "tributacao": {
+          "confidence": "medium",
+          "summary": "Cortes gerais; compensação nas altas rendas não especificada.",
+          "summaryEnglish": "Broad cuts; high-income funding unspecified.",
+          "sourceIds": [
+            "tse-pl"
+          ],
+          "locator": "pp. 30–31, 71–72"
+        },
+        "provisao_publica": {
+          "confidence": "medium",
+          "summary": "Contratação privada, vouchers, concessões e desestatização caso a caso.",
+          "summaryEnglish": "Private purchasing, vouchers, concessions and case-by-case privatisation.",
+          "sourceIds": [
+            "tse-pl"
+          ],
+          "locator": "pp. 21, 35–39, 46, 50–51, 69–70"
+        },
+        "trabalho": {
+          "confidence": "medium",
+          "summary": "Negociação e contratos flexíveis com proteção social.",
+          "summaryEnglish": "Negotiated flexible contracts with social protection.",
+          "sourceIds": [
+            "tse-pl"
+          ],
+          "locator": "pp. 43–45"
+        },
+        "direitos_sociais": {
+          "confidence": "medium",
+          "summary": "Vida desde a concepção, categoria feminina por sexo e escola sem doutrinação; LGBT e cotas não tratados.",
+          "summaryEnglish": "Life from conception, female sport by sex and schools without indoctrination; LGBT and quotas not addressed.",
+          "sourceIds": [
+            "tse-pl"
+          ],
+          "locator": "pp. 9, 17, 35, 40–41"
+        },
+        "laicidade": {
+          "confidence": "low",
+          "summary": "Referências cristãs e respeito declarado às demais religiões.",
+          "summaryEnglish": "Christian references and declared respect for other faiths.",
+          "sourceIds": [
+            "flavio-religiao"
+          ],
+          "locator": "19/09/2026; declarações em Chapecó"
+        },
+        "armas": {
+          "confidence": "medium",
+          "summary": "Amplia porte e flexibiliza acesso civil legal; o plano de governo não trata do tema.",
+          "summaryEnglish": "Expanded carry rights and lawful civilian access; the government programme does not address the topic.",
+          "sourceIds": [
+            "armas-pdl",
+            "armas-advogados"
+          ],
+          "locator": "PDL 343/2023; PL 2.734/2021, discutido em abril de 2025"
+        },
+        "justica_penal": {
+          "confidence": "high",
+          "summary": "Endurecimento penal; reintegração específica não definida.",
+          "summaryEnglish": "Stricter sentencing; specific reintegration measures unspecified.",
+          "sourceIds": [
+            "tse-pl",
+            "forca-pdl"
+          ],
+          "locator": "pp. 13–16; PDL 29/2025"
+        },
+        "ambiente": {
+          "confidence": "medium",
+          "summary": "Licença por decurso de prazo; meta só para desmatamento ilegal; amplia petróleo e gás.",
+          "summaryEnglish": "Licences granted when deadlines lapse; target only for illegal deforestation; expands oil and gas.",
+          "sourceIds": [
+            "tse-pl"
+          ],
+          "locator": "pp. 49–59, 63"
+        },
+        "diplomacia_eleitoral": {
+          "confidence": "low",
+          "summary": "Acordos comerciais e OCDE; Mercosul não especificado.",
+          "summaryEnglish": "Trade agreements and OECD; Mercosur stance unspecified.",
+          "sourceIds": [
+            "tse-pl"
+          ],
+          "locator": "pp. 61–64"
+        },
+        "contrapesos": {
+          "confidence": "medium",
+          "summary": "Limita atuação do STF; mantém revisão constitucional.",
+          "summaryEnglish": "Limits Supreme Court scope; retains constitutional review.",
+          "sourceIds": [
+            "tse-pl"
+          ],
+          "locator": "pp. 65–66, 69–71"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "tse-pt",
+      "title": "Programa de governo de Lula apresentado ao TSE",
+      "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+      "kind": "primary",
+      "accessedAt": "2026-10-05"
+    },
+    {
+      "id": "tse-pl",
+      "title": "Programa de governo de Flávio Bolsonaro apresentado ao TSE",
+      "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+      "kind": "primary",
+      "accessedAt": "2026-10-05"
+    },
+    {
+      "id": "ir-2025",
+      "title": "Lei 15.270/2025: isenção e tributação mínima de altas rendas",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm",
+      "kind": "primary",
+      "accessedAt": "2026-10-05"
+    },
+    {
+      "id": "apps-2024",
+      "title": "PLP 12/2024: proposta do Executivo sobre motoristas de aplicativos",
+      "url": "https://www.planalto.gov.br/ccivil_03/projetos/ato_2023_2026/2024/plp/plp-012.htm",
+      "kind": "primary",
+      "accessedAt": "2026-10-05"
+    },
+    {
+      "id": "pt-laicidade",
+      "title": "PT: reconhecimento da cultura gospel e Estado laico",
+      "url": "https://pt.org.br/blog-secretarias/reconhecimento-da-cultura-gospel-fortalece-a-diversidade-e-estado-laico/",
+      "kind": "party-statement",
+      "accessedAt": "2026-10-05"
+    },
+    {
+      "id": "flavio-religiao",
+      "title": "Agência Estado/UOL: declarações de Flávio sobre religião em Chapecó",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/09/19/flavio-falas-de-lula-sobre-a-igreja-catolica-sao-ameaca-a-liberdade-religiosa.htm",
+      "kind": "reported-statement",
+      "accessedAt": "2026-10-05"
+    },
+    {
+      "id": "armas-decreto",
+      "title": "Decreto 11.615/2023: controle de armas",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11615.htm",
+      "kind": "primary",
+      "accessedAt": "2026-10-05"
+    },
+    {
+      "id": "armas-pf",
+      "title": "Agência Gov: transferência dos CACs para a Polícia Federal",
+      "url": "https://agenciagov.ebc.com.br/noticias/202505/exercito-prepara-passagem-do-controle-sobre-cac-para-policia-federal",
+      "kind": "primary",
+      "accessedAt": "2026-10-05"
+    },
+    {
+      "id": "armas-pdl",
+      "title": "Senado: PDL 343/2023, coautoria de Flávio Bolsonaro",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/160194",
+      "kind": "primary",
+      "accessedAt": "2026-10-05"
+    },
+    {
+      "id": "armas-advogados",
+      "title": "Senado: PL 2.734/2021, autoria de Flávio Bolsonaro",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/149286",
+      "kind": "primary",
+      "accessedAt": "2026-10-05"
+    },
+    {
+      "id": "pena-justa",
+      "title": "CNJ: Plano Pena Justa",
+      "url": "https://www.cnj.jus.br/plano-pena-justa-preve-mais-de-300-metas-para-levar-dignidade-a-presos-e-presas-no-pais/",
+      "kind": "primary",
+      "accessedAt": "2026-10-05"
+    },
+    {
+      "id": "forca-decreto",
+      "title": "Decreto 12.341/2024: uso da força por profissionais de segurança",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d12341.htm",
+      "kind": "primary",
+      "accessedAt": "2026-10-05"
+    },
+    {
+      "id": "forca-pdl",
+      "title": "Senado: PDL 29/2025, autoria de Flávio Bolsonaro",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/167042",
+      "kind": "primary",
+      "accessedAt": "2026-10-05"
+    },
+    {
+      "id": "tse-segundo-turno",
+      "title": "TSE: Lula e Flávio no segundo turno de 2026",
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/flavio-bolsonaro-e-lula-vao-disputar-o-2o-turno-para-a-presidencia-da-republica",
+      "kind": "primary",
+      "accessedAt": "2026-10-05"
+    }
+  ]
+}

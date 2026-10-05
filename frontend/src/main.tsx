@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './ElectionApp';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { protectTranslatedText } from './utils/translationDom';
 import '@fontsource/poppins/latin-300.css';
@@ -17,6 +17,8 @@ import './styles/app.css';
 import './styles/results.css';
 import './styles/editorial.css';
 import './styles/motion.css';
+import './styles/election.css';
+import './styles/profile.css';
 
 // Depois de um deploy, uma aba aberta pede blocos com hash antigo que não existem mais.
 // Recarrega uma vez para pegar a versão nova; a trava evita laço se o bloco estiver mesmo quebrado.

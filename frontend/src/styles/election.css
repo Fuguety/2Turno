@@ -1,0 +1,24 @@
+.election-app { max-width: 1100px; margin: auto; padding: 24px; }
+.election-header, .election-header nav, .election-actions { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+.election-header { justify-content: space-between; margin-bottom: 48px; }
+.election-app h1 { font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 3rem); }
+.election-app section { margin-block: 36px; }
+.election-app a { color: var(--green-500); }
+.election-app button, .election-app select, .election-app input { padding: 12px; border: 1px solid var(--line-strong); border-radius: 8px; font: inherit; }
+.election-app button { cursor: pointer; background: var(--green-500); color: white; }
+.election-app button:disabled { opacity: .5; cursor: default; }
+.election-start { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.election-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 16px; margin-block: 24px; }
+.election-profile, .election-match { padding: 20px; border: 1px solid var(--line-strong); border-radius: 12px; background: white; }
+.election-profile { display: flex; gap: 16px; align-items: center; }
+.election-profile img { object-fit: cover; border-radius: 50%; flex-shrink: 0; }
+.election-profile h3, .election-profile p { margin: 0 0 8px; }
+.election-app progress { width: 100%; accent-color: var(--green-500); }
+.election-table { overflow-x: auto; margin-block: 24px; }
+.election-table table { border-collapse: collapse; width: 100%; background: white; }
+.election-table th, .election-table td { padding: 16px; border-bottom: 1px solid var(--line); text-align: left; }
+.election-table th small { display: block; font-weight: normal; min-width: 220px; }
+.election-app footer { border-top: 1px solid var(--line); padding-block: 24px; }
+.election-app label { display: block; }
+.election-brand { font-family: var(--font-display); font-weight: 800; font-size: 1.4rem; text-decoration: none; }
+.election-kicker { margin: 0; font-weight: 600; color: var(--ink-700); }

@@ -5,12 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build && node scripts/generate-pages.mjs",
-    "generate:pages": "node scripts/generate-pages.mjs",
+    "build": "tsc --noEmit && vite build && node scripts/generate-brazil-pages.cjs && node scripts/check-brazil-build.cjs",
+    "generate:pages": "node scripts/generate-brazil-pages.cjs && node scripts/check-brazil-build.cjs",
     "optimize:images": "node scripts/optimize-images.mjs",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "predev": "node scripts/generate-election-profiles.cjs",
+    "prebuild": "node scripts/generate-election-profiles.cjs",
+    "pretest": "node scripts/generate-election-profiles.cjs",
+    "lint": "eslint .",
+    "test:browser": "node scripts/check-election-browser.cjs"
   },
   "dependencies": {
     "@fontsource/poppins": "^5.3.0",
@@ -20,13 +25,17 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.5",
     "@types/node": "^22.20.4",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
     "@vitest/coverage-v8": "^4.1.6",
+    "eslint": "^9.39.5",
+    "playwright": "^1.63.0",
     "sharp": "^0.35.3",
     "typescript": "^5.6.3",
+    "typescript-eslint": "^8.71.1",
     "vite": "^5.4.10",
     "vitest": "^4.1.6"
   }
